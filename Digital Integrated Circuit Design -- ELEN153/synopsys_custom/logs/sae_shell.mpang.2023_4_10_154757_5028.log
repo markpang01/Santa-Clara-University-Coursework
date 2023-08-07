@@ -1,0 +1,82 @@
+[15:48:01.39] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Mon Apr 10 15:47:57 2023
+              /c Host: linux400512
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:48:01.45] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[15:48:01.45] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[15:48:01.46] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[15:48:01.46] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[15:48:01.58] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[15:48:01.59] /o 	############################################
+[15:48:01.59] /o 	        Synopsys Generic 90nm iPDK          
+[15:48:01.59] /o 	--------------------------------------------
+[15:48:01.59] /o 	Release Date .............. : 11-May-2016    
+[15:48:01.59] /o 	============================================
+[15:48:01.59] /o 	        Recommended Tool Versions           
+[15:48:01.59] /o 	--------------------------------------------
+[15:48:01.59] /o 	Custom Designer ........... : J-2014.12-2    
+[15:48:01.59] /o 	IC Validator .............. : K-2015.12   
+[15:48:01.59] /o 	StarRC..................... : K-2015.12  
+[15:48:01.59] /o 	--------------------------------------------
+[15:48:01.59] /o 	############################################
+[15:48:01.59] /o 
+[15:48:01.60] /o SAED PDK 90: Loaded callbacks
+[15:48:01.61] /o SAED PDK 90: Loaded display resources
+[15:48:01.62] /i ::sa::_backgroundSaeShell::signalProcessReady 1681166876
+[15:48:01.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 5
+[15:53:02.63] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:53:02.76] /i ::sa::_backgroundSaeShell::parentRunning
+[15:53:02.76] /o 1681167182
+[15:58:03.65] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:58:03.76] /i ::sa::_backgroundSaeShell::parentRunning
+[15:58:03.76] /o 1681167483
+[16:03:04.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:03:04.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:03:04.86] /o 1681167784
+[16:05:54.77] /i ::wf::viewerExited
+[16:08:05.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:08:05.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:08:05.86] /o 1681168085
+[16:13:06.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:13:06.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:13:06.86] /o 1681168386
+[16:18:07.71] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:18:07.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:18:07.86] /o 1681168687
+[16:23:08.73] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:23:08.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:23:08.86] /o 1681168988
+[16:25:12.18] /i ::wf::viewerExited
+[16:28:09.75] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:28:09.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:28:09.86] /o 1681169289
+[16:33:10.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:33:10.86] /i ::sa::_backgroundSaeShell::parentRunning
+[16:33:10.86] /o 1681169590
+[16:38:11.79] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:38:11.96] /i ::sa::_backgroundSaeShell::parentRunning
+[16:38:11.96] /o 1681169891
+[16:43:12.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:43:12.96] /i ::sa::_backgroundSaeShell::parentRunning
+[16:43:12.96] /o 1681170192
+[16:44:40.06] /o Information: Received "Terminate" signal. Sending  PID: 5011 UID: 3550 Username: "mpang" Process name: "/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/ipc_wrapper". Process is terminated.
+              /c signal number = 15
+              /c Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Mon Apr 10 15:47:57 2023
+              /c Frame 0. libc.so.6: __poll + 0x24
+              /c Frame 1. sae_shell: poll + 0x61
+              /c Frame 2. /lib64/libglib-2.0.so.0 ::be5bc223fc + 0x43c
+              /c Frame 3. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+              /c Frame 4. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x6a
+              /c Frame 5. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0xea
+              /c Frame 6. QCoreApplication::exec() + 0x8d
+              /c Frame 7. 0x13139d2 SNPSee_3cb5a937433b5647dfd0ba220bc88c363f9edc9e424f5618e629fa54920aaa2d42181fc4e419a971bdba91f3b1089c26 + 0xa2
+              /c Frame 8. sae_shell: main + 0x6a
+              /c Frame 9. libc.so.6: __libc_start_main + 0xf5
+              /c Frame 10. /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/sae_shell ::0x1308a75 + 0x29
+[16:44:41.36] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

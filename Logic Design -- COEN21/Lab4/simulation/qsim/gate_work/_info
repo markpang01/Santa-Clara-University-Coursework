@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/COEN21/Lab4/simulation/qsim
+T_opt
+!s110 1666307883
+VEk_WPSB91K^?8P@TSNXZ53
+04 16 4 work Lab4_vlg_vec_tst fast 0
+=1-00be43905c23-6351d72a-a6-1ff8
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L cycloneive_ver -L gate_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vhard_block
+Z2 !s110 1666307880
+!i10b 1
+!s100 ccC2a0[BjRBg=Ng[:GU1z0
+I<2CkdHdD5;WoAgo57CDP`2
+R0
+Z3 w1666307862
+Z4 8Lab4.vo
+Z5 FLab4.vo
+!i122 0
+L0 445 34
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z8 !s108 1666307880.000000
+Z9 !s107 Lab4.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Lab4.vo|
+!i113 0
+Z11 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -vlog01compat -work work +incdir+. -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vLab4
+R2
+!i10b 1
+!s100 ^Ozec<JCf`X@LKkQ8^kjY2
+IHiP=BkeEAoF=<SdNVcj0g3
+R0
+R3
+R4
+R5
+!i122 0
+L0 32 412
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+n@lab4
+vLab4_vlg_vec_tst
+!s110 1666307881
+!i10b 1
+!s100 :`EAc8VO4V0P<[N[MYNVJ1
+ISfQK0L?7W?MZNPo;1NVCi0
+R0
+w1666305335
+8Z:/COEN21/Lab4/simulation/qsim/Waveform.vwf.vt
+FZ:/COEN21/Lab4/simulation/qsim/Waveform.vwf.vt
+!i122 1
+L0 30 74
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 Z:/COEN21/Lab4/simulation/qsim/Waveform.vwf.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/COEN21/Lab4/simulation/qsim|Z:/COEN21/Lab4/simulation/qsim/Waveform.vwf.vt|
+!i113 0
+R11
+!s92 -vlog01compat -work work +incdir+Z:/COEN21/Lab4/simulation/qsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@lab4_vlg_vec_tst

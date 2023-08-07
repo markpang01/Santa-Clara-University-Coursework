@@ -1,0 +1,459 @@
+[14:19:26.38] /r giWindowId 0
+[14:19:26.38] /r giWindowGeometry 600x300
+[14:19:26.39] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon May 15 14:19:25 2023
+              /c Host: linux400512
+              /c Working directory: /DCNFS/users/student/mpang/ELEN153
+              /c 
+[14:19:29.27] /r giShowFrameTabs true
+[14:19:29.27] /r giWindowId 1
+[14:19:29.27] /r giWindowGeometry 1040x800
+[14:19:30.79] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:19:30.79] /# 
+[14:19:31.10] /i dm::showLibraryManager
+[14:19:31.10] /r giWindowId 2
+[14:19:31.10] /r giWindowGeometry 660x600+50+76
+[14:19:31.11] /o oa:0x219ed6f0
+[14:19:32.99] /i gi::setCurrentIndex {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:19:33.00] /i gi::setItemSelection {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:19:36.73] /i gi::setCurrentIndex {cells} -index {CMOS_Working} -in [gi::getWindows 2]
+[14:19:36.77] /i gi::setItemSelection {cells} -index {CMOS_Working} -in [gi::getWindows 2]
+[14:19:37.20] /i gi::setItemSelection {cells} -index {} -in [gi::getWindows 2]
+[14:34:48.44] /i gi::setCurrentIndex {cells} -index {testbench_CMOS} -in [gi::getWindows 2]
+[14:34:48.50] /i gi::setItemSelection {cells} -index {testbench_CMOS} -in [gi::getWindows 2]
+[14:34:49.08] /i gi::setCurrentIndex {cells} -index {CMOS_Working} -in [gi::getWindows 2]
+[14:34:49.13] /i gi::setItemSelection {cells} -index {CMOS_Working} -in [gi::getWindows 2]
+[14:34:50.78] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:34:50.79] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:34:53.53] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:34:53.53] /r giMenuAccess db::getNext [gi::getMenus dmLayoutViewCSM]
+[14:34:56.17] /# gi::executeAction {dmShowCopyCellView} -in [gi::getWindows 2]
+[14:34:56.17] /i dm::showCopyCellView -parent 2
+[14:34:56.22] /i gi::setActiveDialog [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:34:56.52] /i db::setAttr geometry -of [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]] -value 612x630+643+161
+[14:34:59.72] /i gi::setCurrentIndex {toLibs} -index {lab2} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:34:59.73] /i gi::setItemSelection {toLibs} -index {lab2} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:00.10] /i gi::setCurrentIndex {toLibs} -index {lab4} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:00.11] /i gi::setItemSelection {toLibs} -index {lab4} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:01.03] /i gi::setCurrentIndex {toCells} -index {XNOR} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:01.04] /i gi::setItemSelection {toCells} -index {XNOR} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:01.60] /i gi::setCurrentIndex {toCells} -index {XNOR2} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:01.61] /i gi::setItemSelection {toCells} -index {XNOR2} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:01.93] /i gi::setCurrentIndex {toCells} -index {XNOR} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:01.94] /i gi::setItemSelection {toCells} -index {XNOR} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:02.35] /i gi::setCurrentIndex {toCells} -index {NMOS} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:02.36] /i gi::setItemSelection {toCells} -index {NMOS} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:08.47] /i gi::pressButton {ok} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:08.50] /r giDialog gi::setActiveDialog [gi::getDialogs {dmMultipleOverwrite}]
+[14:35:08.50] /r giDialog gi::setCurrentIndex {table} -index {0,0} -in [gi::getDialogs {dmMultipleOverwrite}]
+[14:35:08.78] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmMultipleOverwrite}] -value 590x329+664+346
+[14:35:15.64] /r giDialog gi::setField {table} -index {0,0} -value {true} -in [gi::getDialogs {dmMultipleOverwrite}]
+[14:35:16.14] /r giDialog gi::setField {table} -index {0,0} -value {false} -in [gi::getDialogs {dmMultipleOverwrite}]
+[14:35:16.59] /r giDialog gi::setField {table} -index {0,0} -value {true} -in [gi::getDialogs {dmMultipleOverwrite}]
+[14:35:19.16] /r giDialog gi::setItemSelection {table} -index {all} -in [gi::getDialogs {dmMultipleOverwrite}]
+[14:35:22.39] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {dmMultipleOverwrite}]
+[14:35:22.39] /# dm::copyCellViews [db::createCollection [list [dm::findCellView layout -cellName CMOS\_Working -libName Inverter] ] ] -libDestName lab4 -cellDestName NMOS -viewDestName layout -update true
+[14:35:22.46] /# gi::setItemSelection {toViews} -index {} -in [gi::getDialogs {dmCopyCellView} -parent [gi::getWindows 2]]
+[14:35:22.77] /o 	############################################
+[14:35:22.77] /o 	        Synopsys Generic 90nm iPDK          
+[14:35:22.77] /o 	--------------------------------------------
+[14:35:22.77] /o 	Release Date .............. : 11-May-2016    
+[14:35:22.77] /o 	============================================
+[14:35:22.77] /o 	        Recommended Tool Versions           
+[14:35:22.77] /o 	--------------------------------------------
+[14:35:22.77] /o 	Custom Designer ........... : J-2014.12-2    
+[14:35:22.77] /o 	IC Validator .............. : K-2015.12   
+[14:35:22.77] /o 	StarRC..................... : K-2015.12  
+[14:35:22.77] /o 	--------------------------------------------
+[14:35:22.77] /o 	############################################
+[14:35:22.77] /o 
+[14:35:22.77] /o SAED PDK 90: Loaded callbacks
+[14:35:22.77] /o SAED PDK 90: Loaded display resources
+[14:35:25.38] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[14:35:25.40] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:35:26.28] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:35:26.32] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:35:27.14] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:35:27.16] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:35:27.94] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[14:35:27.96] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[14:35:28.35] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:35:28.36] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:35:30.15] /i gi::sortItems {views} -column {Views} -order {descending} -in [gi::getWindows 2]
+[14:35:30.78] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[14:35:30.79] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[14:35:31.89] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:35:31.90] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:35:32.28] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:35:32.29] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:35:33.30] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:35:33.32] /m Information: License 'MTM' checked out. (LICENSE-003)
+[14:35:33.38] /r giWindowId 3
+[14:35:33.38] /r giWindowGeometry 1632x926
+[14:35:49.28] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:35:49.28] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-78.903 49.565}
+[14:35:50.43] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:35:50.43] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-79.036 49.682}
+[14:35:54.79] /i gi::setActiveWindow 2
+[14:35:54.79] /i gi::setActiveWindow 2 -raise true
+[14:35:55.73] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:35:55.77] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:35:56.25] /i gi::setCurrentIndex {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:35:56.28] /i gi::setItemSelection {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:35:56.75] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:35:56.79] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:36:03.45] /i gi::setCurrentIndex {libs} -index {lab1} -in [gi::getWindows 2]
+[14:36:03.49] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:36:03.51] /i gi::setItemSelection {libs} -index {lab1} -in [gi::getWindows 2]
+[14:36:05.50] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:05.52] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:07.25] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[14:36:07.28] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[14:36:07.90] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[14:36:07.93] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:36:07.93] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:07.94] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:36:09.13] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:36:09.14] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:36:15.49] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:36:15.49] /r giMenuAccess db::getNext [gi::getMenus dmLayoutViewCSM]
+[14:36:19.11] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:19.12] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:19.80] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[14:36:19.81] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[14:36:20.37] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:36:20.39] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:36:28.03] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:36:28.03] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[14:36:28.73] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:36:28.73] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[14:36:48.82] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:48.84] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:49.33] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[14:36:49.34] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[14:36:50.08] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:50.09] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:36:50.67] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:36:50.68] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:36:52.94] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:36:52.99] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:36:53.41] /i gi::setCurrentIndex {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:36:53.43] /i gi::setItemSelection {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:36:54.86] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:36:54.87] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:36:55.43] /i gi::sortItems {cellCategories} -column {Cell Categories} -order {descending} -in [gi::getWindows 2]
+[14:38:11.60] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:38:11.65] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:38:12.67] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:38:12.68] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:38:13.34] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:38:13.35] /r giWindowId 4
+[14:38:13.36] /r giWindowGeometry 1632x926
+[14:38:26.75] /i gi::setActiveWindow 2
+[14:38:26.75] /i gi::setActiveWindow 2 -raise true
+[14:38:29.16] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[14:38:29.18] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[14:38:29.71] /i gi::setCurrentIndex {libs} -index {lab1} -in [gi::getWindows 2]
+[14:38:29.73] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:38:29.75] /i gi::setItemSelection {libs} -index {lab1} -in [gi::getWindows 2]
+[14:38:30.18] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[14:38:30.19] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[14:38:31.04] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[14:38:31.05] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:38:31.06] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:38:31.07] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:38:33.10] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:38:34.35] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:38:34.39] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:38:34.87] /i gi::setCurrentIndex {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:38:34.89] /i gi::setItemSelection {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:38:35.71] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:38:35.73] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:38:36.00] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:38:36.04] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:38:46.17] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:38:46.18] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:38:52.04] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:38:52.06] /r giWindowId 5
+[14:38:52.07] /r giWindowGeometry 1632x926
+[14:38:52.19] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[14:38:55.56] /i gi::setActiveWindow 2
+[14:38:55.56] /i gi::setActiveWindow 2 -raise true
+[14:39:49.11] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:39:49.11] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:39:49.30] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:39:49.30] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:39:49.30] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:39:49.30] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:39:49.33] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:39:49.34] /# gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:39:51.07] /i gi::setCurrentIndex {cells} -index {Inverter} -in [gi::getWindows 2]
+[14:39:51.09] /i gi::setItemSelection {cells} -index {Inverter} -in [gi::getWindows 2]
+[14:40:14.09] /i gi::setCurrentIndex {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:40:14.10] /i gi::setItemSelection {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:40:15.68] /i gi::setCurrentIndex {cells} -index {CMOS_Working} -in [gi::getWindows 2]
+[14:40:15.71] /i gi::setItemSelection {cells} -index {CMOS_Working} -in [gi::getWindows 2]
+[14:40:16.56] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:40:16.58] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:40:32.34] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:40:32.34] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:40:32.50] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:40:32.51] /# gi::setItemSelection {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:40:32.51] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:40:32.51] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:40:32.54] /# gi::setItemSelection {cells} -index {CMOS_Working} -in [gi::getWindows 2]
+[14:40:32.54] /# gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:40:33.18] /i gi::setItemSelection {views} -index {} -in [gi::getWindows 2]
+[14:40:35.66] /i gi::setActiveWindow 5
+[14:40:35.67] /i gi::setActiveWindow 5 -raise true
+[14:40:37.06] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[14:40:41.47] /# gi::executeAction {leInstance} -in [gi::getWindows 5]
+[14:40:41.47] /i ile::createInst
+[14:40:41.51] /i gi::setActiveDialog [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:40:41.83] /i db::setAttr geometry -of [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]] -value 612x628+1+56
+[14:40:43.23] /i gi::setCurrentIndex {instLCVLibs} -index {Inverter} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:40:43.23] /i gi::setItemSelection {instLCVLibs} -index {Inverter} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:40:44.00] /i gi::setCurrentIndex {instLCVCells} -index {CMOS_Working} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:40:44.03] /i gi::setItemSelection {instLCVCells} -index {CMOS_Working} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:40:44.65] /i gi::setCurrentIndex {instLCVViews} -index {layout} -in [gi::getDialogs {leCreateInst} -parent [gi::getWindows 5]]
+[14:40:45.07] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:45.07] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-80.341 50.291}
+[14:40:45.11] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:45.11] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-80.342 50.303}
+[14:40:45.13] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:45.13] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-80.342 50.304}
+[14:40:45.16] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:45.16] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-80.342 50.303}
+[14:40:45.18] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:45.18] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-80.342 50.303}
+[14:40:45.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:45.24] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-80.543 50.303}
+[14:40:47.47] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:47.47] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {4.243 -2.184}
+[14:40:47.51] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:47.51] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {4.243 -2.184}
+[14:40:47.87] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:47.87] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {5.353 -1.78}
+[14:40:47.91] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:47.91] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {5.353 -1.78}
+[14:40:48.72] /# gi::executeAction {deAddPoint} -in [gi::getWindows 5]
+[14:40:48.72] /i de::addPoint {4.143 -1.377} -context [db::getNext [de::getContexts -window 5]]
+[14:40:49.68] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 5]
+[14:40:49.68] /i de::abortCommand -context [db::getNext [de::getContexts -window 5]]
+[14:40:50.11] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:50.11] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-77.818 43.439}
+[14:40:50.18] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:50.18] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-78.423 43.035}
+[14:40:50.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:50.23] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-78.423 43.035}
+[14:40:50.31] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:50.31] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-78.423 43.035}
+[14:40:50.38] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:50.38] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-78.423 43.035}
+[14:40:50.57] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:50.57] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-78.423 43.035}
+[14:40:50.61] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:50.61] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-78.423 43.035}
+[14:40:50.65] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 5]
+[14:40:50.65] /i de::zoom -window [gi::getWindows 5] -factor 0.5 -center {-78.423 43.035}
+[14:40:50.98] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:50.98] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-75.496 50.202}
+[14:40:51.00] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:51.00] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-75.547 50.202}
+[14:40:51.03] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 5]
+[14:40:51.03] /i de::zoom -window [gi::getWindows 5] -factor 2.0 -center {-75.547 50.202}
+[14:40:52.59] /# gi::executeAction {deSelectActive} -in [gi::getWindows 5]
+[14:40:52.59] /i de::deselectAll [db::getNext [de::getContexts -window 5]]
+[14:40:52.59] /i de::select [de::getActiveFigure [gi::getWindows 5] -point {-75.269 49.18} -index 0 -intent none]
+[14:40:52.60] /o oa:0x23aa59b0
+[14:40:53.36] /# gi::executeAction {leDelete} -in [gi::getWindows 5]
+[14:40:53.37] /i le::delete [de::getSelected -design [ed]] -partialObject ignore
+[14:40:54.35] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[14:40:54.35] /i gi::setActiveWindow 2
+[14:40:54.35] /i gi::setActiveWindow 2 -raise true
+[14:40:55.96] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[14:40:55.98] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:40:56.80] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:40:56.84] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:40:57.25] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:40:57.29] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:40:57.51] /i gi::setCurrentIndex {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:40:57.53] /i gi::setItemSelection {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:40:58.38] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:40:58.40] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:41:00.01] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:41:00.05] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:41:01.08] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:41:01.09] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:41:01.85] /i gi::setItemSelection {views} -index {} -in [gi::getWindows 2]
+[14:44:08.95] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:09.01] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:11.83] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:11.83] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:12.01] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:12.02] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:12.02] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:12.02] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:12.05] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:12.29] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:12.29] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:12.46] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:12.47] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:12.47] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:12.47] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:12.50] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:12.78] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:12.78] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:12.95] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:12.95] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:12.96] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:12.96] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:12.99] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:12.99] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:12.99] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:13.15] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:13.15] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:13.15] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:13.15] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:13.18] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:13.19] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:13.19] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:13.35] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:13.35] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:13.35] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:13.35] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:13.38] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:13.39] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:13.39] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:13.54] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:13.54] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:13.54] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:13.54] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:13.57] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:13.58] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:13.58] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:13.73] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:13.73] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:13.73] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:13.73] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:13.76] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:13.85] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:44:13.88] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:44:14.45] /i gi::setCurrentIndex {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:44:14.47] /i gi::setItemSelection {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:44:14.82] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:14.86] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:15.22] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:15.22] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:15.39] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:15.39] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:15.39] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:15.39] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:15.42] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:15.46] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:15.46] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:15.63] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:15.63] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:15.63] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:15.63] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:15.66] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:15.67] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:15.67] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:15.82] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:15.82] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:15.82] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:15.82] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:15.85] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:15.87] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:15.87] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:16.04] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:16.04] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:16.04] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:16.04] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:16.07] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:16.08] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:16.08] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:16.23] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:16.24] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:16.24] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:16.24] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:16.27] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:16.27] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:16.27] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:16.42] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:16.43] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:16.43] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:16.43] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:16.46] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:16.74] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:16.74] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:16.90] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:16.91] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:16.91] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:16.91] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:16.94] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:16.94] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:16.94] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:17.09] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:17.10] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:17.10] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:17.10] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:17.12] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:17.15] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:17.15] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:17.33] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:17.33] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:17.33] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:17.33] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:17.36] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:17.81] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:17.81] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:17.98] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:17.99] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:17.99] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:17.99] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:18.02] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:18.02] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:18.02] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:18.18] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:18.18] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:18.18] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:18.18] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:18.21] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:18.22] /i gi::executeAction {dmRefreshLibs} -in [gi::getWindows 2]
+[14:44:18.22] /# dm::refreshLibs; dm::refreshLibraryManager
+[14:44:18.37] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:44:18.37] /# gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:44:18.37] /# gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:44:18.37] /# gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:44:18.40] /# gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:44:18.88] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:44:18.90] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:44:19.87] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:44:19.89] /r giWindowId 6
+[14:44:19.90] /r giWindowGeometry 1632x926
+[14:44:26.30] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[14:44:26.58] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 299x108+800+422
+[14:44:27.54] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[14:44:27.55] /i exit
+[14:44:27.57] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]]
+[14:44:27.85] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]] -value 419x207+740+373
+[14:44:30.58] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 6]]
+[14:44:30.60] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesign}]
+[14:44:30.88] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesign}] -value 394x82+753+459
+[14:44:33.97] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {deCloseDesign}]
+[14:44:34.50] /o Shutdown time: Mon May 15 14:44:34 2023
+[14:44:34.50] /o Elapsed session real time: 25.13 minutes
+[14:44:34.50] /o Session terminated. Log is at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/logs/ccompiler.mpang.2023_5_15_141925_18488.log

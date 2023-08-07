@@ -1,0 +1,39 @@
+rippleadd Level=0 Count=1
+   fulladd Level=1 Count=4
+      halfadd Level=2 Count=8
+         AND Level=3 Count=8
+         XOR Level=3 Count=8
+      OR Level=2 Count=4
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = rippleadd
+	Flat Placements      =	1
+
+CELL = fulladd
+	Flat Placements      =	4
+
+CELL = halfadd
+	Flat Placements      =	8
+
+CELL = XOR
+	Flat Placements      =	8
+
+CELL = OR
+	Flat Placements      =	4
+
+CELL = AND
+	Flat Placements      =	8
+
+TOP CELL = rippleadd
+	Ports                =	16
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[n12] = 60
+	PMOS[p12] = 60

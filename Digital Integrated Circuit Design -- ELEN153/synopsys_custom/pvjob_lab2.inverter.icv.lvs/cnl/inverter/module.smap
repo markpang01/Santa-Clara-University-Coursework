@@ -1,0 +1,33 @@
+<module name="vsl: lab2 inverter schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="MM0" src="M0"/>
+<mapping dst="MM1" src="M1"/>
+</forward>
+<reverse>
+<mapping dst="M0" src="MM0"/>
+<mapping dst="M1" src="MM1"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="Vin Vout" src="&lt;unmappedTermOrder>"/>
+<mapping dst="Vin Vout" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="Vin Vout"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M1"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M0"/>
+</instance_header>
+</master_instances>
+</module>

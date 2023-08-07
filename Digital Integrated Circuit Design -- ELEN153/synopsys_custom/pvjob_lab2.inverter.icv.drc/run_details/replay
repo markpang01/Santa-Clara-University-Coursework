@@ -1,0 +1,576 @@
+#
+# runset is /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+#
+runset_csum = 22831
+num_hosts = 2
+events {
+S 368.0.0 1362 0
+# linux400512.dc.engr.scu.edu(0):       772  1 _prescan_library
+F 368.0.0 1362 0
+S 370.0.0 1369 0
+# linux400512.dc.engr.scu.edu(0):       818  1 _scan_hierarchy
+F 370.0.0 1369 0
+S 373.0.0 1376 1
+# linux400512.dc.engr.scu.edu(1):      5918  1 _read_library_segment
+F 373.0.0 1376 1
+S 375.0.0 1384 0
+# linux400512.dc.engr.scu.edu(0):      4121  1 _create_hierarchy_tree
+F 0 0 1
+F 375.0.0 1384 0
+S 440.0.0 1603 0
+# linux400512.dc.engr.scu.edu(0):      1574  1 _optimize_hierarchy_tree
+S 439.0.0 1598 1
+# linux400512.dc.engr.scu.edu(1):       756  1 _grid_check_hierarchy
+F 439.0.0 1598 1
+F 0 0 1
+F 440.0.0 1603 0
+S 441.0.0 1612 0
+# linux400512.dc.engr.scu.edu(0):       965  1 _hierarchy_cleanup
+F 441.0.0 1612 0
+S 804.0.0 2521 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 804.0.0 2521 1
+S 802.0.0 2516 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 802.0.0 2516 1
+S 800.0.0 2511 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 800.0.0 2511 1
+S 798.0.0 2506 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 798.0.0 2506 1
+S 796.0.0 2501 1
+# linux400512.dc.engr.scu.edu(1):      2565  1 _tag_violation
+F 796.0.0 2501 1
+S 794.0.0 2496 1
+# linux400512.dc.engr.scu.edu(1):      2565  1 _tag_violation
+F 794.0.0 2496 1
+S 792.0.0 2491 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 792.0.0 2491 1
+S 790.0.0 2486 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 790.0.0 2486 1
+S 788.0.0 2481 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 788.0.0 2481 1
+S 786.0.0 2476 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 786.0.0 2476 1
+S 784.0.0 2471 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 784.0.0 2471 1
+S 782.0.0 2466 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 782.0.0 2466 1
+S 780.0.0 2461 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 780.0.0 2461 1
+S 778.0.0 2456 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 778.0.0 2456 1
+S 776.0.0 2451 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 776.0.0 2451 1
+S 774.0.0 2446 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 774.0.0 2446 1
+S 772.0.0 2441 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 772.0.0 2441 1
+S 770.0.0 2436 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 770.0.0 2436 1
+S 768.0.0 2431 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 768.0.0 2431 1
+S 766.0.0 2426 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 766.0.0 2426 1
+S 764.0.0 2421 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 764.0.0 2421 1
+S 762.0.0 2416 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 762.0.0 2416 1
+S 760.0.0 2411 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 760.0.0 2411 1
+S 758.0.0 2406 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 758.0.0 2406 1
+S 756.0.0 2401 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 756.0.0 2401 1
+S 754.0.0 2396 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 754.0.0 2396 1
+S 752.0.0 2391 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 752.0.0 2391 1
+S 750.0.0 2386 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 750.0.0 2386 1
+S 748.0.0 2381 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 748.0.0 2381 1
+S 746.0.0 2376 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 746.0.0 2376 1
+S 744.0.0 2371 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 744.0.0 2371 1
+S 742.0.0 2366 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 742.0.0 2366 1
+S 740.0.0 2361 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 740.0.0 2361 1
+S 738.0.0 2356 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 738.0.0 2356 1
+S 736.0.0 2351 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 736.0.0 2351 1
+S 734.0.0 2346 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 734.0.0 2346 1
+S 732.0.0 2341 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 732.0.0 2341 1
+S 730.0.0 2336 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 730.0.0 2336 1
+S 728.0.0 2331 1
+# linux400512.dc.engr.scu.edu(1):      1029  1 _tag_violation
+F 728.0.0 2331 1
+S 726.0.0 2326 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 726.0.0 2326 1
+S 724.0.0 2321 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 724.0.0 2321 1
+S 722.0.0 2316 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 722.0.0 2316 1
+S 720.0.0 2311 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 720.0.0 2311 1
+S 718.0.0 2306 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 718.0.0 2306 1
+S 716.0.0 2301 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 716.0.0 2301 1
+S 714.0.0 2296 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 714.0.0 2296 1
+S 712.0.0 2291 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 712.0.0 2291 1
+S 710.0.0 2286 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 710.0.0 2286 1
+S 708.0.0 2281 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 708.0.0 2281 1
+S 706.0.0 2276 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 706.0.0 2276 1
+S 704.0.0 2271 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 704.0.0 2271 1
+S 702.0.0 2266 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 702.0.0 2266 1
+S 700.0.0 2261 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 700.0.0 2261 1
+S 698.0.0 2256 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 698.0.0 2256 1
+S 696.0.0 2251 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 696.0.0 2251 1
+S 694.0.0 2246 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 694.0.0 2246 1
+S 692.0.0 2241 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 692.0.0 2241 1
+S 690.0.0 2236 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 690.0.0 2236 1
+S 688.0.0 2231 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 688.0.0 2231 1
+S 686.0.0 2226 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 686.0.0 2226 1
+S 684.0.0 2221 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 684.0.0 2221 1
+S 682.0.0 2216 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 682.0.0 2216 1
+S 680.0.0 2211 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 680.0.0 2211 1
+S 678.0.0 2206 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 678.0.0 2206 1
+S 676.0.0 2201 1
+# linux400512.dc.engr.scu.edu(1):      1894  1 _tag_violation
+F 676.0.0 2201 1
+S 674.0.0 2196 1
+# linux400512.dc.engr.scu.edu(1):      2540  1 _tag_violation
+F 674.0.0 2196 1
+S 672.0.0 2191 1
+# linux400512.dc.engr.scu.edu(1):      1036  1 _tag_violation
+F 672.0.0 2191 1
+S 670.0.0 2186 1
+# linux400512.dc.engr.scu.edu(1):      2919  1 _tag_violation
+F 670.0.0 2186 1
+S 668.0.0 2181 1
+# linux400512.dc.engr.scu.edu(1):      2919  1 _tag_violation
+F 668.0.0 2181 1
+S 666.0.0 2176 1
+# linux400512.dc.engr.scu.edu(1):      1869  1 _tag_violation
+F 666.0.0 2176 1
+S 664.0.0 2171 1
+# linux400512.dc.engr.scu.edu(1):      1873  1 _tag_violation
+F 664.0.0 2171 1
+S 662.0.0 2166 1
+# linux400512.dc.engr.scu.edu(1):      2729  1 _tag_violation
+F 662.0.0 2166 1
+S 660.0.0 2161 1
+# linux400512.dc.engr.scu.edu(1):      2727  1 _tag_violation
+F 660.0.0 2161 1
+S 658.0.0 2156 1
+# linux400512.dc.engr.scu.edu(1):      2816  1 _tag_violation
+F 658.0.0 2156 1
+S 656.0.0 2151 1
+# linux400512.dc.engr.scu.edu(1):      3272  1 _tag_violation
+F 656.0.0 2151 1
+S 654.0.0 2146 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 654.0.0 2146 1
+S 652.0.0 2141 1
+# linux400512.dc.engr.scu.edu(1):      1291  1 _tag_violation
+F 652.0.0 2141 1
+S 650.0.0 2136 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 650.0.0 2136 1
+S 648.0.0 2131 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 648.0.0 2131 1
+S 646.0.0 2126 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 646.0.0 2126 1
+S 644.0.0 2121 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 644.0.0 2121 1
+S 642.0.0 2116 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 642.0.0 2116 1
+S 640.0.0 2111 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 640.0.0 2111 1
+S 638.0.0 2106 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 638.0.0 2106 1
+S 636.0.0 2101 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 636.0.0 2101 1
+S 634.0.0 2096 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 634.0.0 2096 1
+S 632.0.0 2091 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 632.0.0 2091 1
+S 630.0.0 2086 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 630.0.0 2086 1
+S 628.0.0 2081 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 628.0.0 2081 1
+S 626.0.0 2076 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 626.0.0 2076 1
+S 624.0.0 2071 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 624.0.0 2071 1
+S 622.0.0 2066 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 622.0.0 2066 1
+S 620.0.0 2061 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 620.0.0 2061 1
+S 618.0.0 2056 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 618.0.0 2056 1
+S 616.0.0 2051 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 616.0.0 2051 1
+S 614.0.0 2046 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 614.0.0 2046 1
+S 612.0.0 2041 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 612.0.0 2041 1
+S 610.0.0 2036 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 610.0.0 2036 1
+S 608.0.0 2031 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 608.0.0 2031 1
+S 606.0.0 2026 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 606.0.0 2026 1
+S 604.0.0 2021 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 604.0.0 2021 1
+S 602.0.0 2016 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 602.0.0 2016 1
+S 600.0.0 2011 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 600.0.0 2011 1
+S 598.0.0 2006 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 598.0.0 2006 1
+S 596.0.0 2001 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 596.0.0 2001 1
+S 594.0.0 1996 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 594.0.0 1996 1
+S 592.0.0 1991 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 592.0.0 1991 1
+S 590.0.0 1986 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 590.0.0 1986 1
+S 588.0.0 1981 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 588.0.0 1981 1
+S 586.0.0 1976 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 586.0.0 1976 1
+S 584.0.0 1971 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 584.0.0 1971 1
+S 582.0.0 1966 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 582.0.0 1966 1
+S 580.0.0 1961 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 580.0.0 1961 1
+S 578.0.0 1956 1
+# linux400512.dc.engr.scu.edu(1):      1926  1 _tag_violation
+F 578.0.0 1956 1
+S 576.0.0 1951 1
+# linux400512.dc.engr.scu.edu(1):      1926  1 _tag_violation
+F 576.0.0 1951 1
+S 574.0.0 1946 1
+# linux400512.dc.engr.scu.edu(1):      2975  1 _tag_violation
+F 574.0.0 1946 1
+S 572.0.0 1941 1
+# linux400512.dc.engr.scu.edu(1):      2973  1 _tag_violation
+F 572.0.0 1941 1
+S 570.0.0 1936 1
+# linux400512.dc.engr.scu.edu(1):      3231  1 _tag_violation
+F 570.0.0 1936 1
+S 568.0.0 1931 1
+# linux400512.dc.engr.scu.edu(1):      2728  1 _tag_violation
+F 568.0.0 1931 1
+S 566.0.0 1926 1
+# linux400512.dc.engr.scu.edu(1):      1615  1 _tag_violation
+F 566.0.0 1926 1
+S 564.0.0 1921 1
+# linux400512.dc.engr.scu.edu(1):      3260  1 _tag_violation
+F 564.0.0 1921 1
+S 562.0.0 1916 1
+# linux400512.dc.engr.scu.edu(1):      3260  1 _tag_violation
+F 562.0.0 1916 1
+S 560.0.0 1911 1
+# linux400512.dc.engr.scu.edu(1):      2684  1 _tag_violation
+F 560.0.0 1911 1
+S 558.0.0 1906 1
+# linux400512.dc.engr.scu.edu(1):      2696  1 _tag_violation
+F 558.0.0 1906 1
+S 556.0.0 1901 1
+# linux400512.dc.engr.scu.edu(1):      2700  1 _tag_violation
+F 556.0.0 1901 1
+S 554.0.0 1896 1
+# linux400512.dc.engr.scu.edu(1):      2698  1 _tag_violation
+F 554.0.0 1896 1
+S 552.0.0 1891 1
+# linux400512.dc.engr.scu.edu(1):      2806  1 _tag_violation
+F 552.0.0 1891 1
+S 550.0.0 1886 1
+# linux400512.dc.engr.scu.edu(1):      2946  1 _tag_violation
+F 550.0.0 1886 1
+S 548.0.0 1881 1
+# linux400512.dc.engr.scu.edu(1):      2408  1 _tag_violation
+F 548.0.0 1881 1
+S 546.0.0 1876 1
+# linux400512.dc.engr.scu.edu(1):      2839  1 _tag_violation
+F 546.0.0 1876 1
+S 544.0.0 1871 1
+# linux400512.dc.engr.scu.edu(1):      2718  1 _tag_violation
+F 544.0.0 1871 1
+S 542.0.0 1866 1
+# linux400512.dc.engr.scu.edu(1):      2717  1 _tag_violation
+F 542.0.0 1866 1
+S 540.0.0 1861 1
+# linux400512.dc.engr.scu.edu(1):      1069  1 _tag_violation
+F 540.0.0 1861 1
+S 538.0.0 1856 1
+# linux400512.dc.engr.scu.edu(1):      2290  1 _tag_violation
+F 538.0.0 1856 1
+S 536.0.0 1851 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 536.0.0 1851 1
+S 534.0.0 1846 1
+# linux400512.dc.engr.scu.edu(1):      2908  1 _tag_violation
+F 534.0.0 1846 1
+S 532.0.0 1841 1
+# linux400512.dc.engr.scu.edu(1):      2287  1 _tag_violation
+F 532.0.0 1841 1
+S 530.0.0 1836 1
+# linux400512.dc.engr.scu.edu(1):      2556  1 _tag_violation
+F 530.0.0 1836 1
+S 528.0.0 1831 1
+# linux400512.dc.engr.scu.edu(1):      2684  1 _tag_violation
+F 528.0.0 1831 1
+S 526.0.0 1826 1
+# linux400512.dc.engr.scu.edu(1):      2804  1 _tag_violation
+F 526.0.0 1826 1
+S 524.0.0 1821 1
+# linux400512.dc.engr.scu.edu(1):      2565  1 _tag_violation
+F 524.0.0 1821 1
+S 522.0.0 1816 1
+# linux400512.dc.engr.scu.edu(1):      2293  1 _tag_violation
+F 522.0.0 1816 1
+S 520.0.0 1811 1
+# linux400512.dc.engr.scu.edu(1):      2690  1 _tag_violation
+F 520.0.0 1811 1
+S 518.0.0 1806 1
+# linux400512.dc.engr.scu.edu(1):      2801  1 _tag_violation
+F 518.0.0 1806 1
+S 516.0.0 1801 1
+# linux400512.dc.engr.scu.edu(1):      2564  1 _tag_violation
+F 516.0.0 1801 1
+S 514.0.0 1796 1
+# linux400512.dc.engr.scu.edu(1):      2293  1 _tag_violation
+F 514.0.0 1796 1
+S 512.0.0 1791 1
+# linux400512.dc.engr.scu.edu(1):      2690  1 _tag_violation
+F 512.0.0 1791 1
+S 510.0.0 1786 1
+# linux400512.dc.engr.scu.edu(1):      2490  1 _tag_violation
+F 510.0.0 1786 1
+S 508.0.0 1781 1
+# linux400512.dc.engr.scu.edu(1):      2908  1 _tag_violation
+F 508.0.0 1781 1
+S 506.0.0 1776 1
+# linux400512.dc.engr.scu.edu(1):      2290  1 _tag_violation
+F 506.0.0 1776 1
+S 504.0.0 1771 1
+# linux400512.dc.engr.scu.edu(1):      2790  1 _tag_violation
+F 504.0.0 1771 1
+S 502.0.0 1766 1
+# linux400512.dc.engr.scu.edu(1):      2677  1 _tag_violation
+F 502.0.0 1766 1
+S 500.0.0 1761 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 500.0.0 1761 1
+S 498.0.0 1756 1
+# linux400512.dc.engr.scu.edu(1):      2490  1 _tag_violation
+F 498.0.0 1756 1
+S 496.0.0 1751 1
+# linux400512.dc.engr.scu.edu(1):      2908  1 _tag_violation
+F 496.0.0 1751 1
+S 494.0.0 1746 1
+# linux400512.dc.engr.scu.edu(1):      1071  1 _tag_violation
+F 494.0.0 1746 1
+S 492.0.0 1741 1
+# linux400512.dc.engr.scu.edu(1):      2290  1 _tag_violation
+F 492.0.0 1741 1
+S 490.0.0 1736 1
+# linux400512.dc.engr.scu.edu(1):      2790  1 _tag_violation
+F 490.0.0 1736 1
+S 488.0.0 1731 1
+# linux400512.dc.engr.scu.edu(1):      2677  1 _tag_violation
+F 488.0.0 1731 1
+S 486.0.0 1726 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 486.0.0 1726 1
+S 484.0.0 1721 1
+# linux400512.dc.engr.scu.edu(1):      1172  1 _tag_violation
+F 484.0.0 1721 1
+S 482.0.0 1716 1
+# linux400512.dc.engr.scu.edu(1):      2790  1 _tag_violation
+F 482.0.0 1716 1
+S 480.0.0 1711 1
+# linux400512.dc.engr.scu.edu(1):      2790  1 _tag_violation
+F 480.0.0 1711 1
+S 478.0.0 1706 1
+# linux400512.dc.engr.scu.edu(1):      2791  1 _tag_violation
+F 478.0.0 1706 1
+S 476.0.0 1701 1
+# linux400512.dc.engr.scu.edu(1):      2791  1 _tag_violation
+F 476.0.0 1701 1
+S 474.0.0 1696 1
+# linux400512.dc.engr.scu.edu(1):      2387  1 _tag_violation
+F 474.0.0 1696 1
+S 472.0.0 1691 1
+# linux400512.dc.engr.scu.edu(1):      2387  1 _tag_violation
+F 472.0.0 1691 1
+S 470.0.0 1686 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 470.0.0 1686 1
+S 468.0.0 1681 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 468.0.0 1681 1
+S 466.0.0 1676 1
+# linux400512.dc.engr.scu.edu(1):      1392  1 _tag_violation
+F 466.0.0 1676 1
+S 464.0.0 1671 1
+# linux400512.dc.engr.scu.edu(1):      2808  1 _tag_violation
+F 464.0.0 1671 1
+S 462.0.0 1666 1
+# linux400512.dc.engr.scu.edu(1):      2578  1 _tag_violation
+F 462.0.0 1666 1
+S 460.0.0 1661 1
+# linux400512.dc.engr.scu.edu(1):      2901  1 _tag_violation
+F 460.0.0 1661 1
+S 458.0.0 1656 1
+# linux400512.dc.engr.scu.edu(1):      2923  1 _tag_violation
+F 458.0.0 1656 1
+S 456.0.0 1651 1
+# linux400512.dc.engr.scu.edu(1):      3037  1 _tag_violation
+F 456.0.0 1651 1
+S 454.0.0 1646 1
+# linux400512.dc.engr.scu.edu(1):      3037  1 _tag_violation
+F 454.0.0 1646 1
+S 452.0.0 1641 1
+# linux400512.dc.engr.scu.edu(1):      2813  1 _tag_violation
+F 452.0.0 1641 1
+S 450.0.0 1636 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 450.0.0 1636 1
+S 448.0.0 1631 1
+# linux400512.dc.engr.scu.edu(1):      2689  1 _tag_violation
+F 448.0.0 1631 1
+S 446.0.0 1626 1
+# linux400512.dc.engr.scu.edu(1):      2318  1 _tag_violation
+F 446.0.0 1626 1
+S 444.0.0 1620 1
+# linux400512.dc.engr.scu.edu(1):      2688  1 _tag_violation
+F 444.0.0 1620 1
+S 806.0.0 2524 0
+# linux400512.dc.engr.scu.edu(0):       372  1 _accumulate_results
+F 806.0.0 2524 0
+}

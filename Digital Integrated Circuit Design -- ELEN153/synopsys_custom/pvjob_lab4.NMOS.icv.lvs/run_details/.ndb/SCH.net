@@ -1,0 +1,32 @@
+{netlist NMOS.sch_out
+{version 2 1 0}
+{net_global vdd! gnd! VSS VDD VDD22 VDD12 VSS12 }
+{cell NMOS
+{port a abar b bbar output}
+{inst MM3=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin net13=DRN b=GATE gnd!=SRC gnd!=BULK}}
+{inst MM2=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin net9=DRN bbar=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin output=DRN a=GATE net9=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin output=DRN abar=GATE net13=SRC gnd!=BULK}}
+{inst MM7=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin net31=DRN b=GATE vdd!=SRC vdd!=BULK}}
+{inst MM6=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin net31=DRN abar=GATE vdd!=SRC vdd!=BULK}}
+{inst MM5=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin output=DRN bbar=GATE net31=SRC vdd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin output=DRN a=GATE net31=SRC vdd!=BULK}}
+}
+
+}

@@ -1,0 +1,148 @@
+
+                                 IC Validator 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i Fourbit -c rippleadd -oa_view layout -oa_lib_defs /DCNFS/users/student/mpang/ELEN153/Adder/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.rippleadd.icv.lvs/rippleadd.lvs.custom_compiler.rc -s /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.rippleadd.icv.lvs/rippleadd.custom_compiler.sp -sf SPICE -stc rippleadd -sf SPICE -vue /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.rippleadd.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+
+Parsing runset "/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.rippleadd.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs"
+
+While processing capacitor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:900
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'w' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'l' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'w' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'l' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'w' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'l' was not specified for this command
+While processing capacitor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:909
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'w' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'l' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'w' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'l' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'w' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:891: warning: Property 'l' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:977
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:937: warning: Property 'r' was not specified for this command
+While processing resistor command at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:989
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:950: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:950: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:950: warning: Property 'r' was not specified for this command
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1086: warning: ICV device extraction settings for write_property_to, processing_layer_hash_map, and pin_map has been automated. As of the 2016.06 release this behavior is the default and can be disabled with "-D ICV_REVERT_DEVICE_PROPERTY_DEPENDENCY_ANALYSIS". 
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1087: warning: The default of "precision" argument in netlist() is now the engine maximum.  Use "-D ICV_REVERT_NETLIST_DEFAULT_PRECISION" to restore the original behavior.
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1220: warning: ICV LVS device settings currently use overwrite mode. Use command line option '-D ICV_ENABLE_DEVICE_SETTING_APPEND_MODE' or runset instruction '#define ICV_ENABLE_DEVICE_SETTING_APPEND_MODE' to enable LVS device setting append mode in this release.
+/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1220: warning: Some LVS reports change since 2019.12 release. Set environment variable 'ICV_REVERT_LVS_REPORT_IN_IDENTICAL_STRING' to see old LVS reports.
+Loaded runset from cache: /home/mpang/.icvrscache/a1705de79297dca648233192146cf100-713E57BF-A1AA-4077-8F22-92221D936441-linux400512-22794.rscache
+Cached Runset Compile Time=0:00:02 User=1.76 Sys=0.06 Mem=0.437 GB
+
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.00 Mem=0.437 GB
+
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	linux400512.dc.engr.scu.edu: 2 total cores, maximum 2 commands in parallel.
+Selecting "linux400512.dc.engr.scu.edu" as Primary host
+
+System Startup Time=0:00:01 User=0.00 Sys=0.01 Mem=0.437 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.rippleadd.icv.lvs/run_details/rippleadd.sum
+    /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.rippleadd.icv.lvs/run_details/rules.lvs.9m_saed90_lvs.lvs.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:05
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:05
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:08
+Comparing schematic and layout netlists.
+LVS compare start time    : 2023-06-05 16:12:09
+  ICV_Compare run is   0% complete.    Elapsed Time=0:00:01
+  ICV_Compare run is   5% complete.    Elapsed Time=0:00:01
+  ICV_Compare run is  10% complete.    Elapsed Time=0:00:01
+  ICV_Compare run is  15% complete.    Elapsed Time=0:00:01
+  ICV_Compare run is  20% complete.    Elapsed Time=0:00:01
+  ICV_Compare run is  25% complete.    Elapsed Time=0:00:01
+  ICV_Compare run is  30% complete.    Elapsed Time=0:00:01
+  ICV_Compare run is 100% complete.    Elapsed Time=0:00:01
+LVS compare end time      : 2023-06-05 16:12:10
+Total runtime for LVS compare Time=0:00:01  User=0.02 Sys=0.03 Mem=0.017 GB
+   Check Time=0:00:01  User=0.00 Sys=0.00 Mem=0.012 GB
+
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:14
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating rippleadd.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+
+
+-------------
+IC Validator Run: Time=0:00:17
+
+IC Validator Machine Memory Report
+linux400512.dc.engr.scu.edu : Average = 0.311 GB, Peak = 0.405 GB
+
+Overall Disk Usage Disk=0.009 GB
+Overall engine Time=0:00:17 Highest command Mem=0.198 GB
+
+Overall Master Mem=0.606 GB
+IC Validator is done.

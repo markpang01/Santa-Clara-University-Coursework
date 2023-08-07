@@ -1,0 +1,80 @@
+
+                                 IC Validator 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i Fourbit -c halfadd -oa_view layout -oa_lib_defs /DCNFS/users/student/mpang/ELEN153/Adder/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -oa_dm5 -vue /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+
+
+Parsing runset "/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.drc/rules.drc.9m_saed90_icv.drc.rs"
+
+Loaded runset from cache: /home/mpang/.icvrscache/584ba31d78d0b53b79b221ce449792f9-D0DD4B2B-77C7-4327-A0EA-06A1924CDD9F-linux400512-21947.rscache
+Cached Runset Compile Time=0:00:03 User=1.89 Sys=0.07 Mem=0.437 GB
+
+Virtual Machine Init Time=0:00:00 User=0.00 Sys=0.00 Mem=0.437 GB
+
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	linux400512.dc.engr.scu.edu: 2 total cores, maximum 2 commands in parallel.
+Selecting "linux400512.dc.engr.scu.edu" as Primary host
+
+System Startup Time=0:00:01 User=0.00 Sys=0.03 Mem=0.437 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.drc/run_details/halfadd.sum
+    /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.drc/run_details/rules.drc.9m_saed90_icv.drc.dp.log
+
+Running ...
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:01
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:06
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:07
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:08
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:08
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:09
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:10
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:11
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:12
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:12
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:12
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:16
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating halfadd.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.003 GB
+
+
+-------------
+IC Validator Run: Time=0:00:20
+
+IC Validator Machine Memory Report
+linux400512.dc.engr.scu.edu : Average = 0.000 GB, Peak = 0.363 GB
+
+Overall Disk Usage Disk=0.007 GB
+Overall engine Time=0:00:20 Highest command Mem=0.152 GB
+
+Overall Master Mem=0.606 GB
+IC Validator is done.

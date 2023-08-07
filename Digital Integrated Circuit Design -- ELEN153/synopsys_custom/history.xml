@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Jun  5 16:40:00 2023
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="NMOS" library="lab4" mode="write" view="layout" file="maskLayout"/>
+                <file cell="NMOS" library="lab4" mode="write" view="schematic" file="schematic"/>
+                <file cell="XNOR2" library="lab4" mode="write" view="schematic" file="schematic"/>
+                <file cell="XNOR" library="lab4" mode="write" view="schematic" file="schematic"/>
+                <file cell="XNOR" library="lab4" mode="write" view="layout" file="maskLayout"/>
+        </recentFiles>
+</synopsysFile>

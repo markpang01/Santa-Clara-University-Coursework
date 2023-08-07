@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/COEN21/lab7/simulation/modelsim
+T_opt
+!s110 1668120597
+V6]_JcYTmZMD[]TnZVX5a_1
+04 2 4 work tb fast 0
+=1-908d6e5c2c7e-636d8014-16-2f4
+!s124 OEM10U7 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vCounter
+!s110 1668120592
+!i10b 1
+!s100 W[5?^^LA<0m9_9fd89k_<0
+I51V339fPgg[5N<];VZBY72
+R0
+w1668120351
+8Z:/COEN21/lab7/counter.v
+FZ:/COEN21/lab7/counter.v
+!i122 0
+L0 1 27
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2021.2;73
+r1
+!s85 0
+31
+!s108 1668120592.000000
+!s107 Z:/COEN21/lab7/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/COEN21/lab7|Z:/COEN21/lab7/counter.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 !s92 -vlog01compat -work work +incdir+Z:/COEN21/lab7 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@counter
+vDownControl
+Z6 !s110 1668120593
+!i10b 1
+!s100 <2OnSPRf7_6dh1bGAbhi23
+IcB^l3XcYjV8Mfi_WXH`Nz3
+R0
+w1668118280
+8Z:/COEN21/lab7/DownControl.v
+FZ:/COEN21/lab7/DownControl.v
+!i122 2
+L0 1 8
+R2
+R3
+r1
+!s85 0
+31
+Z7 !s108 1668120593.000000
+!s107 Z:/COEN21/lab7/DownControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/COEN21/lab7|Z:/COEN21/lab7/DownControl.v|
+!i113 0
+R4
+R5
+R1
+n@down@control
+vlab7
+Z8 !s110 1668120594
+!i10b 1
+!s100 e>LP2^YGUb7?Nl2mg3NCm3
+IcGiZDcn5k16<heZ[N9O;?1
+R0
+w1668119914
+8Z:/COEN21/lab7/lab7.v
+FZ:/COEN21/lab7/lab7.v
+!i122 4
+L0 20 81
+R2
+R3
+r1
+!s85 0
+31
+Z9 !s108 1668120594.000000
+!s107 Z:/COEN21/lab7/lab7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/COEN21/lab7|Z:/COEN21/lab7/lab7.v|
+!i113 0
+R4
+R5
+R1
+vtb
+R8
+!i10b 1
+!s100 12FBD4K8IoF3;Lz^Ik]lH2
+I0=@V6N=jQH;QhKCFb[J;B3
+R0
+w1668120419
+8Z:/COEN21/lab7/tb.v
+FZ:/COEN21/lab7/tb.v
+!i122 5
+L0 1 36
+R2
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/COEN21/lab7/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/COEN21/lab7|Z:/COEN21/lab7/tb.v|
+!i113 0
+R4
+R5
+R1
+vUpControl
+R6
+!i10b 1
+!s100 NmBJbEf30>Y;lHnW]TZm_2
+IjQcec_>E=Nd5P8JMIo]350
+R0
+w1668117984
+8Z:/COEN21/lab7/UpControl.v
+FZ:/COEN21/lab7/UpControl.v
+!i122 1
+L0 1 9
+R2
+R3
+r1
+!s85 0
+31
+R7
+!s107 Z:/COEN21/lab7/UpControl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/COEN21/lab7|Z:/COEN21/lab7/UpControl.v|
+!i113 0
+R4
+R5
+R1
+n@up@control
+vWinLose
+R6
+!i10b 1
+!s100 >hfD1dAPTH5:iEIR9[V>G3
+IBG0<[TzneSHjn5g_<TXOF1
+R0
+w1668119844
+8Z:/COEN21/lab7/WinLose.v
+FZ:/COEN21/lab7/WinLose.v
+!i122 3
+L0 1 52
+R2
+R3
+r1
+!s85 0
+31
+R7
+!s107 Z:/COEN21/lab7/WinLose.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/COEN21/lab7|Z:/COEN21/lab7/WinLose.v|
+!i113 0
+R4
+R5
+R1
+n@win@lose

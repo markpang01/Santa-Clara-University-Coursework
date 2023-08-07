@@ -1,0 +1,14 @@
+* XREF SPICE	Mon May  8 16:35:09 2023	NMOS
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=NMOS
+.subckt NMOS b bbar a abar gnd! vdd! output
+M_MM0 output abar net13 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM1 output a net9 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM2 net9 bbar gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM3 net13 b gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM6 net31 abar vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_MM4 output a net31 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_MM5 output bbar net31 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_MM7 net31 b vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+.ends NMOS

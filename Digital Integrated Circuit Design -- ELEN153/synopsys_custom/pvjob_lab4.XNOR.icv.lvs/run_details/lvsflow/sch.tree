@@ -1,0 +1,27 @@
+XNOR Level=0 Count=1
+   NMOS Level=1 Count=1
+   CMOS_Working Level=1 Count=2
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = XNOR
+	Flat Placements      =	1
+
+CELL = NMOS
+	Flat Placements      =	1
+
+CELL = CMOS_Working
+	Flat Placements      =	2
+
+TOP CELL = XNOR
+	Ports                =	5
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[n12] = 6
+	PMOS[p12] = 6

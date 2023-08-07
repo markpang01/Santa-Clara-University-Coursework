@@ -1,0 +1,31 @@
+
+                                  ICV_Master 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i Fourbit -c fulladd -oa_view layout -oa_lib_defs /DCNFS/users/student/mpang/ELEN153/Adder/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/fulladd.lvs.custom_compiler.rc -s /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/fulladd.custom_compiler.sp -sf SPICE -stc fulladd -sf SPICE -vue /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        mpang
+Layout format:    OPENACCESS
+Input file name:  Fourbit
+Top cell name:    fulladd
+Time started:     2023/06/05 03:48:32PM
+
+--------------------------------------------------------------------------------
+                          Signoff Rules to be Executed                          
+--------------------------------------------------------------------------------
+
+@ "Interact of HVTIMP and DIFF_25 is not allowed"
+@ "Interact of HVTIMP and DIFF_33 is not allowed"
+@ "Interact of HVTIMP and LVTIMP is not allowed"
+@ "Interact of LVTIMP and DIFF_25 is not allowed"
+@ "Interact of LVTIMP and DIFF_33 is not allowed"
+@ "Violation"

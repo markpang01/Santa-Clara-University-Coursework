@@ -1,0 +1,23 @@
+{NETLIST NMOS
+{VERSION 2 0 0}
+
+{CELL NMOS
+    {PORT abar b vdd! gnd! output a bbar }
+    {INST M7=p12 {TYPE MOS} {COORD x=1.750 y=1.200 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N10=DRN bbar=GATE output=SRC vdd!=BULK }}
+    {INST M3=n12 {TYPE MOS} {COORD x=1.750 y=-1.120 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN N11=DRN bbar=GATE gnd!=SRC gnd!=BULK }}
+    {INST M2=n12 {TYPE MOS} {COORD x=1.050 y=-1.120 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN N11=DRN a=GATE output=SRC gnd!=BULK }}
+    {INST M1=n12 {TYPE MOS} {COORD x=0.350 y=-1.120 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN N9=DRN abar=GATE output=SRC gnd!=BULK }}
+    {INST M4=n12 {TYPE MOS} {COORD x=2.450 y=-1.120 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN N9=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST M6=p12 {TYPE MOS} {COORD x=1.050 y=1.200 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N10=DRN a=GATE output=SRC vdd!=BULK }}
+    {INST M8=p12 {TYPE MOS} {COORD x=2.450 y=1.200 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N10=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST M5=p12 {TYPE MOS} {COORD x=0.350 y=1.200 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N10=DRN abar=GATE vdd!=SRC vdd!=BULK }}
+}
+}

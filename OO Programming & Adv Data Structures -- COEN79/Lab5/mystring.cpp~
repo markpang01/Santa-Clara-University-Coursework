@@ -1,0 +1,245 @@
+#include<iostream>
+#include<cassert>
+#include "mystring.h"
+#include<cctype>
+#include<string.h>
+
+using namespace std;
+
+namespace coen79_lab5 {
+
+	string::string(const char str[]) {
+		current_length = strlen(str);
+		allocated = current_length + 1;
+		characters = new char[allocated];
+		strncpy(characters,str,allocated);
+	}
+
+	string::string(char c) {
+		current_length = 1;
+		allocated = 2;
+		characters = new char[2];
+		characters[0] = c;
+		characters[1] = '\0';
+	}
+
+	string::string(const string& source) {
+		current_length = source.current_length;
+		allocated = source.allocated;
+		characters = new char[source.allocated];
+		strncpy(characters,source.characters,source.current_length);
+	}
+
+	string:~string(){
+		current_length = 0;
+		allocated = 0;
+		delete[] characters;
+	}
+
+	void string::operator+=(const string& addend){
+		current_length = current_length + addend.current_length;
+		allocated = current_length + 1;
+		reserve(allocated);
+		strncat(characters,addend.characters,addend.current_length);
+	}
+
+	void string::operator +=(const char addend[ ]){
+		current_length += strlen(addend);
+		allocated = current_length + 1;
+		reserve(allocated);
+		strncat(characters, addend, strlen(addend));
+	}
+
+        void string::operator +=(char addend){
+		current_length += 1;
+		allocated += 1;
+		reserve(allocated);
+		characters[current_length] = addend;
+	}
+
+        void string::reserve(size_t n){
+		char *temp = new char[n];
+		if(current_length > 0){
+			strncpy(temp,characters,current_length);
+			delete[] characters;
+		}
+		characters = temp;
+	}
+
+	string& string::operator =(const string& source){
+		current_length = source.current_length;
+		allocated = source.allocated;
+		reserve(allocated);
+		strncpy(characters, source.characters,source.current_length);		
+	}					
+
+        void string::insert(const string& source, unsigned int position){
+		assert(position <= current_length);
+		size_t length = current_length + source.current_length;
+		if(allocated < (length)){
+			reserve(length);
+		}
+		for(int i = current_length; i > position; i--){
+			characters[i] = characters[i-1];
+		}
+		for(int i =0; i<source.current_length;i++){
+			characters[position+i] = source.characters[i];
+		}
+		current_length = length;
+	}
+
+        void string::dlt(unsigned int position, unsigned int num){
+		assert( ( position + num) <= length() );
+		for(int i = position; i<length(); i ++ ){
+			characters[i] = characters[ i+ num];
+		}
+		current_length = current_length - num;
+	}
+
+        void string::replace(char c, unsigned int position){
+		assert(position < length() );
+		characters[position] = c;
+	}
+
+        void string::replace(const string& source, unsigned int position){
+		assert(position + source.length()  <= length() );
+		int i,j=0;
+		for(i = position; i< position + source.length(); i++){
+			characters[i] = source[j];
+			j++;
+		}
+	}
+
+  // const member
+
+        char string::operator [ ](size_t position) const{
+		assert(position < length());
+		return characters[position];
+	}
+
+
+        int string::search(char c) const{
+		int i;
+		for(i=0; i< length(); i++){
+			if(characters[i] == c){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+        int string::search(const string& substring) const{
+		int i;
+		for(i = 0; i<length(); i++){
+			if(characters[i] == substring.characaters[0]){
+				int count = 0;
+				int temp = i;
+				for(j=0; j<substring.length();j++){
+					if(characters[i] == substring.characters[j]){
+						i++;
+						count++;
+					}
+				}
+				if(count == substring.length()){
+						return temp;
+				}
+			}
+		}
+					
+	}
+
+  unsigned int string::count(char c) const{
+		unsigned int count = 0;
+		for(int i = 0; i<length(); i++){
+			if(characters[i] == c){
+				count++;
+			}
+		}
+		return count;
+	}
+
+  // friend
+        std::ostream& operator <<(std::ostream& outs, const string& source){
+		print << source.characters;
+		return print;
+	}
+
+        bool operator ==(const string& s1, const string& s2){
+		int dat = strcmp(s1.characters,s2.characters);
+		if(dat == 0){
+			reutn true;
+		}
+		return false;
+	}
+
+        bool operator !=(const string& s1, const string& s2){
+		int dat = strcmp(s1.characters, s2.characters);
+		if(dat == 0){
+			return false;
+		}
+		return true;
+	}
+
+       bool operator > (const string& s1, const string& s2){
+		int dat = strcmp (s1.characters, s2.characters);
+		if(dat > 0){
+			return true;
+		}
+		return false;
+	}
+
+        bool operator < (const string& s1, const string& s2){
+		int dat = strcmp (s1.characters, s2. characters);
+		if(dat > 0){
+			return false;
+		}
+		return true;
+	}
+
+        bool operator >=(const string& s1, const string& s2){
+		int dat = strcmp(s1. characters, s2.characters);
+		if(dat >= 0){
+			return true;
+		}
+		return false;
+	}
+
+        bool operator <=(const string& s1, const string& s2){
+		int dat = (strcmp(s1.characters, s2.characters);
+		if(dat <= 0){
+			return true;
+		}
+		return false;
+	}
+
+  // non-member
+    string operator +(const string& s1, const string& s2){
+		string temp;
+		temp.reserve(s1.length() + s2.length() + 1);
+		temp += s1;
+		temp += s2;
+		return temp;
+	}
+
+    string operator +(const string& s1, const char addend[ ]){
+		string temp;
+		temp.reserve(s1.length() + strlen(addend) + 1);
+		temp += s1;
+		temp += addend;
+		return temp;
+	}
+
+    std::istream& operator >> (std::istream& ins, string& target){
+		char *temp;
+		while(!ins.eof() && !isspace(ins.peek())){
+			ins.ignore();
+		}
+		while(!ins.eof() && !isspace(ins.peek())){
+			ins>>temp;
+			target += temp;
+		}
+		returns ins;
+}
+					
+	}
+}

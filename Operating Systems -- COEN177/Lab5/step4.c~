@@ -1,0 +1,74 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<pthread.h>
+#include<semaphore.h>
+#define I 9
+#define B 3
+int buffer[B];
+sem_t empty, full, mutex;
+
+void *go1(void *arg);
+void *go2(void *arg);
+
+int input = 0, output = 0;
+
+int main(){
+
+	sem_init (&empty,0,B);
+	sem_init (&full,0,0);
+	sem_init(&mutex,0,1);
+
+	pthread_t in,out;
+	pthread_create(&in, NULL, go1, NULL);
+	pthread_create(&out, NULL, go2, NULL);
+
+	pthread_join(in,NULL);
+	pthread_join(out,NULL);
+
+	sem_destroy(&empty);
+	sem_destroy(&full);
+	sem_destroy(&mutex);
+
+	return 0;
+
+}
+
+void *go1(void * arg){
+	int prod;
+	int i,j;
+	for(j=0;j<I/B;j++){
+	       	sem_wait(&empty);
+		sem_wait(&mutex);
+		printf("producer input...\n");
+		for(i=0;i<B;i++){
+			prod = j+i-5;
+			buffer[input] = prod;
+			input = (input + 1) % B;
+			printf("placing item : %d, buffer index : %d, data index : %d\n",prod,input,j*B+i);
+
+		}
+	      	sem_post(&mutex);
+	       	sem_post(&full);
+	}
+	pthread_exit(0);
+}
+
+void *go2(void * arg){
+	int take;
+	int i,j;
+	for(j=0;j<I/B;j++){
+	       	sem_wait(&full);
+		sem_wait(&mutex);
+		printf("consumer taking...\n");
+		for(i=0;i<B;i++){
+			take = buffer[output];
+			output = (output + 1) % B;
+			printf("taking item : %d, index number : %d, data index: %d\n",take,output,j*B+i);
+
+		}
+	      	sem_post(&mutex);
+	       	sem_post(&empty);
+	}
+	pthread_exit(0);
+
+}

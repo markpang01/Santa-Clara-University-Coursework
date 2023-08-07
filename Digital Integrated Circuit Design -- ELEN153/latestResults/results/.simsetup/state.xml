@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May  1 15:38:27 2023-->
+<file-format name="stateData" version="1.0">
+ <attribute value="" name="description" type="giString"/>
+ <attribute value="lab4/XNOR2/schematic" name="design" type="dmCellView"/>
+ <attribute value="1" name="enabled" type="giBoolean"/>
+ <attribute value="default" name="name" type="giString"/>
+ <attribute value="//" name="openaccessState" type="dmCellView"/>
+ <attribute value="HSPICE" name="simulator" type="giString"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>

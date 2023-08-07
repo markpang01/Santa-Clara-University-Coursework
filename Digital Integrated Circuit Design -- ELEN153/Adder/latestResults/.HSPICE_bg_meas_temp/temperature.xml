@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May 22 15:35:04 2023-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="temperature" type="saTemperature">
+  <attribute name="description" type="giString" value=""/>
+  <attribute name="local" type="giBoolean" value="1"/>
+  <attribute name="unit" type="giString" value="Celsius"/>
+  <attribute name="value" type="giString" value="25"/>
+ </object>
+</file-format>

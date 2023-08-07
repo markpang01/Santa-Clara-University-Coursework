@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref name="dbGenerateCellViewEditor" value="Symbol Editor"/>
+                <pref name="deDescendMode" value="edit"/>
+                <pref name="deDescendRead" value="false"/>
+                <pref name="giPromptCloseMultipleTabs" value="true"/>
+                <pref name="leAbstractGenOptionSetDefault" value=""/>
+                <pref name="leDrawInstPins" value="true"/>
+                <pref name="xtNetlistingPrefixes" value="background_netlisting sae_shell_netlist"/>
+                <pref name="xtPDKProcess" value="SAED 90nm"/>
+                <pref name="xtPDKVariant" value="1P9M"/>
+                <pref name="xtSAEShellJobLimit" value="2"/>
+                <pref name="xtSAEShellPrefixes" value="sae_shell_results_viewer"/>
+                <pref name="xtSimulationPrefixes" value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS HSIMHSPICE XAEldo XAHSPICE XASpectre XAVCSHSPICE"/>
+        </preferences>
+</file-format>

@@ -1,0 +1,22 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneive
+Quartus root          :  c:/apps/intelfpga_lite/21.1/quartus/bin64/
+Quartus sim root      :  c:/apps/intelfpga_lite/21.1/quartus/eda/sim_lib
+Simulation Tool       :  questa intel fpga
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  Lab3.vo
+Sim SDF file          :  Lab3__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with Questa Intel FPGA software
+Sourced NativeLink script c:/apps/intelfpga_lite/21.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File Lab3_run_msim_gate_verilog.do already exists - backing up current file as Lab3_run_msim_gate_verilog.do.bak11
+Info: Spawning Questa Intel FPGA Simulation software 
+Info: NativeLink simulation flow was successful

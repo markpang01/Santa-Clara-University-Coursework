@@ -1,0 +1,101 @@
+|lab7
+Clock => Clock.IN2
+Reset => Reset.IN2
+Stop => Stop.IN1
+Win << WinLose:b2v_inst4.Win
+Lose << WinLose:b2v_inst4.Lose
+DownCount[0] << SYNTHESIZED_WIRE_10[0].DB_MAX_OUTPUT_PORT_TYPE
+DownCount[1] << SYNTHESIZED_WIRE_10[1].DB_MAX_OUTPUT_PORT_TYPE
+DownCount[2] << SYNTHESIZED_WIRE_10[2].DB_MAX_OUTPUT_PORT_TYPE
+UpCount[0] << SYNTHESIZED_WIRE_11[0].DB_MAX_OUTPUT_PORT_TYPE
+UpCount[1] << SYNTHESIZED_WIRE_11[1].DB_MAX_OUTPUT_PORT_TYPE
+UpCount[2] << SYNTHESIZED_WIRE_11[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7|Counter:b2v_inst
+Clock => Count[0]~reg0.CLK
+Clock => Count[1]~reg0.CLK
+Clock => Count[2]~reg0.CLK
+Reset => Count.OUTPUTSELECT
+Reset => Count.OUTPUTSELECT
+Reset => Count.OUTPUTSELECT
+Dir => Count.OUTPUTSELECT
+Dir => Count.OUTPUTSELECT
+Dir => Count.OUTPUTSELECT
+CntEn => Count.OUTPUTSELECT
+CntEn => Count.OUTPUTSELECT
+CntEn => Count.OUTPUTSELECT
+Load => Count.OUTPUTSELECT
+Load => Count.OUTPUTSELECT
+Load => Count.OUTPUTSELECT
+New[0] => Count.DATAB
+New[1] => Count.DATAB
+New[2] => Count.DATAB
+Count[0] <= Count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[1] <= Count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[2] <= Count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7|DownControl:b2v_inst2
+Count[0] => Equal0.IN0
+Count[1] => Equal0.IN2
+Count[2] => Equal0.IN1
+Load <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+New[0] <= <VCC>
+New[1] <= <GND>
+New[2] <= <VCC>
+
+
+|lab7|UpControl:b2v_inst3
+Count[0] => Equal0.IN2
+Count[1] => Equal0.IN0
+Count[2] => Equal0.IN1
+Load <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+New[0] <= <VCC>
+New[1] <= <GND>
+New[2] <= <GND>
+
+
+|lab7|WinLose:b2v_inst4
+Stop => always0.IN1
+Stop => always0.IN1
+Stop => comb.IN1
+Stop => CntEn.IN1
+Stop => Lose.OUTPUTSELECT
+Stop => Win.OUTPUTSELECT
+Stop => comb.IN1
+UpCount[0] => Equal0.IN2
+UpCount[1] => Equal0.IN1
+UpCount[2] => Equal0.IN0
+DownCount[0] => Equal0.IN5
+DownCount[1] => Equal0.IN4
+DownCount[2] => Equal0.IN3
+CntEn <= CntEn$latch.DB_MAX_OUTPUT_PORT_TYPE
+Lose <= Lose$latch.DB_MAX_OUTPUT_PORT_TYPE
+Win <= Win$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7|Counter:b2v_inst5
+Clock => Count[0]~reg0.CLK
+Clock => Count[1]~reg0.CLK
+Clock => Count[2]~reg0.CLK
+Reset => Count.OUTPUTSELECT
+Reset => Count.OUTPUTSELECT
+Reset => Count.OUTPUTSELECT
+Dir => Count.OUTPUTSELECT
+Dir => Count.OUTPUTSELECT
+Dir => Count.OUTPUTSELECT
+CntEn => Count.OUTPUTSELECT
+CntEn => Count.OUTPUTSELECT
+CntEn => Count.OUTPUTSELECT
+Load => Count.OUTPUTSELECT
+Load => Count.OUTPUTSELECT
+Load => Count.OUTPUTSELECT
+New[0] => Count.DATAB
+New[1] => Count.DATAB
+New[2] => Count.DATAB
+Count[0] <= Count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[1] <= Count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[2] <= Count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

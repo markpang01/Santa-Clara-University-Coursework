@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May 15 16:12:04 2023-->
+<file-format name="netlisting-timestamps" version="1.0">
+<module viewSearchList="auCdl schematic symbol" timestamp="503" isSubcircuit="1" contextID="switched: Inverter CMOS_Working schematic vl: auCdl schematic symbol sl: auCdl" viewStopList="auCdl">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="2"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="202"/>
+<PortOrder><![CDATA[VinVout]]></PortOrder>
+</module>
+</file-format>

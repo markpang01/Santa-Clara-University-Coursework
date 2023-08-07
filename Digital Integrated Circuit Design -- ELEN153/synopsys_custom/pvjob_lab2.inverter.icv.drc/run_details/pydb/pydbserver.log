@@ -1,0 +1,48 @@
+
+                                  PYDB_Server 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 2007 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 7749
+PYDB_Server Started on host linux400512.dc.engr.scu.edu, Mon 04/24/2023 15:38:53
+Client linux400512(21947):12 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.24.0
+Client linux400512(22029):18 connected (2 total clients)
+Client linux400512(22034):19 connected (3 total clients)
+Client linux400512(22034):19 connection closed
+Client linux400512(22034):19 disconnected (2 clients remain)
+Client linux400512(22034):19 connected (3 total clients)
+Client linux400512(22029):18 connection closed
+Client linux400512(22029):18 disconnected (2 clients remain)
+Client linux400512(22029):18 connected (3 total clients)
+Client linux400512(22029):18 connection closed
+Client linux400512(22029):18 disconnected (2 clients remain)
+Client linux400512(22029):18 connected (3 total clients)
+Client linux400512(22029):18 connection closed
+Client linux400512(22029):18 disconnected (2 clients remain)
+Client linux400512(22029):18 connected (3 total clients)
+Client linux400512(22034):19 connection closed
+Client linux400512(22034):19 disconnected (2 clients remain)
+Client linux400512(22034):19 connected (3 total clients)
+Client linux400512(22034):19 connection closed
+Client linux400512(22034):19 disconnected (2 clients remain)
+Client linux400512(22029):18 connection closed
+Client linux400512(22029):18 disconnected (1 client remains)
+Generating /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab2.inverter.icv.drc/inverter.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Shutdown requested by client linux400512(21947):12
+0 clients remain connected
+Client linux400512(21947):12 connection closed
+Overall server Time=0:00:06  User=0.01 Sys=0.01 Mem=0.001 GB SQLite=0.005 GB Unpooled=0.000 GB

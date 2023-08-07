@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Jun  5 16:11:56 2023-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module viewStopList="auCdl" timestamp="1525" isSubcircuit="1" viewSearchList="auCdl schematic symbol" contextID="switched: Fourbit rippleadd schematic vl: auCdl schematic symbol sl: auCdl">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="2"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="1501"/>
+<PortOrder><![CDATA[A0A1A2A3B0B1B2B3CinCoutS0S1S2S3]]></PortOrder>
+</module>
+</file-format>

@@ -1,0 +1,27 @@
+halfadd Level=0 Count=1
+   AND Level=1 Count=1
+   XOR Level=1 Count=1
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = halfadd
+	Flat Placements      =	1
+
+CELL = AND
+	Flat Placements      =	1
+
+CELL = XOR
+	Flat Placements      =	1
+
+TOP CELL = halfadd
+	Ports                =	6
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[n12] = 6
+	PMOS[p12] = 6

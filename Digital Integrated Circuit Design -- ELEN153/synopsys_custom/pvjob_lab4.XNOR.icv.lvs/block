@@ -1,0 +1,18 @@
+* XREF SPICE	Mon May 15 16:12:21 2023	XNOR
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=XNOR
+.subckt XNOR gnd! vdd! b a output
+M_XI0/MM0 output net16 XI0/net13 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI0/MM1 output a XI0/net9 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI0/MM2 XI0/net9 net14 gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI0/MM3 XI0/net13 b gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI4/MM0 net16 a gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI5/MM0 net14 b gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM6 XI0/net31 net16 vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI0/MM4 output a XI0/net31 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI0/MM5 output net14 XI0/net31 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI0/MM7 XI0/net31 b vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI4/MM1 net16 a vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI5/MM1 net14 b vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends XNOR

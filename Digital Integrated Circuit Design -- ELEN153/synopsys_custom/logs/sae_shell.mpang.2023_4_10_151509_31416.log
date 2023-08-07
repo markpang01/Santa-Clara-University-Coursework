@@ -1,0 +1,49 @@
+[15:15:14.97] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Mon Apr 10 15:15:09 2023
+              /c Host: linux400512
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:15:15.04] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[15:15:15.04] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[15:15:15.04] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[15:15:15.04] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[15:15:15.15] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[15:15:15.15] /o 	############################################
+[15:15:15.15] /o 	        Synopsys Generic 90nm iPDK          
+[15:15:15.15] /o 	--------------------------------------------
+[15:15:15.15] /o 	Release Date .............. : 11-May-2016    
+[15:15:15.15] /o 	============================================
+[15:15:15.15] /o 	        Recommended Tool Versions           
+[15:15:15.15] /o 	--------------------------------------------
+[15:15:15.15] /o 	Custom Designer ........... : J-2014.12-2    
+[15:15:15.15] /o 	IC Validator .............. : K-2015.12   
+[15:15:15.15] /o 	StarRC..................... : K-2015.12  
+[15:15:15.15] /o 	--------------------------------------------
+[15:15:15.15] /o 	############################################
+[15:15:15.15] /o 
+[15:15:15.17] /o SAED PDK 90: Loaded callbacks
+[15:15:15.18] /o SAED PDK 90: Loaded display resources
+[15:15:15.18] /i ::sa::_backgroundSaeShell::signalProcessReady 1681164909
+[15:15:15.19] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 6
+[15:20:16.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:20:16.36] /i ::sa::_backgroundSaeShell::parentRunning
+[15:20:16.36] /o 1681165216
+[15:25:17.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:25:21.10] /i ::sa::_backgroundSaeShell::parentRunning
+[15:25:21.10] /o 1681165521
+[15:25:23.62] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:25:24.14] /m Information: Start incremental database creation...
+[15:25:24.21] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:25:24.70] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.0 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:25:24.70] /o false
+[15:25:42.87] /i ::wf::viewerExited
+[15:26:02.12] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:26:02.92] /m Information: Start incremental database creation...
+[15:26:03.61] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/mpang/simulation/lab1,NMOS2,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:26:03.61] /o false
+[15:27:52.30] /i ::sa::_backgroundSaeShell::exit
+[15:27:52.30] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

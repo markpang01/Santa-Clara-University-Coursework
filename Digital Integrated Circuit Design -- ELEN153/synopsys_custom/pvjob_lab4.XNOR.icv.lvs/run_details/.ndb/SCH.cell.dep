@@ -1,0 +1,3 @@
+CMOS_Working { }
+NMOS { }
+XNOR { CMOS_Working NMOS }

@@ -1,0 +1,446 @@
+[14:02:57.36] /r giWindowId 0
+[14:02:57.36] /r giWindowGeometry 600x300
+[14:02:57.37] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Apr 24 14:02:56 2023
+              /c Host: linux400512
+              /c Working directory: /DCNFS/users/student/mpang/ELEN153
+              /c 
+[14:03:00.27] /r giShowFrameTabs true
+[14:03:00.27] /r giWindowId 1
+[14:03:00.27] /r giWindowGeometry 1040x800
+[14:03:28.38] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:03:28.39] /# 
+[14:03:28.70] /i dm::showLibraryManager
+[14:03:28.70] /r giWindowId 2
+[14:03:28.70] /r giWindowGeometry 660x600+50+76
+[14:03:28.71] /o oa:0x1c96e390
+[14:03:30.81] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[14:03:30.82] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[14:03:31.97] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[14:03:32.00] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[14:03:35.92] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:03:35.93] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:04:21.51] /i gi::setItemSelection {cells} -index {} -in [gi::getWindows 2]
+[14:04:25.14] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[14:04:25.14] /i dm::showNewCellView -parent 2
+[14:04:25.15] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:04:25.45] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+655+334
+[14:04:40.10] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:04:40.84] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[14:04:42.61] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:04:42.61] /# gi::executeAction {dmShowNewCellView} -in [gi::getWindows 2]
+[14:04:42.61] /i dm::showNewCellView -parent 2
+[14:04:42.64] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:04:42.95] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x285+655+334
+[14:04:48.62] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:04:48.63] /# db::getAttr viewType -of [dm::findCellView layout -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] lab2]]]]
+[14:04:48.63] /# dm::createCellView layout -cell [dm::findCell inverter -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] lab2]]] -viewType maskLayout
+[14:04:48.65] /# de::open [dm::findCellView layout -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] lab2]]]] -application leLayout
+[14:04:48.68] /m Information: License 'MTM' checked out. (LICENSE-003)
+[14:04:48.72] /o 	############################################
+[14:04:48.72] /o 	        Synopsys Generic 90nm iPDK          
+[14:04:48.72] /o 	--------------------------------------------
+[14:04:48.72] /o 	Release Date .............. : 11-May-2016    
+[14:04:48.72] /o 	============================================
+[14:04:48.72] /o 	        Recommended Tool Versions           
+[14:04:48.72] /o 	--------------------------------------------
+[14:04:48.72] /o 	Custom Designer ........... : J-2014.12-2    
+[14:04:48.72] /o 	IC Validator .............. : K-2015.12   
+[14:04:48.72] /o 	StarRC..................... : K-2015.12  
+[14:04:48.72] /o 	--------------------------------------------
+[14:04:48.72] /o 	############################################
+[14:04:48.72] /o 
+[14:04:48.74] /o SAED PDK 90: Loaded callbacks
+[14:04:48.75] /o SAED PDK 90: Loaded display resources
+[14:04:48.83] /r giWindowId 3
+[14:04:48.83] /r giWindowGeometry 1632x926
+[14:05:38.15] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[14:05:38.15] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[14:05:39.22] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[14:05:39.22] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[14:05:53.46] /# gi::executeAction {leDRCToolbarToolbarToggle} -in [gi::getWindows 3]
+[14:05:53.46] /i db::setAttr shown -of [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]] -value false
+[14:06:00.39] /# gi::executeAction {leDRCToolbarToolbarToggle} -in [gi::getWindows 3]
+[14:06:00.39] /i db::setAttr shown -of [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]] -value true
+[14:06:21.22] /i db::setAttr shown -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value false
+[14:06:22.28] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[14:06:22.98] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[14:06:23.44] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[14:06:24.33] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[14:06:26.10] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[14:06:26.10] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[14:06:27.66] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[14:06:27.66] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[14:06:28.72] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[14:06:29.18] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[14:06:30.02] /i db::setAttr selectable -of [de::getObjectFilters leFigGroupMember -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[14:06:30.37] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value false
+[14:06:30.70] /i db::setAttr selectable -of [de::getObjectFilters lePartialObject -from [db::getAttr editDesign -of [de::getContexts -window [gi::getWindows 3]]]] -value true
+[14:06:32.22] /i gi::executeAction {deCrossShadow} -in [gi::getWindows 3]
+[14:06:40.68] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leAnnotation} -from [gi::getWindows 3]]
+[14:06:41.35] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leAnnotation} -from [gi::getWindows 3]]
+[14:06:41.73] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leAnnotation} -from [gi::getWindows 3]]
+[14:06:43.40] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]]
+[14:06:46.87] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]]
+[14:06:47.76] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leLayoutPVEToolbar} -from [gi::getWindows 3]]
+[14:06:48.46] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leLayoutPVEToolbar} -from [gi::getWindows 3]]
+[14:06:49.12] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leConstraintGroupToolbar} -from [gi::getWindows 3]]
+[14:06:49.67] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leConstraintGroupToolbar} -from [gi::getWindows 3]]
+[14:06:50.89] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leAnnotation} -from [gi::getWindows 3]]
+[14:06:54.47] /i gi::pressButton {qt_toolbar_ext_button} -in [gi::getToolbars {leAnnotation} -from [gi::getWindows 3]]
+[14:07:07.15] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[14:07:07.46] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x996+5+54
+[14:07:10.05] /i db::setPrefValue leDRDTool -value DRD
+[14:07:10.05] /o oa:0x20e383d0
+[14:07:12.53] /i gi::setField {drdMode} -value {Visual} -in [gi::getToolbars {leDRCToolbar} -from [gi::getWindows 3]]
+[14:07:35.53] /# gi::executeAction {leShowDRDOptions} -in [gi::getWindows 3]
+[14:07:35.53] /i le::showDRDOptions
+[14:07:35.55] /i gi::setActiveDialog [gi::getDialogs {leDRDOptions} -parent [gi::getWindows 3]]
+[14:07:35.85] /i db::setAttr geometry -of [gi::getDialogs {leDRDOptions} -parent [gi::getWindows 3]] -value 469x456+716+272
+[14:07:39.60] /i gi::pressButton {cancel} -in [gi::getDialogs {leDRDOptions} -parent [gi::getWindows 3]]
+[14:07:57.61] /# gi::executeAction {deShowGeneralOptions} -in [gi::getWindows 3]
+[14:07:57.61] /i de::showGeneralOptions
+[14:07:57.95] /i db::setAttr geometry -of [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]] -value 888x567+506+217
+[14:07:59.32] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:07:59.32] /# gi::setItemSelection {generalOptionsSelector} -index {} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:00.21] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout.Cursor} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:00.21] /# gi::setItemSelection {generalOptionsSelector} -index {Layout.Cursor} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:08.39] /# gi::setField {dynamicDisplay} -value {true} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:09.33] /# gi::setField {canvasDXDY} -value {true} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:17.34] /# gi::pressButton {ok} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:17.34] /# 
+[14:08:17.34] /i db::setPrefValue leMeasurement -value true
+[14:08:17.35] /i db::setPrefValue leDDCanvasDXDY -value true
+[14:08:23.86] /# gi::executeAction {deShowGeneralOptions} -in [gi::getWindows 3]
+[14:08:23.86] /i de::showGeneralOptions
+[14:08:24.29] /i db::setAttr geometry -of [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]] -value 888x567+505+187
+[14:08:34.34] /# gi::setCurrentIndex {generalOptionsSelector} -index {Schematic} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:34.34] /# gi::setItemSelection {generalOptionsSelector} -index {Schematic} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:42.58] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout.Display} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:42.59] /# gi::setItemSelection {generalOptionsSelector} -index {Layout.Display} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:50.56] /# gi::setCurrentIndex {generalOptionsSelector} -index {Interface} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:50.56] /# gi::setItemSelection {generalOptionsSelector} -index {Interface} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:51.90] /# gi::setCurrentIndex {generalOptionsSelector} -index {Commands} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:51.91] /# gi::setItemSelection {generalOptionsSelector} -index {Commands} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:53.22] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:53.22] /# gi::setItemSelection {generalOptionsSelector} -index {} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:54.17] /# gi::setCurrentIndex {generalOptionsSelector} -index {Commands} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:54.17] /# gi::setItemSelection {generalOptionsSelector} -index {Commands} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:54.74] /# gi::setCurrentIndex {generalOptionsSelector} -index {Layout} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:54.74] /# gi::setItemSelection {generalOptionsSelector} -index {} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:56.52] /# gi::pressButton {cancel} -in [gi::getDialogs {deGeneralOptions} -parent [gi::getWindows 3]]
+[14:08:56.52] /# 
+[14:08:58.53] /# gi::executeAction {leShowDesignOptions} -in [gi::getWindows 3]
+[14:08:58.53] /i le::showDesignOptions
+[14:08:58.55] /i gi::setActiveTab {tabWidget} -tabName {grids} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:08:58.55] /i gi::setActiveTab {tabWidget} -tabName {general} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:08:58.56] /i gi::setActiveDialog [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:08:58.85] /i db::setAttr geometry -of [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]] -value 655x777+633+140
+[14:09:05.08] /i gi::setActiveTab {tabWidget} -tabName {grids} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:09:08.01] /i gi::setField {gravity} -value {true} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:09:14.33] /i gi::setField {alignAssist} -value {Implicit} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:09:18.02] /i gi::pressButton {ok} -in [gi::getDialogs {deLayoutDesignOptions} -parent [gi::getWindows 3]]
+[14:09:43.53] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[14:09:43.53] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value true
+[14:09:44.18] /# gi::executeAction {deSelectionTableToggle} -in [gi::getWindows 3]
+[14:09:44.18] /i db::setAttr shown -of [gi::getAssistants deSelectionTable -from [gi::getWindows 3]] -value false
+[14:10:01.98] /# gi::executeAction {deSelectByPoint} -in [gi::getWindows 3]
+[14:10:01.98] /i ide::selectByRegion -region point -select true
+[14:10:03.92] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:10:03.92] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[14:10:48.32] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:11:13.06] /i de::setActiveLPP [de::getLPPs "DIFF drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[14:11:13.06] /i de::setActiveLPP [de::getLPPs "DIFF drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[14:11:22.05] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:11:32.72] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:11:32.73] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.158 0.188}
+[14:11:32.79] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:11:32.79] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.158 0.188}
+[14:11:33.16] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:11:33.17] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.158 0.188}
+[14:11:33.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:11:33.24] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.158 0.187}
+[14:11:50.44] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:12:05.70] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:12:05.70] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.796 0.191}
+[14:12:18.62] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:12:18.93] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 3]
+[14:12:21.80] /w Warning: Nothing is bound to the 'Button2-DragStart' in the current active set. (WINDOW-015)
+[14:12:22.28] /w Warning: Nothing is bound to the 'Button2-DragEnd' in the current active set. (WINDOW-015)
+[14:12:22.60] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:12:22.60] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.165 0.221}
+[14:12:22.68] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:12:22.68] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.168 0.224}
+[14:12:23.37] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:12:23.37] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.166 0.217}
+[14:12:26.12] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:12:26.12] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.323 0.109}
+[14:12:26.72] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:12:26.72] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.32 0.109}
+[14:12:29.89] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:12:29.89] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.063 0.08}
+[14:12:30.74] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:12:30.74] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.039 0.019}
+[14:12:32.30] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:12:32.30] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.034 0.049}
+[14:12:32.99] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:12:32.99] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.036 0.008}
+[14:12:35.37] /# gi::executeAction {deSelectByWindow} -in [gi::getWindows 3]
+[14:12:35.37] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {0.025 0.05} 
+[14:12:36.41] /i gi::executeAction {leFocusCanvasToolbar} -in [gi::getWindows 3]
+[14:12:37.68] /i gi::executeAction {leFocusCanvasToolbar} -in [gi::getWindows 3]
+[14:12:38.20] /i gi::executeAction {leFocusCanvasToolbar} -in [gi::getWindows 3]
+[14:12:40.21] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:12:42.32] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:12:59.44] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:12:59.76] /# gi::executeAction {deCanvasDragEnd} -in [gi::getWindows 3]
+[14:13:02.12] /# gi::executeAction {dePan} -in [gi::getWindows 3]
+[14:13:02.12] /i ide::pan [db::getNext [de::getContexts -window 3]]
+[14:13:02.57] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:13:02.57] /i de::startDrag {0.036 0.068} -context [db::getNext [de::getContexts -window 3]]
+[14:13:04.81] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:13:04.81] /i de::endDrag {0.036 0.068} -context [db::getNext [de::getContexts -window 3]]
+[14:13:04.81] /r dePanToPoint {0.098 0.053}
+[14:13:06.22] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:13:07.30] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:13:18.77] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:13:18.78] /i le::createRectangle {{0.025 0.005} {0.095 0.1}} -design [ed] -lpp {DIFF drawing} 
+[14:13:19.60] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:13:19.60] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.074 0.039}
+[14:13:19.65] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:13:19.65] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.073 0.039}
+[14:13:20.13] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:13:20.13] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.073 0.039}
+[14:13:20.22] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:13:20.22] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.073 0.039}
+[14:13:21.98] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:13:22.58] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:13:23.21] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:13:23.21] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.062 0.098}
+[14:13:23.68] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:13:23.68] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.067 0.086}
+[14:13:24.05] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:13:24.05] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.065 0.084}
+[14:13:25.62] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:13:26.00] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:13:28.36] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:13:29.02] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:13:29.02] /i le::createRectangle {{0.06 0.1} {0.08 0.11}} -design [ed] -lpp {DIFF drawing} 
+[14:13:30.83] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:13:30.83] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:13:31.12] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:13:31.12] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:13:37.11] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:13:37.75] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:13:37.75] /i le::createRectangle {{0.06 0.11} {0.07 0.12}} -design [ed] -lpp {DIFF drawing} 
+[14:13:38.49] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:13:39.20] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:13:39.20] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:13:40.41] /# gi::executeAction {dePan} -in [gi::getWindows 3]
+[14:13:40.41] /i ide::pan [db::getNext [de::getContexts -window 3]]
+[14:13:41.16] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:13:41.16] /i de::startDrag {0.099 0.132} -context [db::getNext [de::getContexts -window 3]]
+[14:13:42.49] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:13:42.49] /i de::endDrag {0.099 0.132} -context [db::getNext [de::getContexts -window 3]]
+[14:13:42.49] /r dePanToPoint {0.153 0.073}
+[14:13:43.56] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:13:47.66] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:14:03.46] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:14:03.46] /i le::createRectangle {{0.025 0.045} {0.095 0.165}} -design [ed] -lpp {DIFF drawing} 
+[14:14:16.62] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:14:16.97] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:14:18.48] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:14:31.97] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[14:14:31.97] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {0.026 0.165} -index 0 -intent none] 3
+[14:14:31.98] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {0.025 0.165} 
+[14:14:34.62] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:14:34.62] /i de::endDrag {0.114 0.046} -context [db::getNext [de::getContexts -window 3]]
+[14:14:37.19] /# gi::executeAction {deSelectActive} -in [gi::getWindows 3]
+[14:14:37.19] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[14:14:37.19] /o oa:0x22568a20
+[14:14:39.09] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[14:14:39.09] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {0.063 0.107} -index 0 -intent none] 3
+[14:14:39.10] /i ile::stretch -point {0.065 0.105}
+[14:14:42.34] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:14:42.34] /i de::endDrag {0.025 0.058} -context [db::getNext [de::getContexts -window 3]]
+[14:14:44.86] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:14:44.86] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.143 0.085}
+[14:14:44.96] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:14:44.96] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.143 0.085}
+[14:14:45.26] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:14:45.26] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.142 0.083}
+[14:14:45.29] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:14:45.29] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.142 0.084}
+[14:14:45.32] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:14:45.32] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.141 0.083}
+[14:14:45.36] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:14:45.36] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.136 0.08}
+[14:14:46.23] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:14:46.24] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.165 0.075}
+[14:14:46.91] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:14:46.91] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.063 0.045}
+[14:14:49.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:14:49.19] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.132 0.055}
+[14:14:49.63] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:14:49.63] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.132 0.055}
+[14:14:54.51] /# gi::executeAction {leStartStretchDrag} -in [gi::getWindows 3]
+[14:14:54.51] /i layout_editor::directStretch [de::getActiveFigure [gi::getWindows 3] -point {0.054 0.059} -index 0 -intent none] 3
+[14:14:54.51] /i ile::stretch -point {0.055 0.06}
+[14:14:55.62] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:14:55.62] /i de::endDrag {0.031 0.058} -context [db::getNext [de::getContexts -window 3]]
+[14:15:29.86] /i de::setActiveLPP [de::getLPPs "PO drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[14:15:29.86] /i de::setActiveLPP [de::getLPPs "PO drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[14:15:36.45] /# gi::executeAction {leInterconnect} -in [gi::getWindows 3]
+[14:15:36.45] /i ile::createInterconnect
+[14:16:11.39] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:16:11.39] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:16:11.55] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:16:11.55] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:16:11.72] /# gi::executeAction {deUndo} -in [gi::getWindows 3]
+[14:16:11.72] /i de::undoTransaction -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 3]]]
+[14:16:11.88] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[14:16:12.20] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[14:16:12.40] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[14:16:12.57] /e Error: Cannot execute 'u' binding because target action deUndo is disabled. (WINDOW-118)
+[14:16:13.07] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:16:13.07] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.163 0.085}
+[14:16:13.19] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:16:13.19] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.164 0.085}
+[14:16:13.49] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:13.49] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.164 0.085}
+[14:16:13.52] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:13.52] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.164 0.085}
+[14:16:13.57] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:13.57] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.164 0.085}
+[14:16:15.34] /# gi::executeAction {dePan} -in [gi::getWindows 3]
+[14:16:15.34] /i ide::pan [db::getNext [de::getContexts -window 3]]
+[14:16:15.82] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:16:15.82] /i de::startDrag {0.087 0.199} -context [db::getNext [de::getContexts -window 3]]
+[14:16:18.52] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:16:18.52] /i de::endDrag {0.086 0.199} -context [db::getNext [de::getContexts -window 3]]
+[14:16:18.52] /r dePanToPoint {0.388 0.152}
+[14:16:20.60] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:16:36.20] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:36.20] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.147 0.257}
+[14:16:36.61] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:36.61] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.148 0.256}
+[14:16:38.79] /# gi::executeAction {dePan} -in [gi::getWindows 3]
+[14:16:38.79] /i ide::pan [db::getNext [de::getContexts -window 3]]
+[14:16:39.77] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:16:39.77] /i de::startDrag {0.321 0.554} -context [db::getNext [de::getContexts -window 3]]
+[14:16:41.15] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:16:41.15] /i de::endDrag {0.321 0.556} -context [db::getNext [de::getContexts -window 3]]
+[14:16:41.15] /r dePanToPoint {1.466 0.494}
+[14:16:43.07] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:43.07] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.489 1.164}
+[14:16:43.11] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:43.11] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.489 1.164}
+[14:16:43.90] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:16:43.90] /i de::startDrag {1.833 0.908} -context [db::getNext [de::getContexts -window 3]]
+[14:16:44.45] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:16:44.45] /i de::endDrag {1.841 0.908} -context [db::getNext [de::getContexts -window 3]]
+[14:16:44.45] /r dePanToPoint {4.589 1.876}
+[14:16:45.97] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:45.97] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.889 4.364}
+[14:16:46.77] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:16:46.77] /i de::startDrag {3.697 3.74} -context [db::getNext [de::getContexts -window 3]]
+[14:16:47.32] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:16:47.32] /i de::endDrag {3.681 3.74} -context [db::getNext [de::getContexts -window 3]]
+[14:16:47.33] /r dePanToPoint {9.273 2.364}
+[14:16:57.09] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:57.09] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.601 2.444}
+[14:16:59.14] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:59.14] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.377 7.084}
+[14:16:59.77] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:16:59.77] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.889 5.164}
+[14:17:00.51] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:17:00.51] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {7.265 8.364}
+[14:17:00.89] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:17:00.89] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {7.265 8.428}
+[14:17:00.97] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:17:00.97] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {7.265 8.428}
+[14:17:03.51] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:17:03.51] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.881 4.412}
+[14:17:05.76] /# gi::executeAction {dePan} -in [gi::getWindows 3]
+[14:17:05.76] /i ide::pan [db::getNext [de::getContexts -window 3]]
+[14:17:06.10] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:17:06.10] /i de::startDrag {1.769 5.54} -context [db::getNext [de::getContexts -window 3]]
+[14:17:06.76] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:17:06.76] /i de::endDrag {1.761 5.548} -context [db::getNext [de::getContexts -window 3]]
+[14:17:06.76] /r dePanToPoint {5.405 1.788}
+[14:17:07.55] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:17:07.55] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.209 1.564}
+[14:17:08.24] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:17:08.24] /i de::startDrag {0.985 1.336} -context [db::getNext [de::getContexts -window 3]]
+[14:17:08.86] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:17:08.86] /i de::endDrag {0.985 1.332} -context [db::getNext [de::getContexts -window 3]]
+[14:17:08.86] /r dePanToPoint {3.335 0.872}
+[14:17:10.54] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:17:10.54] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.689 0.816}
+[14:17:10.56] /# gi::executeAction {deCanvasZoomInAtPoint} -in [gi::getWindows 3]
+[14:17:10.56] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {0.689 0.816}
+[14:17:11.15] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:17:11.15] /i de::startDrag {0.655 0.806} -context [db::getNext [de::getContexts -window 3]]
+[14:17:12.31] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:17:12.31] /i de::endDrag {0.655 0.807} -context [db::getNext [de::getContexts -window 3]]
+[14:17:12.31] /r dePanToPoint {0.73 0.414}
+[14:17:12.72] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:17:12.72] /i de::startDrag {0.398 0.369} -context [db::getNext [de::getContexts -window 3]]
+[14:17:13.40] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:17:13.40] /i de::endDrag {0.397 0.369} -context [db::getNext [de::getContexts -window 3]]
+[14:17:13.40] /r dePanToPoint {0.815 0.292}
+[14:17:15.24] /# gi::executeAction {deCanvasZoomOutAtPoint} -in [gi::getWindows 3]
+[14:17:15.24] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {0.006 0.659}
+[14:17:16.42] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:17:16.42] /i de::startDrag {0.164 0.651} -context [db::getNext [de::getContexts -window 3]]
+[14:17:17.44] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:17:17.44] /i de::endDrag {0.16 0.651} -context [db::getNext [de::getContexts -window 3]]
+[14:17:17.44] /r dePanToPoint {1.581 0.547}
+[14:17:36.28] /i de::setActiveLPP [de::getLPPs "DIFF drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[14:17:36.28] /i de::setActiveLPP [de::getLPPs "DIFF drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[14:17:37.41] /# gi::executeAction {leRectangle} -in [gi::getWindows 3]
+[14:17:41.22] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:17:48.00] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:17:48.00] /i le::createRectangle {{0 0} {0.7 1.2}} -design [ed] -lpp {DIFF drawing} 
+[14:17:51.64] /# gi::executeAction {deAddPoint} -in [gi::getWindows 3]
+[14:17:53.23] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 3]
+[14:17:54.88] /# gi::executeAction {dePan} -in [gi::getWindows 3]
+[14:17:54.88] /i ide::pan [db::getNext [de::getContexts -window 3]]
+[14:17:55.55] /# gi::executeAction {deStartDrag} -in [gi::getWindows 3]
+[14:17:55.55] /i de::startDrag {0.206 1.241} -context [db::getNext [de::getContexts -window 3]]
+[14:17:56.16] /# gi::executeAction {deEndDrag} -in [gi::getWindows 3]
+[14:17:56.16] /i de::endDrag {0.208 1.241} -context [db::getNext [de::getContexts -window 3]]
+[14:17:56.16] /r dePanToPoint {1.343 0.629}
+[14:45:18.03] /o Information: Received "Terminate" signal. Sending  PID: 1 Username: "root" Process name: "/usr/lib/systemd/systemd". Process is terminated.
+              /c signal number = 15
+[[14:45:18.04] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)Stack Dump:
+14:45:18.06] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)              /c [ VERSION 14:45P-2019.06-SP1-7:[14:45 CONFIG :18.185329942.08] DATE  /e Error: 
+07] /e Error: The application was unexpectedly terminated.
+              /c [14Mon Apr 24 14:02:56 2023:45
+:18.11] /e Error: See the session log file for recovery details.[14:45:18.11] /e Error: The application was unexpectedly terminated.
+ (SHUT_DOWN-001)
+              /c See the session log file for recovery details.Frame 0 (SHUT_DOWN-001)
+              /c . 0x2245420 SNPSee_d76529b73998e72696e85138d8f657730168ac449b5939adfac5674c231daf924a8baa48c143781e + 0x0
+              /c Frame 1. /lib64/libc.so.6[[1414::4545::1818..6666]] /m  /m Information: Recovery copies have been created for the following cellViews: ::c3310fc400
+              /c               /c  + lab2/inverter/layout
+0x40
+              /c Frame 2. libc.so.6: __poll + 0x24
+              /c Frame 3. custom_compiler: poll + 0x61
+              /c Frame 4. /lib64/libglib-2.0.so.0 ::c3390333fc + 0x43c
+              /c Frame 5. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+              /c Frame 6. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x6a
+              /c Frame 7. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0xea
+              /c Frame 8. QThread::exec() + 0x8c
+              /c Frame 9. QThread::setTerminationEnabled(bool) + 0x369

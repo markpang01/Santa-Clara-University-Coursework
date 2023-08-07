@@ -1,0 +1,35 @@
+arrayName {default_HSPICE}
+arraySize {-1}
+cmdLine { /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/netlist/runSimulation  > /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/run.log 2>&1}
+creationTime {1682980707}
+data {resultsDir /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results masterResultsDir /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results session saeSession0 testbench default simulator HSPICE}
+dataReadyProc {}
+deferred {0}
+exitProc {sa::simulationDone}
+exitStatus {0}
+exitTime {1682980707}
+files {/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/hspice.lis /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/hspice.valog /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/run.log /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/hspice.st0}
+gridOptions {}
+group {oa:0x2147ef70}
+host {localhost}
+inFd {}
+isCalling {0}
+isLocallyQueued {0}
+isQueued {0}
+isTerminating {0}
+jobClass {oa:0x2147ef70}
+jobType {batch}
+menuProc {sa::_utils::populateSimJobCSM}
+name {HSPICE_7}
+outFd {}
+procId {15674}
+queueEngine {}
+queueIdentifier {}
+readOnlyFiles {}
+ready {0}
+readyProc {}
+remoteSubmit {0}
+runDesc {HSPICE simulation:  /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/netlist/runSimulation  > /DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/run.log 2>&1}
+startTime {1682980707}
+status {FINISHED}
+submitHost {}

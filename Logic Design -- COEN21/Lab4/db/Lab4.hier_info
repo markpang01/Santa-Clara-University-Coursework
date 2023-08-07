@@ -1,0 +1,126 @@
+|Lab4
+HEX[0] <= SEG[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= SEG[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= SEG[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= SEG[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= SEG[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= SEG[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= SEG[6].DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => s0_f0:inst11.b0
+SW[0] => s0_f1:inst9.b0
+SW[0] => s2_f0:inst4.b0
+SW[0] => s2_f1:inst5.b0
+SW[0] => s1_f0:inst2.b0
+SW[0] => s1_f1:inst3.b0
+SW[1] => s0_f0:inst11.b1
+SW[1] => s0_f1:inst9.b1
+SW[1] => s2_f0:inst4.b1
+SW[1] => s2_f1:inst5.b1
+SW[1] => s1_f0:inst2.b1
+SW[1] => s1_f1:inst3.b1
+SW[2] => s0_f0:inst11.a0
+SW[2] => s0_f1:inst9.a0
+SW[2] => s2_f0:inst4.a0
+SW[2] => s2_f1:inst5.a0
+SW[2] => s1_f0:inst2.a0
+SW[2] => s1_f1:inst3.a0
+SW[3] => mux_2_to_1:inst10.s
+SW[3] => mux_2_to_1:inst6.s
+SW[3] => mux_2_to_1:inst.s
+LEDR[0] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|bin_7seg:inst1
+BI_DIGIT[0] => Decoder0.IN3
+BI_DIGIT[1] => Decoder0.IN2
+BI_DIGIT[2] => Decoder0.IN1
+BI_DIGIT[3] => Decoder0.IN0
+SEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|mux_2_to_1:inst10
+x1 => f.IN0
+x2 => f.IN0
+s => f.IN1
+s => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|s0_f0:inst11
+a0 => s0.IN0
+a0 => s0.IN0
+b1 => ~NO_FANOUT~
+b0 => s0.IN1
+b0 => s0.IN1
+s0 <= s0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|s0_f1:inst9
+a0 => s0.IN0
+a0 => s0.IN0
+b1 => ~NO_FANOUT~
+b0 => s0.IN1
+b0 => s0.IN1
+s0 <= s0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|mux_2_to_1:inst6
+x1 => f.IN0
+x2 => f.IN0
+s => f.IN1
+s => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|s2_f0:inst4
+a0 => s2.IN0
+b1 => s2.IN1
+b0 => s2.IN1
+s2 <= s2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|s2_f1:inst5
+a0 => s2.IN0
+b1 => s2.IN1
+b0 => s2.IN1
+s2 <= s2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|mux_2_to_1:inst
+x1 => f.IN0
+x2 => f.IN0
+s => f.IN1
+s => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|s1_f0:inst2
+a0 => s1.IN0
+a0 => s1.IN0
+b1 => s1.IN0
+b1 => s1.IN1
+b1 => s1.IN1
+b0 => s1.IN1
+b0 => s1.IN1
+s1 <= s1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab4|s1_f1:inst3
+a0 => s1.IN0
+a0 => s1.IN0
+b1 => s1.IN1
+b1 => s1.IN0
+b1 => s1.IN1
+b0 => s1.IN1
+b0 => s1.IN1
+s1 <= s1.DB_MAX_OUTPUT_PORT_TYPE
+
+

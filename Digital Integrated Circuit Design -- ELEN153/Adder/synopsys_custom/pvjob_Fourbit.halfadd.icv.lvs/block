@@ -1,0 +1,18 @@
+* XREF SPICE	Mon Jun  5 15:18:26 2023	halfadd
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=halfadd
+.subckt halfadd Y X vdd! gnd! S C
+M_XI0/MM5 C XI0/net24 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM0 XI0/net7 X gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM1 XI0/net24 Y XI0/net7 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/MM5 S XI1/net2 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/MM1 Y X XI1/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/MM0 X Y XI1/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM4 C XI0/net24 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI0/MM3 XI0/net24 X vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI0/MM2 XI0/net24 Y vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI1/MM2 XI1/net1 X vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI1/MM3 XI1/net2 Y XI1/net1 vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI1/MM4 S XI1/net2 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends halfadd

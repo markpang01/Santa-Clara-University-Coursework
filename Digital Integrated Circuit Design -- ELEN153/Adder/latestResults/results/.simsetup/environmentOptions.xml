@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May 22 15:35:04 2023-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="environmentOptions" type="saEnvironmentOptions">
+  <attribute name="caseSensitive" type="giBoolean" value="0"/>
+  <attribute name="commandLineOptions" type="giString" value=""/>
+  <attribute name="enableMultiThreading" type="giBoolean" value="0"/>
+  <attribute name="hpp" type="giBoolean" value="0"/>
+  <attribute name="ignoreParasitics" type="giBoolean" value="0"/>
+  <attribute name="includePath" type="giString" value=""/>
+  <attribute name="netlistLanguage" type="giString" value="HSPICE"/>
+  <attribute name="numThreads" type="giInt" value="1"/>
+  <attribute name="outputDataFormat" type="giString" value="wdf"/>
+  <attribute name="stopViewList" type="giString" value="hspice hspiceD"/>
+  <attribute name="switchViewList" type="giString" value="hspice hspiceD schematic spice veriloga"/>
+  <attribute name="use64Bit" type="giBoolean" value="1"/>
+ </object>
+</file-format>

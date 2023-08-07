@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="-sf SPICE" name="xtLVSICVOptions"/>
+                <pref value="fulladd" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/fulladd.net" name="xtLVSLayInputNetlist"/>
+                <pref value="Fourbit/fulladd/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/fulladd.custom_compiler.oas" name="xtLVSLayOasisFile"/>
+                <pref value="/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/fulladd.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="fulladd" name="xtLVSSchCell"/>
+                <pref value="/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/fulladd.custom_compiler.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="Fourbit/fulladd/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.lvs/fulladd.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

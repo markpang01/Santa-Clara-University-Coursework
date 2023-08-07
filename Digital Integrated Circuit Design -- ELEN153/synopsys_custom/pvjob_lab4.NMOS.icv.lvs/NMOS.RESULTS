@@ -1,0 +1,152 @@
+                         LVS Compare Results: PASS
+
+                          ####   ###    ####   ####
+                         #   #  #   #  #      #
+                         ####   #####  #####  #####
+                         #      #   #      #      #
+                         #      #   #  ####   #### 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                     DRC and Extraction Results: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i lab4 -c NMOS -oa_view layout -oa_lib_defs /DCNFS/users/student/mpang/ELEN153/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/NMOS.lvs.custom_compiler.rc -s /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/NMOS.custom_compiler.sp -sf SPICE -stc NMOS -sf SPICE -vue /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        mpang
+Layout format:    OPENACCESS
+Input file name:  lab4
+Top cell name:    NMOS
+Time started:     2023/05/08 04:34:53PM
+Time ended:       2023/05/08 04:35:12PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Compare Error Summary
+Refer to NMOS.LVS_ERRORS.
+
+LVS Compare Result: PASS
+TOP equivalence point:
+		[NMOS, NMOS]
+
+    1 Successful equivalence points
+    0 Failed equivalence points
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Device Extraction Error Summary
+
+7 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to NMOS.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 54
+ Empty Utilized Assign Layers = 44
+ Non-Empty Utilized Assign Layers = 10
+Pruned Assign Layers = 39
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/mpang"
+ICV_HOME_DIR = "/DCNFS/applications/synopsys/2019/app/icvalidator/Q-2019.12-SP1-1"
+LM_LICENSE_FILE = "27000@license2.engr.scu.edu"
+PATH = "/DCNFS/applications/synopsys/2019/app/icvalidator/Q-2019.12-SP1-1/bin/LINUX64_L31el:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/plat_linux_gcc62_64/3rd/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/plat_linux_gcc62_64/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/OA/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/plat_linux_gcc62_64/3rd/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/plat_linux_gcc62_64/bin:/DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/PyCellStudio/bin:/opt/synopsys-2019/app/syn/Q-2019.12-SP1/bin:/opt/synopsys-2019/app/txs/Q-2019.12-SP1/bin:/opt/synopsys-2019/app/customcompiler/P-2019.06-SP1-7/bin:/opt/synopsys-2019/app/finesim/P-2019.06-SP2-4/bin:/opt/synopsys-2019/app/hspice/P-2019.06-SP2-3/hspice/bin:/opt/synopsys-2019/app/icc/Q-2019.12-SP1/bin:/opt/synopsys-2019/app/icvalidator/Q-2019.12-SP1-1/bin:/opt/synopsys-2019/app/idq/Q-2019.12-SP1/bin:/opt/synopsys-2019/app/starrc/Q-2019.12-SP1-1/bin:/opt/synopsys-2019/app/vcs/P-2019.06-SP2-1/bin:/opt/synopsys-2019/app/wv/P-2019.06-SP2/bin:/opt/synopsys-2019/app/xa/P-2019.06-SP5/bin:/opt/synopsys-2019/app/sentaurus/Q_2019.12-SP1a/bin:/opt/synopsys-2019/app/sentaurus/Q_2019.12-SP1a/tcad/Q-2019.12-SP1a/linux64/bin:/usr/lib64/qt-3.3/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin"
+USER = "mpang"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+0 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ linux400512.dc.engr.scu.edu (2/16)
+   Commands: 2 in parallel, maximum
+   Model: 11th Gen Intel(R) Core(TM) i9-11900 @ 2.50GHz
+   CPU:   16 cpu 4201 MHz
+   Cores: 8 HT
+   RAM:   62.648 GB
+   Swap:  1.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:19
+Peak Single Command Memory = 0.198 GB
+Peak Disk Usage = 0.010 GB
+
+Distributed Host Memory Usage
+ linux400512.dc.engr.scu.edu (2/16)  ....  Average=0.274 GB, Peak=0.431 GB / 62.648 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

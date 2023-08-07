@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Jun  5 17:03:04 2023
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="rippleadd" file="maskLayout" mode="write" library="Fourbit" view="layout"/>
+                <file cell="halfadd" file="maskLayout" mode="write" library="Fourbit" view="layout"/>
+                <file cell="rippleadd" file="schematic" mode="write" library="Fourbit" view="schematic"/>
+                <file cell="testbenchschematic" file="schematic" mode="write" library="Fourbit" view="schematic"/>
+                <file cell="fulladd" file="schematic" mode="write" library="Fourbit" view="schematic"/>
+        </recentFiles>
+</synopsysFile>

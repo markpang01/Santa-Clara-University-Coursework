@@ -1,0 +1,37 @@
+<module name="vsl: Fourbit rippleadd schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="XI4" src="I4"/>
+<mapping dst="XI5" src="I5"/>
+<mapping dst="XI6" src="I6"/>
+<mapping dst="XI7" src="I7"/>
+</forward>
+<reverse>
+<mapping dst="I4" src="XI4"/>
+<mapping dst="I5" src="XI5"/>
+<mapping dst="I6" src="XI6"/>
+<mapping dst="I7" src="XI7"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3" src="&lt;unmappedTermOrder>"/>
+<mapping dst="A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="fulladd">
+<instance name="I4"/>
+<instance name="I5"/>
+<instance name="I6"/>
+<instance name="I7"/>
+</instance_header>
+</master_instances>
+</module>

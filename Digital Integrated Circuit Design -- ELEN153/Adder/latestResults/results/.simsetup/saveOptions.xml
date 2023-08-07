@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May 22 15:35:04 2023-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="saveOptions" type="saSaveOptions">
+  <attribute name="allAnalogTC" type="giBoolean" value="0"/>
+  <attribute name="emTStart" type="giString" value=""/>
+  <attribute name="emTStop" type="giString" value=""/>
+  <attribute name="enableEM" type="giBoolean" value="0"/>
+  <attribute name="enableVDRC" type="giBoolean" value="0"/>
+  <attribute name="postLevel" type="giString" value=""/>
+  <attribute name="postTop" type="giInt" value="1"/>
+  <attribute name="power" type="giBoolean" value="0"/>
+  <attribute name="save" type="giString" value="level"/>
+  <attribute name="subcktCurrent" type="giBoolean" value="0"/>
+  <attribute name="totalPower" type="giBoolean" value="0"/>
+  <attribute name="vdrcTStart" type="giString" value=""/>
+  <attribute name="vdrcTStop" type="giString" value=""/>
+ </object>
+</file-format>

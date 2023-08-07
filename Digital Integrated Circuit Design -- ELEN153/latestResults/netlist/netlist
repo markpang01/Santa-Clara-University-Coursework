@@ -1,0 +1,60 @@
+*Custom Compiler Version P-2019.06-SP1-7
+*Mon May  1 15:38:25 2023
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : lab4
+* Cell             : NMOS
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt nmos a abar b bbar output
+m3 net13 b gnd! gnd! n12 w=0.8u l=0.1u nf=1.0 m=1
+m2 net9 a gnd! gnd! n12 w=0.8u l=0.1u nf=1.0 m=1
+m1 output bbar net9 gnd! n12 w=0.8u l=0.1u nf=1.0 m=1
+m0 output abar net13 gnd! n12 w=0.8u l=0.1u nf=1.0 m=1
+m7 net31 bbar vdd! vdd! p12 w=2.4u l=0.1u nf=1.0 m=1
+m6 net31 a vdd! vdd! p12 w=2.4u l=0.1u nf=1.0 m=1
+m5 output b net31 vdd! p12 w=2.4u l=0.1u nf=1.0 m=1
+m4 output abar net31 vdd! p12 w=2.4u l=0.1u nf=1.0 m=1
+.ends nmos
+
+********************************************************************************
+* Library          : lab2
+* Cell             : inverter
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inverter vin vout
+m1 vout vin gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m0 vout vin vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+.ends inverter
+
+********************************************************************************
+* Library          : lab4
+* Cell             : XNOR
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt xnor a b output
+xi0 a net6 b net8 output nmos
+xi2 b net8 inverter
+xi1 a net6 inverter
+.ends xnor
+
+********************************************************************************
+* Library          : lab4
+* Cell             : XNOR2
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net6 net4 output xnor
+v2 net6 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b0011 )
+v1 net4 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b0101 )
+v4 vdd! gnd! dc=1.2
+c5 output gnd! c=2p
+

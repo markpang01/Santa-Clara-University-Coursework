@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May 22 15:35:04 2023-->
+<file-format version="1.0" name="stateData">
+ <attribute name="description" type="giString" value=""/>
+ <attribute name="design" type="dmCellView" value="Fourbit/testbenchschematic/schematic"/>
+ <attribute name="enabled" type="giBoolean" value="1"/>
+ <attribute name="name" type="giString" value="default"/>
+ <attribute name="openaccessState" type="dmCellView" value="//"/>
+ <attribute name="simulator" type="giString" value="HSPICE"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>

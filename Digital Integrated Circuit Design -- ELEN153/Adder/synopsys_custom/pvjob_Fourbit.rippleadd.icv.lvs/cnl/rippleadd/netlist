@@ -1,0 +1,16 @@
+********************************************************************************
+* Library          : Fourbit
+* Cell             : rippleadd
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt rippleadd A0 A1 A2 A3 B0 B1 B2 B3 Cin Cout S0 S1 S2 S3
+*.PININFO A0:I A1:I A2:I A3:I B0:I B1:I B2:I B3:I Cin:I Cout:O S0:O S1:O S2:O
+*.PININFO S3:O
+XI7 A3 B3 net40 Cout S3 fulladd
+XI6 A2 B2 net35 net40 S2 fulladd
+XI5 A1 B1 net30 net35 S1 fulladd
+XI4 A0 B0 Cin net30 S0 fulladd
+.ends rippleadd
+

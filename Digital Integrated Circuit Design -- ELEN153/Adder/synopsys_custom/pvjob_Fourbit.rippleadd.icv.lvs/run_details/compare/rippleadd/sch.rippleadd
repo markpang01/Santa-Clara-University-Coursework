@@ -1,0 +1,248 @@
+{NETLIST rippleadd
+{VERSION 2 0 0}
+
+{CELL rippleadd
+    {PORT A2 A3 B0 B1 vdd! gnd! B2 S0 B3 
+      S1 S2 A0 Cout S3 A1 Cin }
+    {INST XI4/XI1/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN Cin=DRN XI4/net7=GATE XI4/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI4/XI1/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/net7=DRN Cin=GATE XI4/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI4/XI1/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI1/XI1/net2=DRN Cin=GATE XI4/XI1/XI1/net1=SRC vdd!=BULK }}
+    {INST XI4/XI1/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/XI1/XI0/net7=DRN XI4/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI1/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI1/XI0/net24=DRN XI4/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI1/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN S0=DRN XI4/XI1/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI1/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN S0=DRN XI4/XI1/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI1/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI1/XI0/net24=DRN Cin=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI0/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/net7=DRN XI4/XI0/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI0/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/net7=DRN XI4/XI0/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI1/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/XI1/XI0/net24=DRN Cin=GATE XI4/XI1/XI0/net7=SRC gnd!=BULK }}
+    {INST XI4/XI1/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI1/XI1/net1=DRN XI4/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI1/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/net11=DRN XI4/XI1/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI0/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI0/XI1/net2=DRN B0=GATE XI4/XI0/XI1/net1=SRC vdd!=BULK }}
+    {INST XI4/XI1/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/net11=DRN XI4/XI1/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI2/MM1=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/XI2/net16=DRN XI4/net11=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI0/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI0/XI0/net24=DRN B0=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI0/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN A0=DRN B0=GATE XI4/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI4/XI0/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN B0=DRN A0=GATE XI4/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI4/XI0/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI0/XI1/net1=DRN A0=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI2/MM2=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI2/net16=DRN XI4/net11=GATE XI4/XI2/net23=SRC vdd!=BULK }}
+    {INST XI4/XI0/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/XI0/XI0/net24=DRN B0=GATE XI4/XI0/XI0/net7=SRC gnd!=BULK }}
+    {INST XI4/XI2/MM3=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI2/net23=DRN XI4/net10=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI2/MM0=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/XI2/net16=DRN XI4/net10=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI0/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/XI0/XI0/net24=DRN A0=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI0/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/net10=DRN XI4/XI0/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI0/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI4/net10=DRN XI4/XI0/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI2/MM5=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN net30=DRN XI4/XI2/net16=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/XI2/MM4=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN net30=DRN XI4/XI2/net16=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/XI0/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI4/XI0/XI0/net7=DRN A0=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI1/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI1/XI0/net24=DRN net30=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI1/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI1/XI1/net2=DRN net30=GATE XI5/XI1/XI1/net1=SRC vdd!=BULK }}
+    {INST XI5/XI1/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/net7=DRN net30=GATE XI5/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI5/XI1/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN net30=DRN XI5/net7=GATE XI5/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI5/XI1/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/XI1/XI0/net24=DRN net30=GATE XI5/XI1/XI0/net7=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/net7=DRN XI5/XI0/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/net7=DRN XI5/XI0/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI1/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/XI1/XI0/net7=DRN XI5/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI1/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI1/XI0/net24=DRN XI5/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI1/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN S1=DRN XI5/XI1/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI1/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN S1=DRN XI5/XI1/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI1/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/net11=DRN XI5/XI1/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI1/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/net11=DRN XI5/XI1/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI1/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI1/XI1/net1=DRN XI5/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI2/MM1=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/XI2/net16=DRN XI5/net11=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI0/XI1/net2=DRN B1=GATE XI5/XI0/XI1/net1=SRC vdd!=BULK }}
+    {INST XI5/XI2/MM2=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI2/net16=DRN XI5/net11=GATE XI5/XI2/net23=SRC vdd!=BULK }}
+    {INST XI5/XI2/MM3=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI2/net23=DRN XI5/net10=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI2/MM5=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN net35=DRN XI5/XI2/net16=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI2/MM4=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN net35=DRN XI5/XI2/net16=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI0/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN A1=DRN B1=GATE XI5/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN B1=DRN A1=GATE XI5/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI5/XI2/MM0=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/XI2/net16=DRN XI5/net10=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI0/XI1/net1=DRN A1=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI0/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI0/XI0/net24=DRN B1=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/XI0/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/XI0/XI0/net24=DRN B1=GATE XI5/XI0/XI0/net7=SRC gnd!=BULK }}
+    {INST XI6/XI1/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/net7=DRN net35=GATE XI6/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI6/XI1/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN net35=DRN XI6/net7=GATE XI6/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/net10=DRN XI5/XI0/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/net10=DRN XI5/XI0/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI1/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI1/XI1/net2=DRN net35=GATE XI6/XI1/XI1/net1=SRC vdd!=BULK }}
+    {INST XI5/XI0/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI5/XI0/XI0/net7=DRN A1=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/XI0/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI5/XI0/XI0/net24=DRN A1=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI1/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI1/XI0/net24=DRN net35=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI1/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/XI1/XI0/net24=DRN net35=GATE XI6/XI1/XI0/net7=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/net7=DRN XI6/XI0/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/net7=DRN XI6/XI0/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI1/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/XI1/XI0/net7=DRN XI6/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI1/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI1/XI1/net1=DRN XI6/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI1/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI1/XI0/net24=DRN XI6/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI1/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN S2=DRN XI6/XI1/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI1/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN S2=DRN XI6/XI1/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI1/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/net11=DRN XI6/XI1/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI1/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/net11=DRN XI6/XI1/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI2/MM1=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/XI2/net16=DRN XI6/net11=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI0/XI1/net2=DRN B2=GATE XI6/XI0/XI1/net1=SRC vdd!=BULK }}
+    {INST XI6/XI2/MM2=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI2/net16=DRN XI6/net11=GATE XI6/XI2/net23=SRC vdd!=BULK }}
+    {INST XI6/XI2/MM3=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI2/net23=DRN XI6/net10=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI0/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI0/XI1/net1=DRN A2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI2/MM0=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/XI2/net16=DRN XI6/net10=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI0/XI0/net24=DRN B2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI0/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/XI0/XI0/net24=DRN B2=GATE XI6/XI0/XI0/net7=SRC gnd!=BULK }}
+    {INST XI6/XI2/MM5=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN net40=DRN XI6/XI2/net16=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI2/MM4=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN net40=DRN XI6/XI2/net16=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI6/XI0/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN A2=DRN B2=GATE XI6/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN B2=DRN A2=GATE XI6/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/XI0/XI0/net7=DRN A2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI6/net10=DRN XI6/XI0/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/net10=DRN XI6/XI0/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/net7=DRN net40=GATE XI7/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI7/XI1/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN net40=DRN XI7/net7=GATE XI7/XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI6/XI0/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI6/XI0/XI0/net24=DRN A2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI1/XI1/net2=DRN net40=GATE XI7/XI1/XI1/net1=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI1/XI0/net24=DRN net40=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/XI1/XI0/net24=DRN net40=GATE XI7/XI1/XI0/net7=SRC gnd!=BULK }}
+    {INST XI7/XI1/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/XI1/XI0/net7=DRN XI7/net7=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI0/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/net7=DRN XI7/XI0/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI0/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/net7=DRN XI7/XI0/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI1/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN S3=DRN XI7/XI1/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI1/XI1/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN S3=DRN XI7/XI1/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/net11=DRN XI7/XI1/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI1/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/net11=DRN XI7/XI1/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI1/XI1/net1=DRN XI7/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI1/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI1/XI0/net24=DRN XI7/net7=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI2/MM1=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/XI2/net16=DRN XI7/net11=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI0/XI1/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI0/XI1/net2=DRN B3=GATE XI7/XI0/XI1/net1=SRC vdd!=BULK }}
+    {INST XI7/XI2/MM2=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI2/net16=DRN XI7/net11=GATE XI7/XI2/net23=SRC vdd!=BULK }}
+    {INST XI7/XI2/MM3=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI2/net23=DRN XI7/net10=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI0/XI1/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI0/XI1/net1=DRN A3=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI0/XI1/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN A3=DRN B3=GATE XI7/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI7/XI0/XI1/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN B3=DRN A3=GATE XI7/XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI7/XI2/MM5=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN Cout=DRN XI7/XI2/net16=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI2/MM4=p12 {TYPE MOS} {PROP n="fulladd/OR/p12" Length=0.1 Width=1.2 }
+	{PIN Cout=DRN XI7/XI2/net16=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI0/XI0/MM2=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI0/XI0/net24=DRN B3=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI0/XI0/MM1=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/XI0/XI0/net24=DRN B3=GATE XI7/XI0/XI0/net7=SRC gnd!=BULK }}
+    {INST XI7/XI2/MM0=n12 {TYPE MOS} {PROP n="fulladd/OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/XI2/net16=DRN XI7/net10=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI0/XI0/MM0=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/XI0/XI0/net7=DRN A3=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI0/XI0/MM3=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/XI0/XI0/net24=DRN A3=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI7/XI0/XI0/MM5=n12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI7/net10=DRN XI7/XI0/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI7/XI0/XI0/MM4=p12 {TYPE MOS} {PROP n="fulladd/halfadd/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI7/net10=DRN XI7/XI0/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+}
+}

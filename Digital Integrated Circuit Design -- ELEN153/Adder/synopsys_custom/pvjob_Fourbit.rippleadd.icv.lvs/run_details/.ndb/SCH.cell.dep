@@ -1,0 +1,6 @@
+AND { }
+XOR { }
+fulladd { OR halfadd }
+OR { }
+halfadd { XOR AND }
+rippleadd { fulladd }

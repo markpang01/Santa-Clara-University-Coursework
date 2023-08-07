@@ -1,0 +1,115 @@
+*Custom Compiler Version P-2019.06-SP1-7
+*Mon May 22 15:35:02 2023
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : Adder
+* Cell             : AND
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt and a b out
+m5 out net24 gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m1 net24 b net7 gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m0 net7 a gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m4 out net24 vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+m3 net24 a vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+m2 net24 b vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+.ends and
+
+********************************************************************************
+* Library          : Adder
+* Cell             : XOR
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt xor a b out
+m5 out net2 gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m1 b a net2 gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m0 a b net2 gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m4 out net2 vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+m3 net2 b net1 vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+m2 net1 a vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+.ends xor
+
+********************************************************************************
+* Library          : Fourbit
+* Cell             : halfadd
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt halfadd c s x y
+xi0 x y c and
+xi1 x y s xor
+.ends halfadd
+
+********************************************************************************
+* Library          : Adder
+* Cell             : OR
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt or a b out
+m5 out net16 gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m1 net16 b gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m0 net16 a gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+m4 out net16 vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+m3 net23 a vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+m2 net16 b net23 vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+.ends or
+
+********************************************************************************
+* Library          : Fourbit
+* Cell             : fulladd
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt fulladd ai bi ci ci1 si
+xi1 net11 si net7 ci halfadd
+xi0 net10 net7 ai bi halfadd
+xi2 net10 net11 ci1 or
+.ends fulladd
+
+********************************************************************************
+* Library          : Fourbit
+* Cell             : rippleadd
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt rippleadd a0 a1 a2 a3 b0 b1 b2 b3 cin cout s0 s1 s2 s3
+xi7 a3 b3 net40 cout s3 fulladd
+xi6 a2 b2 net35 net40 s2 fulladd
+xi5 a1 b1 net30 net35 s1 fulladd
+xi4 a0 b0 cin net30 s0 fulladd
+.ends rippleadd
+
+********************************************************************************
+* Library          : Fourbit
+* Cell             : testbenchschematic
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 a0 a1 a2 a3 b0 b1 b2 b3 cin cout s0 s1 s2 s3 rippleadd
+v26 b3 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b01 )
+v25 b2 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b10 )
+v24 b1 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b11 )
+v23 b0 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b01 )
+v22 a3 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b01 )
+v21 a2 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b10 )
+v20 a1 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b01 )
+v19 a0 gnd! dc=0 pat ( 1 0 0 10n 10n 200n b10 )
+v14 cin gnd! dc=0 pat ( 1 0 0 10n 10n 200n b00 )
+c13 cout gnd! c=2p
+c12 s3 gnd! c=2p
+c11 s2 gnd! c=2p
+c10 s1 gnd! c=2p
+c9 s0 gnd! c=2p
+v16 vdd! gnd! dc=1.2
+

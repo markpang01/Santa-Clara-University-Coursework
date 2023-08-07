@@ -1,0 +1,36 @@
+<module name="vsl: lab4 XNOR schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I4" dst="XI4"/>
+<mapping src="I5" dst="XI5"/>
+<mapping src="I0" dst="XI0"/>
+</forward>
+<reverse>
+<mapping src="XI5" dst="I5"/>
+<mapping src="XI4" dst="I4"/>
+<mapping src="XI0" dst="I0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="a b output"/>
+<mapping src="&lt;termOrder>" dst="a b output"/>
+</forward>
+<reverse>
+<mapping src="a b output" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="CMOS_Working">
+<instance name="I4"/>
+<instance name="I5"/>
+</instance_header>
+<instance_header master="NMOS">
+<instance name="I0"/>
+</instance_header>
+</master_instances>
+</module>

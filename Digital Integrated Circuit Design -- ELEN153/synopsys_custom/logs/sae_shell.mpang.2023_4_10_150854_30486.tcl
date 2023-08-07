@@ -1,0 +1,24 @@
+::sa::_backgroundSaeShell::signalProcessReady 1681164533
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::wf::viewerExited
+::sa::_backgroundSaeShell::parentRunning
+::wf::viewerExited
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::wf::viewerExited
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::wf::viewerExited
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning

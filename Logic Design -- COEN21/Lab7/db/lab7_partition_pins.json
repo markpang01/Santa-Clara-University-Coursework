@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Win",
+					"strict" : false
+				},
+				{
+					"name" : "Lose",
+					"strict" : false
+				},
+				{
+					"name" : "DownCount[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DownCount[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DownCount[2]",
+					"strict" : false
+				},
+				{
+					"name" : "UpCount[0]",
+					"strict" : false
+				},
+				{
+					"name" : "UpCount[1]",
+					"strict" : false
+				},
+				{
+					"name" : "UpCount[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Stop",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

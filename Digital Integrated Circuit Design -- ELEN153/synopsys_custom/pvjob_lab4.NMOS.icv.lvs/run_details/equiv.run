@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"NMOS", "NMOS"}});
+
+/* Generated system equivalence points are listed in this section */

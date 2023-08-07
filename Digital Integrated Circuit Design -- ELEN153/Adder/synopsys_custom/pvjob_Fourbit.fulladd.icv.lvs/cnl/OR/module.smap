@@ -1,0 +1,45 @@
+<module name="vsl: Adder OR schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="MM2" src="M2"/>
+<mapping dst="MM3" src="M3"/>
+<mapping dst="MM4" src="M4"/>
+<mapping dst="MM1" src="M1"/>
+<mapping dst="MM0" src="M0"/>
+<mapping dst="MM5" src="M5"/>
+</forward>
+<reverse>
+<mapping dst="M3" src="MM3"/>
+<mapping dst="M0" src="MM0"/>
+<mapping dst="M2" src="MM2"/>
+<mapping dst="M1" src="MM1"/>
+<mapping dst="M4" src="MM4"/>
+<mapping dst="M5" src="MM5"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="A B OUT" src="&lt;unmappedTermOrder>"/>
+<mapping dst="A B OUT" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="A B OUT"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M5"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M2"/>
+<instance name="M3"/>
+<instance name="M4"/>
+</instance_header>
+</master_instances>
+</module>

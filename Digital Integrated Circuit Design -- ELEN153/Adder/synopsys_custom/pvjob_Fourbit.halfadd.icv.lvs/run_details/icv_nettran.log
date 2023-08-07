@@ -1,0 +1,27 @@
+/* ICV_Nettran: RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24 */
+/* Created:  6/05/2023  15:18   */
+
+                                  ICV_Nettran 
+
+         Version Q-2019.12-SP1-1 for linux64 - Feb 24, 2020 cl#5351723
+
+                    Copyright (c) 1996 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Options: -sp /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.lvs/halfadd.custom_compiler.sp -globalNets VDD VDD12 VDD22 -mprop -cell halfadd -dupCell USE_MULTIPLE -sp-ndbConnect -sp-dupProp LAST -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22 -wireLog run_details/nettran_wire.log -dupCellReportFile run_details/nettran_dupCell.log -outName /.netlist_database_sch100 -outType ndb -ndb-noOrgname -ndb-micron 
+
+Pre-parsing "/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.lvs/halfadd.custom_compiler.sp" netlist ...
+Reading "/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.lvs/halfadd.custom_compiler.sp" netlist ...
+Loading cell "AND" ...
+Loading cell "XOR" ...
+Loading cell "halfadd" ...
+[Nettran Report] Reading Netlist(s): Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+Processing Hierarchy ...
+[Nettran Report] Post Process: Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.003 GB
+Writing NDB netlist ...
+[Nettran Report] Output Netlist: Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.009 GB
+Translation completed.
+[Nettran Report] Nettran Total Runtime: Check Time=0:00:00  User=0.01 Sys=0.00 Mem=0.009 GB

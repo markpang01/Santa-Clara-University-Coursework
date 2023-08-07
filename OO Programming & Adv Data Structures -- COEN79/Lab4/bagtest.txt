@@ -1,0 +1,44 @@
+Inserting 10 with key "ten".
+Inserting 2 with key "two".
+Value for "two": 2
+Bag size: 2
+Erasing "ten".
+Bag size: 1
+Has ten: 0
+Has thirteen: 0
+Inserting -5 with key "neg_five".
+Bag size: 2
+Has neg_five: 1
+Has neg_two: 0
+Value for "neg_five": -5
+Number of 3's in the bag: 0
+Number of -5's in the bag: 1
+Inserting 2 with key "TWO".
+Number of 2's in the bag: 2
+Inserting 11 with key "eleven".
+Inserting 900 with key "nine-hundred".
+Inserting 7 with key "seven".
+Bag size: 6
+Erasing "nine-hundred".
+Bag size: 5
+Erasing "TWO".
+Bag size: 4
+Inserting 2 with key "2".
+Inserting 3 with key "3".
+Inserting 10 with key "10".
+Inserting 9 with key "9".
+Inserting 5 with key "5".
+Bag size: 9
+Bag size: 9
+Has 3: 1
+Has 10: 1
+Has one: 0
+Has yomama: 0
+Number of 2's in the bag: 2
+Number of 11's in the bag: 1
+Number of -8's in the bag: 0
+Erasing all of kb2.
+Erasing all of kb4.
+Bag size: 0
+Inserting 22 with key "we love coen79".
+Value for "we love coen79": 22

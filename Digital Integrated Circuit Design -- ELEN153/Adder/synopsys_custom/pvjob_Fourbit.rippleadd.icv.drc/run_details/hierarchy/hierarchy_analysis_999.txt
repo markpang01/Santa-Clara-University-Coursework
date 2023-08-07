@@ -1,0 +1,103 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains 7 entries
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ rippleadd                                     |           0.001,           0.001,              1,              1,       100.00 %
+ fulladd                                       |           0.000,           0.000,              4,              4,        79.80 %
+ halfadd                                       |           0.000,           0.000,              8,              2,        50.88 %
+ SAED_PDK_90.pmos4t.layout                     |           0.000,           0.000,             60,              9,        23.30 %
+ Adder.XOR.layout                              |           0.000,           0.000,              8,              1,        19.30 %
+ Adder.AND.layout                              |           0.000,           0.000,              8,              1,        15.77 %
+ Adder.OR.layout                               |           0.000,           0.000,              4,              1,         8.56 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of it's area with total area covered by it's children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by it's childern w.r.t area of this cell
+This table contains 7 entries
+
+ Name                                          | Flat A (M um^2), Cell A (M um^2), Num Inst (M), Child A (M um^2), Pct of parent
+-----------------------------------------------
+ rippleadd                                     |           0.001,           0.001,        0.000,           0.000,       79.80 %
+ fulladd                                       |           0.000,           0.000,        0.000,           0.000,       74.48 %
+ halfadd                                       |           0.000,           0.000,        0.000,           0.000,       68.94 %
+ SAED_PDK_90.pmos4t.layout                     |           0.000,           0.000,        0.000,           0.000,        0.00 %
+ Adder.XOR.layout                              |           0.000,           0.000,        0.000,           0.000,       48.28 %
+ Adder.AND.layout                              |           0.000,           0.000,        0.000,           0.000,       59.09 %
+ Adder.OR.layout                               |           0.000,           0.000,        0.000,           0.000,       54.41 %
+===============================================
+
+* Exploded Cell Information *
+Displays information of exploded cells
+
+Parent cell           : Name of the parent cell the cell has exploded into
+Exploded Inst Count   : Total number of instances of the cell that has expldoed to the parent cell
+Parent Flat Plc Count : Parent cell flat placement count
+Parent Hier Plc Count : Parent cell hierarchical placement count
+This table contains 9 entries
+
+ Exploded Cell                                 | Parent Cell                                   | Exploded Inst Count, Parent Flat Plc Count, Parent Hier Plc Count
+----------------------------------------------- -----------------------------------------------
+ SAED_PDK_90.VIA12.layout                      | fulladd                                       |                  13,                     4,                     4
+ SAED_PDK_90.VIA12.layout                      | halfadd                                       |                   8,                     8,                     2
+ SAED_PDK_90.VIA12.layout                      | Adder.XOR.layout                              |                   6,                     8,                     1
+ SAED_PDK_90.nmos4t.layout                     | Adder.AND.layout                              |                   3,                     8,                     1
+ SAED_PDK_90.nmos4t.layout                     | Adder.OR.layout                               |                   3,                     4,                     1
+ SAED_PDK_90.nmos4t.layout                     | Adder.XOR.layout                              |                   3,                     8,                     1
+ SAED_PDK_90.VIA12.layout                      | rippleadd                                     |                   3,                     1,                     1
+ SAED_PDK_90.VIA12.layout                      | Adder.AND.layout                              |                   2,                     8,                     1
+ SAED_PDK_90.VIA12.layout                      | Adder.OR.layout                               |                   2,                     4,                     1
+=============================================== ===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 11 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ M1i                                           |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,     6.75,    0,     0,   0,    0,       0
+ M2i                                           |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,     4.56,    0,     0,   0,    0,       0
+ COi                                           |    0.000,    0.000,    0.000,         0.001,         0.001,         0.000,    16.67,    0,     0,   0,    0,       0
+ DIFFi                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     9.65,    0,     0,   0,    0,       0
+ POi                                           |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,    10.34,    0,     0,   0,    0,       0
+ NIMPi                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     6.74,    0,     0,   0,    0,       0
+ PIMPi                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,    11.64,    0,     0,   0,    0,       0
+ M1PIN                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     8.00,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,    20.00,    0,     0,   0,    0,       0
+ M2PIN                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     8.00,    0,     0,   0,    0,       0
+ DNWi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+

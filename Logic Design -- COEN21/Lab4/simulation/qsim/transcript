@@ -1,0 +1,26 @@
+# do Lab4.do
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:35:38 on Oct 20,2022
+# vlog -work work Lab4.vo 
+# -- Compiling module Lab4
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	Lab4
+# End time: 15:35:39 on Oct 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:35:39 on Oct 20,2022
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module Lab4_vlg_vec_tst
+# 
+# Top level modules:
+# 	Lab4_vlg_vec_tst
+# End time: 15:35:39 on Oct 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Lab4_vlg_vec_tst 
+# Start time: 15:35:39 on Oct 20,2022
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 15:35:40 on Oct 20,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

@@ -1,0 +1,109 @@
+|lab5
+HEX0[0] <= bin_7seg:inst.SEG[0]
+HEX0[1] <= bin_7seg:inst.SEG[1]
+HEX0[2] <= bin_7seg:inst.SEG[2]
+HEX0[3] <= bin_7seg:inst.SEG[3]
+HEX0[4] <= bin_7seg:inst.SEG[4]
+HEX0[5] <= bin_7seg:inst.SEG[5]
+HEX0[6] <= bin_7seg:inst.SEG[6]
+SW[0] => myadder4:inst2.X[0]
+SW[1] => myadder4:inst2.X[1]
+SW[2] => myadder4:inst2.X[2]
+SW[3] => myadder4:inst2.X[3]
+SW[4] => myadder4:inst2.Y[0]
+SW[5] => myadder4:inst2.Y[1]
+SW[6] => myadder4:inst2.Y[2]
+SW[7] => myadder4:inst2.Y[3]
+SW[8] => myadder4:inst2.CIN
+LEDR[0] <= myadder4:inst2.V
+LEDR[1] <= myadder4:inst2.C4
+
+
+|lab5|bin_7seg:inst
+BI_DIGIT[0] => Decoder0.IN3
+BI_DIGIT[1] => Decoder0.IN2
+BI_DIGIT[2] => Decoder0.IN1
+BI_DIGIT[3] => Decoder0.IN0
+SEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|myadder4:inst2
+X[0] => X[0].IN1
+X[1] => X[1].IN1
+X[2] => X[2].IN1
+X[3] => X[3].IN1
+Y[0] => Y[0].IN1
+Y[1] => Y[1].IN1
+Y[2] => Y[2].IN1
+Y[3] => Y[3].IN1
+CIN => CIN.IN1
+V <= V.DB_MAX_OUTPUT_PORT_TYPE
+C4 <= myfulladder:sum3.port4
+S[0] <= myfulladder:sum0.port3
+S[1] <= myfulladder:sum1.port3
+S[2] <= myfulladder:sum2.port3
+S[3] <= myfulladder:sum3.port3
+
+
+|lab5|myadder4:inst2|myfulladder:sum0
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+CI => S.IN1
+CI => CO.IN1
+CI => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|myadder4:inst2|myfulladder:sum1
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+CI => S.IN1
+CI => CO.IN1
+CI => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|myadder4:inst2|myfulladder:sum2
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+CI => S.IN1
+CI => CO.IN1
+CI => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5|myadder4:inst2|myfulladder:sum3
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+CI => S.IN1
+CI => CO.IN1
+CI => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+

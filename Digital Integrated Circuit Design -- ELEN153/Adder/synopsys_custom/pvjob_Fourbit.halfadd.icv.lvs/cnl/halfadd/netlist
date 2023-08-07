@@ -1,0 +1,13 @@
+********************************************************************************
+* Library          : Fourbit
+* Cell             : halfadd
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt halfadd C S X Y
+*.PININFO C:O S:O X:I Y:I
+XI0 X Y C AND
+XI1 X Y S XOR
+.ends halfadd
+

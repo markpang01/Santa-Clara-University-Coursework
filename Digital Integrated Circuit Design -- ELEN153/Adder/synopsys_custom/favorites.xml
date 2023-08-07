@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Jun  5 17:03:05 2023
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout">
+                <cellView cell="XOR" library="Adder" view="layout">
+                        <alias name="XOR"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="AND" library="Adder" view="layout">
+                        <alias name="AND"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="halfadd" library="Fourbit" view="layout">
+                        <alias name="halfadd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="OR" library="Adder" view="layout">
+                        <alias name="OR"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="fulladd" library="Fourbit" view="layout">
+                        <alias name="fulladd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+        <favoriteDevices viewType="schematic">
+                <cellView cell="cap" library="analogLib" view="symbol">
+                        <alias name="cap"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vpat" library="analogLib" view="symbol">
+                        <alias name="vpat"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vdd" library="analogLib" view="symbol">
+                        <alias name="vdd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vdc" library="analogLib" view="symbol">
+                        <alias name="vdc"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="gnd" library="analogLib" view="symbol">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

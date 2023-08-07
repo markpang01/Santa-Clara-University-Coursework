@@ -1,0 +1,8 @@
+halfadd
+	Cell Level Device Counts
+		NMOS[n12] = 6
+		PMOS[p12] = 6
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = halfadd  *******
+		NMOS[n12] = 6
+		PMOS[p12] = 6

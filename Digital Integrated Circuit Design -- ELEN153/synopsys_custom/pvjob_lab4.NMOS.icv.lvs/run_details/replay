@@ -1,0 +1,1094 @@
+#
+# runset is /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+#
+runset_csum = 4573
+num_hosts = 2
+events {
+S 529.0.0 2079 0
+# linux400512.dc.engr.scu.edu(0):       775  1 _prescan_library
+F 529.0.0 2079 0
+S 531.0.0 2086 0
+# linux400512.dc.engr.scu.edu(0):       821  1 _scan_hierarchy
+F 531.0.0 2086 0
+S 534.0.0 2093 1
+# linux400512.dc.engr.scu.edu(1):      8498  1 _read_library_segment
+F 534.0.0 2093 1
+S 536.0.0 2101 0
+# linux400512.dc.engr.scu.edu(0):      5332  1 _create_hierarchy_tree
+F 0 0 1
+F 536.0.0 2101 0
+S 599.0.0 2314 0
+# linux400512.dc.engr.scu.edu(0):       481  1 _empty_layer
+F 599.0.0 2314 0
+S 603.0.0 2324 0
+# linux400512.dc.engr.scu.edu(0):      1577  1 _optimize_hierarchy_tree
+S 5960.0.0.5962.0.0 19604 1
+# linux400512.dc.engr.scu.edu(1):      2325  1 _nettran_sch
+F 5960.0.0.5962.0.0 19604 1
+S 806.0.0 2909 1
+# linux400512.dc.engr.scu.edu(1):      3770  1 _create_layer_dp
+F 806.0.0 2909 1
+S 770.0.0 2811 1
+# linux400512.dc.engr.scu.edu(1):      3726  1 _create_layer_dp
+F 770.0.0 2811 1
+S 678.0.0 2569 1
+# linux400512.dc.engr.scu.edu(1):      3729  1 _create_layer_dp
+F 678.0.0 2569 1
+S 670.0.0 2543 1
+# linux400512.dc.engr.scu.edu(1):      3737  1 _create_layer_dp
+F 670.0.0 2543 1
+S 662.0.0 2517 1
+# linux400512.dc.engr.scu.edu(1):      3729  1 _create_layer_dp
+F 662.0.0 2517 1
+S 654.0.0 2491 1
+# linux400512.dc.engr.scu.edu(1):      3729  1 _create_layer_dp
+F 654.0.0 2491 1
+S 632.0.0 2429 1
+# linux400512.dc.engr.scu.edu(1):      3735  1 _create_layer_dp
+F 632.0.0 2429 1
+S 624.0.0 2403 1
+# linux400512.dc.engr.scu.edu(1):      3735  1 _create_layer_dp
+F 603.0.0 2324 0
+S 604.0.0 2333 0
+# linux400512.dc.engr.scu.edu(0):       968  1 _hierarchy_cleanup
+F 624.0.0 2403 1
+S 616.0.0 2377 1
+# linux400512.dc.engr.scu.edu(1):      3735  1 _create_layer_dp
+F 616.0.0 2377 1
+S 608.0.0 2342 1
+# linux400512.dc.engr.scu.edu(1):      3739  1 _create_layer_dp
+F 608.0.0 2342 1
+S 602.0.0 2321 1
+# linux400512.dc.engr.scu.edu(1):       734  1 _generate_sibling_refref
+F 604.0.0 2333 0
+F 602.0.0 2321 1
+S 605.0.0 2336 1
+# linux400512.dc.engr.scu.edu(1):       990  1 _update_and_pushdown_refref
+F 605.0.0 2336 1
+S 4527.0.0 15566 1
+# linux400512.dc.engr.scu.edu(1):      1836  1 _cell_extent
+F 4527.0.0 15566 1
+S 1094.0.0 3609 1
+# linux400512.dc.engr.scu.edu(1):      1973  1 _tag_violation
+F 1094.0.0 3609 1
+S 1092.0.0 3604 1
+# linux400512.dc.engr.scu.edu(1):      1973  1 _tag_violation
+F 1092.0.0 3604 1
+S 1090.0.0 3599 1
+# linux400512.dc.engr.scu.edu(1):      1973  1 _tag_violation
+F 1090.0.0 3599 1
+S 1088.0.0 3594 1
+# linux400512.dc.engr.scu.edu(1):      1973  1 _tag_violation
+F 1088.0.0 3594 1
+S 1086.0.0 3589 1
+# linux400512.dc.engr.scu.edu(1):      1972  1 _tag_violation
+F 1086.0.0 3589 1
+S 1048.0.0 3479 1
+# linux400512.dc.engr.scu.edu(1):      3062  1 _copy
+F 1048.0.0 3479 1
+S 1040.0.0 3456 1
+# linux400512.dc.engr.scu.edu(1):      1510  1 _cell_extent
+S 606.0.0 2338 0
+# linux400512.dc.engr.scu.edu(0):       766  1 _create_substrate_layer
+F 1040.0.0 3456 1
+S 1042.0.0 3463 1
+# linux400512.dc.engr.scu.edu(1):      2260  1 _size
+F 606.0.0 2338 0
+S 609.0.0 2354 0
+# linux400512.dc.engr.scu.edu(0):      3744  1 _optimize_layer_dp
+F 1042.0.0 3463 1
+S 617.0.0 2382 1
+# linux400512.dc.engr.scu.edu(1):      3740  1 _optimize_layer_dp
+F 609.0.0 2354 0
+S 1244.0.0 3958 0
+# linux400512.dc.engr.scu.edu(0):       930  1 _buildsub
+F 617.0.0 2382 1
+S 952.0.0 3272 1
+# linux400512.dc.engr.scu.edu(1):       983  1 _copy
+F 952.0.0 3272 1
+S 950.0.0 3267 1
+# linux400512.dc.engr.scu.edu(1):       987  1 _copy
+F 950.0.0 3267 1
+S 1049.0.0 3482 1
+# linux400512.dc.engr.scu.edu(1):      3062  1 _copy
+F 1049.0.0 3482 1
+S 1319.0.0 4123 1
+# linux400512.dc.engr.scu.edu(1):      2575  1 _level_one_q
+F 1244.0.0 3958 0
+S 1044.0.0 3469 0
+# linux400512.dc.engr.scu.edu(0):      1891  1 _boolean_not_q
+F 1319.0.0 4123 1
+S 1320.0.0 4127 1
+# linux400512.dc.engr.scu.edu(1):      1625  1 _select_donut_hole
+F 1320.0.0 4127 1
+S 625.0.0 2408 1
+# linux400512.dc.engr.scu.edu(1):      3740  1 _optimize_layer_dp
+F 1044.0.0 3469 0
+S 4243.0.0 14686 0
+# linux400512.dc.engr.scu.edu(0):       693  1 _exploded_bulk_layer_in_via_cell
+F 4243.0.0 14686 0
+S 807.0.0 2914 0
+# linux400512.dc.engr.scu.edu(0):      3775  1 _optimize_layer_dp
+F 807.0.0 2914 0
+S 1419.0.0 4349 0
+# linux400512.dc.engr.scu.edu(0):      2053  1 _text_polygon
+F 625.0.0 2408 1
+S 954.0.0 3277 1
+# linux400512.dc.engr.scu.edu(1):       983  1 _copy
+F 1419.0.0 4349 0
+S 4481.0.0 15411 0
+# linux400512.dc.engr.scu.edu(0):      4020  1 _stamp_text_q
+F 954.0.0 3277 1
+S 771.0.0 2816 1
+# linux400512.dc.engr.scu.edu(1):      3731  1 _optimize_layer_dp
+F 4481.0.0 15411 0
+S 679.0.0 2574 0
+# linux400512.dc.engr.scu.edu(0):      3734  1 _optimize_layer_dp
+F 771.0.0 2816 1
+S 984.0.0 3342 1
+# linux400512.dc.engr.scu.edu(1):       975  1 _copy
+F 984.0.0 3342 1
+S 1128.0.0 3694 1
+# linux400512.dc.engr.scu.edu(1):      1887  1 _boolean_not_q
+F 1128.0.0 3694 1
+S 671.0.0 2548 1
+# linux400512.dc.engr.scu.edu(1):      3742  1 _optimize_layer_dp
+F 679.0.0 2574 0
+S 968.0.0 3309 0
+# linux400512.dc.engr.scu.edu(0):       975  1 _copy
+F 968.0.0 3309 0
+S 1156.0.0 3758 0
+# linux400512.dc.engr.scu.edu(0):      1751  1 _copy
+F 1156.0.0 3758 0
+S 663.0.0 2522 0
+# linux400512.dc.engr.scu.edu(0):      3734  1 _optimize_layer_dp
+F 671.0.0 2548 1
+S 986.0.0 3347 1
+# linux400512.dc.engr.scu.edu(1):       983  1 _copy
+F 986.0.0 3347 1
+S 655.0.0 2496 1
+# linux400512.dc.engr.scu.edu(1):      3734  1 _optimize_layer_dp
+F 663.0.0 2522 0
+S 966.0.0 3304 0
+# linux400512.dc.engr.scu.edu(0):       975  1 _copy
+F 966.0.0 3304 0
+S 1154.0.0 3753 0
+# linux400512.dc.engr.scu.edu(0):      1751  1 _copy
+F 1154.0.0 3753 0
+S 633.0.0 2434 0
+# linux400512.dc.engr.scu.edu(0):      3740  1 _optimize_layer_dp
+F 655.0.0 2496 1
+S 964.0.0 3299 1
+# linux400512.dc.engr.scu.edu(1):       975  1 _copy
+F 964.0.0 3299 1
+S 1246.0.0 3963 1
+# linux400512.dc.engr.scu.edu(1):      1162  1 _copy
+F 633.0.0 2434 0
+S 956.0.0 3282 0
+# linux400512.dc.engr.scu.edu(0):       983  1 _copy
+F 1246.0.0 3963 1
+S 1248.0.0 3968 1
+# linux400512.dc.engr.scu.edu(1):      1889  1 _boolean_not_q
+F 956.0.0 3282 0
+S 1228.0.0 3921 0
+# linux400512.dc.engr.scu.edu(0):      1165  1 _copy
+F 1228.0.0 3921 0
+S 1063.0.0 3531 0
+# linux400512.dc.engr.scu.edu(0):      1759  1 _copy
+F 1063.0.0 3531 0
+S 5965.0.0.5976.0.0 19653 0
+# linux400512.dc.engr.scu.edu(0):      6960  2 _translate_database_to_netlist_remote
+F 1248.0.0 3968 1
+S 5847.0.0 19074 1
+# linux400512.dc.engr.scu.edu(1):      1751  2 _dev_update_vue_file
+F 5847.0.0 19074 1
+S 1437.0.0 4386 1
+# linux400512.dc.engr.scu.edu(1):      1218  1 _empty_layer
+F 1437.0.0 4386 1
+S 1435.0.0 4382 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1435.0.0 4382 1
+S 1433.0.0 4378 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1433.0.0 4378 1
+S 1431.0.0 4374 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1431.0.0 4374 1
+S 1429.0.0 4370 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1429.0.0 4370 1
+S 1427.0.0 4366 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1427.0.0 4366 1
+S 1425.0.0 4362 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1425.0.0 4362 1
+S 1423.0.0 4358 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1423.0.0 4358 1
+S 1421.0.0 4354 1
+# linux400512.dc.engr.scu.edu(1):      1589  1 _empty_layer
+F 1421.0.0 4354 1
+S 1409.0.0 4324 1
+# linux400512.dc.engr.scu.edu(1):      1391  1 _empty_layer
+F 1409.0.0 4324 1
+S 1407.0.0 4320 1
+# linux400512.dc.engr.scu.edu(1):      1391  1 _empty_layer
+F 1407.0.0 4320 1
+S 1405.0.0 4316 1
+# linux400512.dc.engr.scu.edu(1):      1391  1 _empty_layer
+F 5965.0.0.5976.0.0 19653 0
+S 1401.0.0 4307 0
+# linux400512.dc.engr.scu.edu(0):      2482  1 _empty_layer
+F 1405.0.0 4316 1
+S 1399.0.0 4303 1
+# linux400512.dc.engr.scu.edu(1):      2482  1 _empty_layer
+F 1401.0.0 4307 0
+S 1397.0.0 4299 0
+# linux400512.dc.engr.scu.edu(0):      2482  1 _empty_layer
+F 1399.0.0 4303 1
+S 1395.0.0 4295 1
+# linux400512.dc.engr.scu.edu(1):      2482  1 _empty_layer
+F 1397.0.0 4299 0
+S 1393.0.0 4291 0
+# linux400512.dc.engr.scu.edu(0):      1405  1 _empty_layer
+F 1395.0.0 4295 1
+S 1390.0.0 4284 1
+# linux400512.dc.engr.scu.edu(1):       797  1 _empty_layer
+F 1393.0.0 4291 0
+S 1388.0.0 4280 0
+# linux400512.dc.engr.scu.edu(0):      1405  1 _empty_layer
+F 1390.0.0 4284 1
+S 1383.0.0 4265 1
+# linux400512.dc.engr.scu.edu(1):      1429  1 _empty_layer
+F 1388.0.0 4280 0
+S 1381.0.0 4261 0
+# linux400512.dc.engr.scu.edu(0):      1452  1 _empty_layer
+F 1383.0.0 4265 1
+S 1379.0.0 4257 1
+# linux400512.dc.engr.scu.edu(1):      1452  1 _empty_layer
+F 1381.0.0 4261 0
+S 1377.0.0 4253 0
+# linux400512.dc.engr.scu.edu(0):      1452  1 _empty_layer
+F 1379.0.0 4257 1
+S 1375.0.0 4249 1
+# linux400512.dc.engr.scu.edu(1):      1443  1 _empty_layer
+F 1377.0.0 4253 0
+S 1373.0.0 4245 0
+# linux400512.dc.engr.scu.edu(0):      1452  1 _empty_layer
+F 1375.0.0 4249 1
+S 1371.0.0 4241 1
+# linux400512.dc.engr.scu.edu(1):      1452  1 _empty_layer
+F 1373.0.0 4245 0
+S 1369.0.0 4237 0
+# linux400512.dc.engr.scu.edu(0):      1452  1 _empty_layer
+F 1371.0.0 4241 1
+S 1367.0.0 4233 1
+# linux400512.dc.engr.scu.edu(1):      1429  1 _empty_layer
+F 1369.0.0 4237 0
+S 1365.0.0 4229 0
+# linux400512.dc.engr.scu.edu(0):       839  1 _empty_layer
+F 1367.0.0 4233 1
+S 1363.0.0 4225 1
+# linux400512.dc.engr.scu.edu(1):      2522  1 _empty_layer
+F 1365.0.0 4229 0
+S 1361.0.0 4221 0
+# linux400512.dc.engr.scu.edu(0):      2517  1 _empty_layer
+F 1363.0.0 4225 1
+S 1359.0.0 4217 1
+# linux400512.dc.engr.scu.edu(1):      2501  1 _empty_layer
+F 1361.0.0 4221 0
+S 1357.0.0 4213 0
+# linux400512.dc.engr.scu.edu(0):      2503  1 _empty_layer
+F 1359.0.0 4217 1
+S 4408.0.0 15068 1
+# linux400512.dc.engr.scu.edu(1):       700  1 _exploded_bulk_layer_in_via_cell
+F 1357.0.0 4213 0
+S 1355.0.0 4209 0
+# linux400512.dc.engr.scu.edu(0):      2497  1 _empty_layer
+F 4408.0.0 15068 1
+S 1353.0.0 4205 1
+# linux400512.dc.engr.scu.edu(1):      1433  1 _empty_layer
+F 1355.0.0 4209 0
+S 1348.0.0 4193 0
+# linux400512.dc.engr.scu.edu(0):       834  1 _empty_layer
+F 1353.0.0 4205 1
+S 1346.0.0 4189 1
+# linux400512.dc.engr.scu.edu(1):      1435  1 _empty_layer
+F 1348.0.0 4193 0
+S 1344.0.0 4185 0
+# linux400512.dc.engr.scu.edu(0):      2529  1 _empty_layer
+F 1346.0.0 4189 1
+S 1342.0.0 4181 1
+# linux400512.dc.engr.scu.edu(1):      2529  1 _empty_layer
+F 1344.0.0 4185 0
+S 1340.0.0 4177 0
+# linux400512.dc.engr.scu.edu(0):      2519  1 _empty_layer
+F 1342.0.0 4181 1
+S 1338.0.0 4173 1
+# linux400512.dc.engr.scu.edu(1):      1416  1 _empty_layer
+F 1340.0.0 4177 0
+S 1336.0.0 4169 0
+# linux400512.dc.engr.scu.edu(0):      1450  1 _empty_layer
+F 1338.0.0 4173 1
+S 1332.0.0 4157 1
+# linux400512.dc.engr.scu.edu(1):      2499  1 _empty_layer
+F 1336.0.0 4169 0
+S 1330.0.0 4153 0
+# linux400512.dc.engr.scu.edu(0):      1436  1 _empty_layer
+F 1332.0.0 4157 1
+S 1325.0.0 4141 1
+# linux400512.dc.engr.scu.edu(1):      2497  1 _empty_layer
+F 1330.0.0 4153 0
+S 1317.0.0 4119 0
+# linux400512.dc.engr.scu.edu(0):      1412  1 _empty_layer
+F 1325.0.0 4141 1
+S 1315.0.0 4115 1
+# linux400512.dc.engr.scu.edu(1):      1397  1 _empty_layer
+F 1317.0.0 4119 0
+S 1313.0.0 4111 0
+# linux400512.dc.engr.scu.edu(0):       799  1 _empty_layer
+F 1315.0.0 4115 1
+S 1311.0.0 4107 1
+# linux400512.dc.engr.scu.edu(1):      2504  1 _empty_layer
+F 1313.0.0 4111 0
+S 1309.0.0 4103 0
+# linux400512.dc.engr.scu.edu(0):      2500  1 _empty_layer
+F 1311.0.0 4107 1
+S 1307.0.0 4099 1
+# linux400512.dc.engr.scu.edu(1):      1260  1 _empty_layer
+F 1309.0.0 4103 0
+S 1305.0.0 4095 0
+# linux400512.dc.engr.scu.edu(0):      1488  1 _empty_layer
+F 1307.0.0 4099 1
+S 1303.0.0 4091 1
+# linux400512.dc.engr.scu.edu(1):      1513  1 _empty_layer
+F 1305.0.0 4095 0
+S 1301.0.0 4087 0
+# linux400512.dc.engr.scu.edu(0):       808  1 _empty_layer
+F 1303.0.0 4091 1
+S 1299.0.0 4083 1
+# linux400512.dc.engr.scu.edu(1):      1433  1 _empty_layer
+F 1301.0.0 4087 0
+S 1297.0.0 4079 0
+# linux400512.dc.engr.scu.edu(0):      1421  1 _empty_layer
+F 1299.0.0 4083 1
+S 1295.0.0 4075 1
+# linux400512.dc.engr.scu.edu(1):      1417  1 _empty_layer
+F 1297.0.0 4079 0
+S 1293.0.0 4071 0
+# linux400512.dc.engr.scu.edu(0):      2511  1 _empty_layer
+F 1295.0.0 4075 1
+S 1291.0.0 4067 1
+# linux400512.dc.engr.scu.edu(1):      1420  1 _empty_layer
+F 1293.0.0 4071 0
+S 1289.0.0 4063 0
+# linux400512.dc.engr.scu.edu(0):      1421  1 _empty_layer
+F 1291.0.0 4067 1
+S 1287.0.0 4059 1
+# linux400512.dc.engr.scu.edu(1):      1419  1 _empty_layer
+F 1289.0.0 4063 0
+S 1285.0.0 4055 0
+# linux400512.dc.engr.scu.edu(0):      1396  1 _empty_layer
+F 1287.0.0 4059 1
+S 1283.0.0 4051 1
+# linux400512.dc.engr.scu.edu(1):      1409  1 _empty_layer
+F 1285.0.0 4055 0
+S 1281.0.0 4047 0
+# linux400512.dc.engr.scu.edu(0):       804  1 _empty_layer
+F 1283.0.0 4051 1
+S 1279.0.0 4043 1
+# linux400512.dc.engr.scu.edu(1):      2489  1 _empty_layer
+F 1281.0.0 4047 0
+S 1277.0.0 4039 0
+# linux400512.dc.engr.scu.edu(0):       812  1 _empty_layer
+F 1279.0.0 4043 1
+S 1275.0.0 4035 1
+# linux400512.dc.engr.scu.edu(1):      1398  1 _empty_layer
+F 1277.0.0 4039 0
+S 1273.0.0 4031 0
+# linux400512.dc.engr.scu.edu(0):      2490  1 _empty_layer
+F 1275.0.0 4035 1
+S 1271.0.0 4027 1
+# linux400512.dc.engr.scu.edu(1):      1258  1 _empty_layer
+F 1273.0.0 4031 0
+S 1269.0.0 4023 0
+# linux400512.dc.engr.scu.edu(0):      1480  1 _empty_layer
+F 1271.0.0 4027 1
+S 1267.0.0 4019 1
+# linux400512.dc.engr.scu.edu(1):      1505  1 _empty_layer
+F 1269.0.0 4023 0
+S 1265.0.0 4015 0
+# linux400512.dc.engr.scu.edu(0):      1425  1 _empty_layer
+F 1267.0.0 4019 1
+S 1263.0.0 4011 1
+# linux400512.dc.engr.scu.edu(1):      2502  1 _empty_layer
+F 1265.0.0 4015 0
+S 1261.0.0 4007 0
+# linux400512.dc.engr.scu.edu(0):      2500  1 _empty_layer
+F 1263.0.0 4011 1
+S 1259.0.0 4003 1
+# linux400512.dc.engr.scu.edu(1):      1443  1 _empty_layer
+F 1261.0.0 4007 0
+S 1257.0.0 3999 0
+# linux400512.dc.engr.scu.edu(0):      1409  1 _empty_layer
+F 1259.0.0 4003 1
+S 1255.0.0 3995 1
+# linux400512.dc.engr.scu.edu(1):      1362  1 _empty_layer
+F 1257.0.0 3999 0
+S 1242.0.0 3954 0
+# linux400512.dc.engr.scu.edu(0):      1398  1 _empty_layer
+F 1255.0.0 3995 1
+S 1240.0.0 3950 1
+# linux400512.dc.engr.scu.edu(1):      1433  1 _empty_layer
+F 1242.0.0 3954 0
+S 1238.0.0 3946 0
+# linux400512.dc.engr.scu.edu(0):      2506  1 _empty_layer
+F 1240.0.0 3950 1
+S 1236.0.0 3942 1
+# linux400512.dc.engr.scu.edu(1):      1418  1 _empty_layer
+F 1238.0.0 3946 0
+S 1234.0.0 3938 0
+# linux400512.dc.engr.scu.edu(0):      1417  1 _empty_layer
+F 1236.0.0 3942 1
+S 1220.0.0 3901 1
+# linux400512.dc.engr.scu.edu(1):      1397  1 _empty_layer
+F 1234.0.0 3938 0
+S 1218.0.0 3897 0
+# linux400512.dc.engr.scu.edu(0):      1423  1 _empty_layer
+F 1220.0.0 3901 1
+S 1216.0.0 3893 1
+# linux400512.dc.engr.scu.edu(1):      1437  1 _empty_layer
+F 1218.0.0 3897 0
+S 1214.0.0 3889 0
+# linux400512.dc.engr.scu.edu(0):      1437  1 _empty_layer
+F 1216.0.0 3893 1
+S 1212.0.0 3885 1
+# linux400512.dc.engr.scu.edu(1):      1412  1 _empty_layer
+F 1214.0.0 3889 0
+S 1210.0.0 3881 0
+# linux400512.dc.engr.scu.edu(0):      1412  1 _empty_layer
+F 1212.0.0 3885 1
+S 1208.0.0 3877 1
+# linux400512.dc.engr.scu.edu(1):      1410  1 _empty_layer
+F 1210.0.0 3881 0
+S 1206.0.0 3873 0
+# linux400512.dc.engr.scu.edu(0):      1390  1 _empty_layer
+F 1208.0.0 3877 1
+S 1204.0.0 3869 1
+# linux400512.dc.engr.scu.edu(1):      1390  1 _empty_layer
+F 1206.0.0 3873 0
+S 1202.0.0 3865 0
+# linux400512.dc.engr.scu.edu(0):      1412  1 _empty_layer
+F 1204.0.0 3869 1
+S 1200.0.0 3861 1
+# linux400512.dc.engr.scu.edu(1):      1412  1 _empty_layer
+F 1202.0.0 3865 0
+S 1198.0.0 3857 0
+# linux400512.dc.engr.scu.edu(0):      2486  1 _empty_layer
+F 1200.0.0 3861 1
+S 1196.0.0 3853 1
+# linux400512.dc.engr.scu.edu(1):      2486  1 _empty_layer
+F 1198.0.0 3857 0
+S 1194.0.0 3849 0
+# linux400512.dc.engr.scu.edu(0):      1410  1 _empty_layer
+F 1196.0.0 3853 1
+S 1192.0.0 3845 1
+# linux400512.dc.engr.scu.edu(1):      1432  1 _empty_layer
+F 1194.0.0 3849 0
+S 1190.0.0 3841 0
+# linux400512.dc.engr.scu.edu(0):      1432  1 _empty_layer
+F 1192.0.0 3845 1
+S 1188.0.0 3837 1
+# linux400512.dc.engr.scu.edu(1):       831  1 _empty_layer
+F 1190.0.0 3841 0
+S 1186.0.0 3833 0
+# linux400512.dc.engr.scu.edu(0):      1417  1 _empty_layer
+F 1188.0.0 3837 1
+S 1184.0.0 3829 1
+# linux400512.dc.engr.scu.edu(1):      1417  1 _empty_layer
+F 1186.0.0 3833 0
+S 1170.0.0 3787 0
+# linux400512.dc.engr.scu.edu(0):      1377  1 _empty_layer
+F 1184.0.0 3829 1
+S 1168.0.0 3783 1
+# linux400512.dc.engr.scu.edu(1):      1377  1 _empty_layer
+F 1170.0.0 3787 0
+S 1166.0.0 3779 0
+# linux400512.dc.engr.scu.edu(0):      1377  1 _empty_layer
+F 1168.0.0 3783 1
+S 1164.0.0 3775 1
+# linux400512.dc.engr.scu.edu(1):      1377  1 _empty_layer
+F 1166.0.0 3779 0
+S 1162.0.0 3771 0
+# linux400512.dc.engr.scu.edu(0):      1377  1 _empty_layer
+F 1164.0.0 3775 1
+S 1160.0.0 3767 1
+# linux400512.dc.engr.scu.edu(1):      1377  1 _empty_layer
+F 1162.0.0 3771 0
+S 1158.0.0 3763 0
+# linux400512.dc.engr.scu.edu(0):      1377  1 _empty_layer
+F 1160.0.0 3767 1
+S 1152.0.0 3749 1
+# linux400512.dc.engr.scu.edu(1):      1406  1 _empty_layer
+F 1158.0.0 3763 0
+S 1150.0.0 3745 0
+# linux400512.dc.engr.scu.edu(0):      1406  1 _empty_layer
+F 1152.0.0 3749 1
+S 1148.0.0 3741 1
+# linux400512.dc.engr.scu.edu(1):      1406  1 _empty_layer
+F 1150.0.0 3745 0
+S 1146.0.0 3737 0
+# linux400512.dc.engr.scu.edu(0):      1406  1 _empty_layer
+F 1148.0.0 3741 1
+S 1144.0.0 3733 1
+# linux400512.dc.engr.scu.edu(1):      1406  1 _empty_layer
+F 1146.0.0 3737 0
+S 1142.0.0 3729 0
+# linux400512.dc.engr.scu.edu(0):      1406  1 _empty_layer
+F 1144.0.0 3733 1
+S 1140.0.0 3725 1
+# linux400512.dc.engr.scu.edu(1):      1406  1 _empty_layer
+F 1142.0.0 3729 0
+S 1138.0.0 3721 0
+# linux400512.dc.engr.scu.edu(0):      1406  1 _empty_layer
+F 1140.0.0 3725 1
+S 1136.0.0 3717 1
+# linux400512.dc.engr.scu.edu(1):      1406  1 _empty_layer
+F 1138.0.0 3721 0
+S 1117.0.0 3657 0
+# linux400512.dc.engr.scu.edu(0):      1428  1 _empty_layer
+F 1136.0.0 3717 1
+S 1115.0.0 3653 1
+# linux400512.dc.engr.scu.edu(1):      1428  1 _empty_layer
+F 1117.0.0 3657 0
+S 1113.0.0 3649 0
+# linux400512.dc.engr.scu.edu(0):      1428  1 _empty_layer
+F 1115.0.0 3653 1
+S 1111.0.0 3645 1
+# linux400512.dc.engr.scu.edu(1):      1428  1 _empty_layer
+F 1113.0.0 3649 0
+S 1109.0.0 3641 0
+# linux400512.dc.engr.scu.edu(0):      1421  1 _empty_layer
+F 1111.0.0 3645 1
+S 1107.0.0 3637 1
+# linux400512.dc.engr.scu.edu(1):      1421  1 _empty_layer
+F 1109.0.0 3641 0
+S 1105.0.0 3633 0
+# linux400512.dc.engr.scu.edu(0):      1421  1 _empty_layer
+F 1107.0.0 3637 1
+S 1103.0.0 3629 1
+# linux400512.dc.engr.scu.edu(1):      1421  1 _empty_layer
+F 1105.0.0 3633 0
+S 1097.0.0 3615 0
+# linux400512.dc.engr.scu.edu(0):       843  1 _empty_layer
+F 1103.0.0 3629 1
+S 1095.0.0 3611 1
+# linux400512.dc.engr.scu.edu(1):       843  1 _empty_layer
+F 1097.0.0 3615 0
+S 1077.0.0 3560 0
+# linux400512.dc.engr.scu.edu(0):      1399  1 _empty_layer
+F 1095.0.0 3611 1
+S 1075.0.0 3556 1
+# linux400512.dc.engr.scu.edu(1):      1399  1 _empty_layer
+F 1077.0.0 3560 0
+S 1073.0.0 3552 0
+# linux400512.dc.engr.scu.edu(0):      1425  1 _empty_layer
+F 1075.0.0 3556 1
+S 1071.0.0 3548 1
+# linux400512.dc.engr.scu.edu(1):      1425  1 _empty_layer
+F 1073.0.0 3552 0
+S 1069.0.0 3544 0
+# linux400512.dc.engr.scu.edu(0):      1414  1 _empty_layer
+F 1071.0.0 3548 1
+S 1067.0.0 3540 1
+# linux400512.dc.engr.scu.edu(1):      1414  1 _empty_layer
+F 1069.0.0 3544 0
+S 1065.0.0 3536 0
+# linux400512.dc.engr.scu.edu(0):      1410  1 _empty_layer
+F 1067.0.0 3540 1
+S 1046.0.0 3475 1
+# linux400512.dc.engr.scu.edu(1):      2478  1 _empty_layer
+F 1065.0.0 3536 0
+S 1038.0.0 3452 0
+# linux400512.dc.engr.scu.edu(0):       801  1 _empty_layer
+F 1046.0.0 3475 1
+S 1036.0.0 3448 1
+# linux400512.dc.engr.scu.edu(1):       801  1 _empty_layer
+F 1038.0.0 3452 0
+S 1034.0.0 3444 0
+# linux400512.dc.engr.scu.edu(0):       801  1 _empty_layer
+F 1036.0.0 3448 1
+S 1032.0.0 3440 1
+# linux400512.dc.engr.scu.edu(1):       797  1 _empty_layer
+F 1034.0.0 3444 0
+S 1030.0.0 3436 0
+# linux400512.dc.engr.scu.edu(0):       789  1 _empty_layer
+F 1032.0.0 3440 1
+S 1028.0.0 3432 1
+# linux400512.dc.engr.scu.edu(1):       802  1 _empty_layer
+F 1030.0.0 3436 0
+S 1026.0.0 3428 0
+# linux400512.dc.engr.scu.edu(0):       796  1 _empty_layer
+F 1028.0.0 3432 1
+S 1024.0.0 3424 1
+# linux400512.dc.engr.scu.edu(1):       801  1 _empty_layer
+F 1026.0.0 3428 0
+S 1022.0.0 3420 0
+# linux400512.dc.engr.scu.edu(0):       789  1 _empty_layer
+F 1024.0.0 3424 1
+S 1020.0.0 3416 1
+# linux400512.dc.engr.scu.edu(1):       789  1 _empty_layer
+F 1022.0.0 3420 0
+S 1018.0.0 3412 0
+# linux400512.dc.engr.scu.edu(0):       789  1 _empty_layer
+F 1020.0.0 3416 1
+S 1016.0.0 3408 1
+# linux400512.dc.engr.scu.edu(1):       789  1 _empty_layer
+F 1018.0.0 3412 0
+S 1014.0.0 3404 0
+# linux400512.dc.engr.scu.edu(0):       789  1 _empty_layer
+F 1016.0.0 3408 1
+S 1012.0.0 3400 1
+# linux400512.dc.engr.scu.edu(1):       789  1 _empty_layer
+F 1014.0.0 3404 0
+S 1010.0.0 3396 0
+# linux400512.dc.engr.scu.edu(0):       789  1 _empty_layer
+F 1012.0.0 3400 1
+S 1008.0.0 3392 1
+# linux400512.dc.engr.scu.edu(1):       789  1 _empty_layer
+F 1010.0.0 3396 0
+S 1006.0.0 3388 0
+# linux400512.dc.engr.scu.edu(0):       789  1 _empty_layer
+F 1008.0.0 3392 1
+S 1004.0.0 3384 1
+# linux400512.dc.engr.scu.edu(1):       798  1 _empty_layer
+F 1006.0.0 3388 0
+S 1002.0.0 3380 0
+# linux400512.dc.engr.scu.edu(0):       798  1 _empty_layer
+F 1004.0.0 3384 1
+S 1000.0.0 3376 1
+# linux400512.dc.engr.scu.edu(1):       792  1 _empty_layer
+F 1002.0.0 3380 0
+S 998.0.0 3372 0
+# linux400512.dc.engr.scu.edu(0):       792  1 _empty_layer
+F 1000.0.0 3376 1
+S 996.0.0 3368 1
+# linux400512.dc.engr.scu.edu(1):       792  1 _empty_layer
+F 998.0.0 3372 0
+S 994.0.0 3364 0
+# linux400512.dc.engr.scu.edu(0):       792  1 _empty_layer
+F 996.0.0 3368 1
+S 992.0.0 3360 1
+# linux400512.dc.engr.scu.edu(1):       792  1 _empty_layer
+F 994.0.0 3364 0
+S 990.0.0 3356 0
+# linux400512.dc.engr.scu.edu(0):       792  1 _empty_layer
+F 992.0.0 3360 1
+S 988.0.0 3352 1
+# linux400512.dc.engr.scu.edu(1):       792  1 _empty_layer
+F 990.0.0 3356 0
+S 982.0.0 3338 0
+# linux400512.dc.engr.scu.edu(0):       786  1 _empty_layer
+F 988.0.0 3352 1
+S 980.0.0 3334 1
+# linux400512.dc.engr.scu.edu(1):       786  1 _empty_layer
+F 982.0.0 3338 0
+S 978.0.0 3330 0
+# linux400512.dc.engr.scu.edu(0):       786  1 _empty_layer
+F 980.0.0 3334 1
+S 976.0.0 3326 1
+# linux400512.dc.engr.scu.edu(1):       786  1 _empty_layer
+F 978.0.0 3330 0
+S 974.0.0 3322 0
+# linux400512.dc.engr.scu.edu(0):       786  1 _empty_layer
+F 976.0.0 3326 1
+S 972.0.0 3318 1
+# linux400512.dc.engr.scu.edu(1):       786  1 _empty_layer
+F 974.0.0 3322 0
+S 970.0.0 3314 0
+# linux400512.dc.engr.scu.edu(0):       786  1 _empty_layer
+F 972.0.0 3318 1
+S 962.0.0 3295 1
+# linux400512.dc.engr.scu.edu(1):       792  1 _empty_layer
+F 970.0.0 3314 0
+S 960.0.0 3291 0
+# linux400512.dc.engr.scu.edu(0):       801  1 _empty_layer
+F 962.0.0 3295 1
+S 958.0.0 3287 1
+# linux400512.dc.engr.scu.edu(1):       801  1 _empty_layer
+F 960.0.0 3291 0
+S 944.0.0 3250 0
+# linux400512.dc.engr.scu.edu(0):      2424  1 _empty_layer
+F 958.0.0 3287 1
+S 937.0.0 3232 1
+# linux400512.dc.engr.scu.edu(1):      2424  1 _empty_layer
+F 944.0.0 3250 0
+S 930.0.0 3214 0
+# linux400512.dc.engr.scu.edu(0):      2424  1 _empty_layer
+F 937.0.0 3232 1
+S 923.0.0 3196 1
+# linux400512.dc.engr.scu.edu(1):      2424  1 _empty_layer
+F 930.0.0 3214 0
+S 916.0.0 3178 0
+# linux400512.dc.engr.scu.edu(0):      2424  1 _empty_layer
+F 923.0.0 3196 1
+S 909.0.0 3160 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 916.0.0 3178 0
+S 902.0.0 3142 0
+# linux400512.dc.engr.scu.edu(0):      2412  1 _empty_layer
+F 909.0.0 3160 1
+S 895.0.0 3124 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 902.0.0 3142 0
+S 888.0.0 3106 0
+# linux400512.dc.engr.scu.edu(0):      2412  1 _empty_layer
+F 895.0.0 3124 1
+S 881.0.0 3088 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 888.0.0 3106 0
+S 874.0.0 3070 0
+# linux400512.dc.engr.scu.edu(0):      2412  1 _empty_layer
+F 881.0.0 3088 1
+S 867.0.0 3052 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 874.0.0 3070 0
+S 860.0.0 3034 0
+# linux400512.dc.engr.scu.edu(0):      2412  1 _empty_layer
+F 867.0.0 3052 1
+S 853.0.0 3016 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 860.0.0 3034 0
+S 846.0.0 2998 0
+# linux400512.dc.engr.scu.edu(0):      2424  1 _empty_layer
+F 853.0.0 3016 1
+S 839.0.0 2980 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 846.0.0 2998 0
+S 832.0.0 2962 0
+# linux400512.dc.engr.scu.edu(0):      2427  1 _empty_layer
+F 839.0.0 2980 1
+S 825.0.0 2944 1
+# linux400512.dc.engr.scu.edu(1):      2427  1 _empty_layer
+F 832.0.0 2962 0
+S 823.0.0 2941 0
+# linux400512.dc.engr.scu.edu(0):      2444  1 _empty_layer
+F 825.0.0 2944 1
+S 821.0.0 2938 1
+# linux400512.dc.engr.scu.edu(1):      2444  1 _empty_layer
+F 823.0.0 2941 0
+S 4489.0.0 15435 0
+# linux400512.dc.engr.scu.edu(0):      4020  1 _stamp_text_q
+F 821.0.0 2938 1
+S 4488.0.0 15432 1
+# linux400512.dc.engr.scu.edu(1):      4020  1 _stamp_text_q
+F 4488.0.0 15432 1
+S 819.0.0 2935 1
+# linux400512.dc.engr.scu.edu(1):      2444  1 _empty_layer
+F 819.0.0 2935 1
+S 4487.0.0 15429 1
+# linux400512.dc.engr.scu.edu(1):      4020  1 _stamp_text_q
+F 4487.0.0 15429 1
+S 817.0.0 2932 1
+# linux400512.dc.engr.scu.edu(1):      2444  1 _empty_layer
+F 817.0.0 2932 1
+S 4486.0.0 15426 1
+# linux400512.dc.engr.scu.edu(1):      4020  1 _stamp_text_q
+F 4486.0.0 15426 1
+S 815.0.0 2929 1
+# linux400512.dc.engr.scu.edu(1):      2444  1 _empty_layer
+F 4489.0.0 15435 0
+S 813.0.0 2926 0
+# linux400512.dc.engr.scu.edu(0):      2444  1 _empty_layer
+F 815.0.0 2929 1
+S 4485.0.0 15423 1
+# linux400512.dc.engr.scu.edu(1):      4020  1 _stamp_text_q
+F 813.0.0 2926 0
+S 4484.0.0 15420 0
+# linux400512.dc.engr.scu.edu(0):      4020  1 _stamp_text_q
+F 4485.0.0 15423 1
+S 811.0.0 2923 1
+# linux400512.dc.engr.scu.edu(1):      2444  1 _empty_layer
+F 4484.0.0 15420 0
+S 809.0.0 2920 0
+# linux400512.dc.engr.scu.edu(0):      2444  1 _empty_layer
+F 811.0.0 2923 1
+S 4483.0.0 15417 1
+# linux400512.dc.engr.scu.edu(1):      4020  1 _stamp_text_q
+F 809.0.0 2920 0
+S 4482.0.0 15414 0
+# linux400512.dc.engr.scu.edu(0):      4020  1 _stamp_text_q
+F 4483.0.0 15417 1
+S 799.0.0 2891 1
+# linux400512.dc.engr.scu.edu(1):      2421  1 _empty_layer
+F 4482.0.0 15414 0
+S 792.0.0 2873 0
+# linux400512.dc.engr.scu.edu(0):      2421  1 _empty_layer
+F 799.0.0 2891 1
+S 785.0.0 2855 1
+# linux400512.dc.engr.scu.edu(1):      2415  1 _empty_layer
+F 792.0.0 2873 0
+S 778.0.0 2837 0
+# linux400512.dc.engr.scu.edu(0):      2415  1 _empty_layer
+F 785.0.0 2855 1
+S 763.0.0 2793 1
+# linux400512.dc.engr.scu.edu(1):      2409  1 _empty_layer
+F 778.0.0 2837 0
+S 756.0.0 2775 0
+# linux400512.dc.engr.scu.edu(0):      2409  1 _empty_layer
+F 763.0.0 2793 1
+S 749.0.0 2757 1
+# linux400512.dc.engr.scu.edu(1):      2409  1 _empty_layer
+F 756.0.0 2775 0
+S 742.0.0 2739 0
+# linux400512.dc.engr.scu.edu(0):      2415  1 _empty_layer
+F 749.0.0 2757 1
+S 735.0.0 2721 1
+# linux400512.dc.engr.scu.edu(1):      2409  1 _empty_layer
+F 742.0.0 2739 0
+S 728.0.0 2703 0
+# linux400512.dc.engr.scu.edu(0):      2415  1 _empty_layer
+F 735.0.0 2721 1
+S 721.0.0 2685 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 728.0.0 2703 0
+S 714.0.0 2667 0
+# linux400512.dc.engr.scu.edu(0):      2418  1 _empty_layer
+F 721.0.0 2685 1
+S 707.0.0 2649 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 714.0.0 2667 0
+S 700.0.0 2631 0
+# linux400512.dc.engr.scu.edu(0):      2418  1 _empty_layer
+F 707.0.0 2649 1
+S 693.0.0 2613 1
+# linux400512.dc.engr.scu.edu(1):      2412  1 _empty_layer
+F 700.0.0 2631 0
+S 686.0.0 2595 0
+# linux400512.dc.engr.scu.edu(0):      2418  1 _empty_layer
+F 693.0.0 2613 1
+S 647.0.0 2473 1
+# linux400512.dc.engr.scu.edu(1):      2417  1 _empty_layer
+F 686.0.0 2595 0
+S 640.0.0 2455 0
+# linux400512.dc.engr.scu.edu(0):      2426  1 _empty_layer
+F 647.0.0 2473 1
+S 601.0.0 2318 1
+# linux400512.dc.engr.scu.edu(1):       238  1 _empty_layer
+F 640.0.0 2455 0
+F 601.0.0 2318 1
+S 4252.0.0 14706 1
+# linux400512.dc.engr.scu.edu(1):      1145  1 _merge_device_layer
+F 0 0 0
+S 4333.0.0 14895 0
+# linux400512.dc.engr.scu.edu(0):       925  1 _merge_device_layer
+F 4333.0.0 14895 0
+S 4330.0.0 14888 0
+# linux400512.dc.engr.scu.edu(0):       925  1 _merge_device_layer
+F 4252.0.0 14706 1
+S 1251.0.0 3979 1
+# linux400512.dc.engr.scu.edu(1):      1845  1 _boolean_and_q
+F 4330.0.0 14888 0
+S 1386.0.0 4274 0
+# linux400512.dc.engr.scu.edu(0):      1835  1 _boolean_and_q
+F 1251.0.0 3979 1
+S 1253.0.0 3989 1
+# linux400512.dc.engr.scu.edu(1):      1849  1 _boolean_and_q
+F 1386.0.0 4274 0
+S 1403.0.0 4311 0
+# linux400512.dc.engr.scu.edu(0):      1768  1 _copy
+F 1253.0.0 3989 1
+S 1411.0.0 4328 1
+# linux400512.dc.engr.scu.edu(1):      1895  1 _boolean_not_q
+F 1403.0.0 4311 0
+S 4425.0.0 15104 0
+# linux400512.dc.engr.scu.edu(0):       945  1 _merge_device_layer
+F 4425.0.0 15104 0
+S 1126.0.0 3688 0
+# linux400512.dc.engr.scu.edu(0):      1843  1 _boolean_and_q
+F 1411.0.0 4328 1
+S 1413.0.0 4334 1
+# linux400512.dc.engr.scu.edu(1):       999  1 _copy
+F 1126.0.0 3688 0
+S 1052.0.0 3492 0
+# linux400512.dc.engr.scu.edu(0):      1845  1 _boolean_and_q
+F 1413.0.0 4334 1
+S 1055.0.0 3503 1
+# linux400512.dc.engr.scu.edu(1):      1890  1 _boolean_and_q
+F 1052.0.0 3492 0
+S 1123.0.0 3677 0
+# linux400512.dc.engr.scu.edu(0):      1845  1 _boolean_and_q
+F 1055.0.0 3503 1
+S 1120.0.0 3666 1
+# linux400512.dc.engr.scu.edu(1):      1847  1 _boolean_and_q
+F 1123.0.0 3677 0
+S 1417.0.0 4344 0
+# linux400512.dc.engr.scu.edu(0):       993  1 _copy
+F 1120.0.0 3666 1
+S 1415.0.0 4339 1
+# linux400512.dc.engr.scu.edu(1):       993  1 _copy
+F 1417.0.0 4344 0
+S 1061.0.0 3525 0
+# linux400512.dc.engr.scu.edu(0):      1845  1 _boolean_and_q
+F 1415.0.0 4339 1
+S 1322.0.0 4132 1
+# linux400512.dc.engr.scu.edu(1):      2578  1 _level_one_q
+F 1322.0.0 4132 1
+S 1323.0.0 4136 1
+# linux400512.dc.engr.scu.edu(1):      1626  1 _select_donut_hole
+F 1061.0.0 3525 0
+S 1083.0.0 3580 0
+# linux400512.dc.engr.scu.edu(0):      1841  1 _boolean_and_q
+F 1323.0.0 4136 1
+S 1327.0.0 4145 1
+# linux400512.dc.engr.scu.edu(1):      1075  1 _copy
+F 1327.0.0 4145 1
+S 1222.0.0 3905 1
+# linux400512.dc.engr.scu.edu(1):      1049  1 _copy
+F 1083.0.0 3580 0
+S 1101.0.0 3624 0
+# linux400512.dc.engr.scu.edu(0):      1817  1 _copy
+F 1222.0.0 3905 1
+S 1230.0.0 3926 1
+# linux400512.dc.engr.scu.edu(1):      1896  1 _boolean_not_q
+F 1101.0.0 3624 0
+S 1175.0.0 3799 0
+# linux400512.dc.engr.scu.edu(0):      1047  1 _copy
+F 1175.0.0 3799 0
+S 1182.0.0 3823 0
+# linux400512.dc.engr.scu.edu(0):      1843  1 _boolean_and_q
+F 1182.0.0 3823 0
+S 1058.0.0 3514 0
+# linux400512.dc.engr.scu.edu(0):      1847  1 _boolean_and_q
+F 1230.0.0 3926 1
+S 4379.0.0 15001 1
+# linux400512.dc.engr.scu.edu(1):       935  1 _merge_device_layer
+F 4379.0.0 15001 1
+S 1334.0.0 4161 1
+# linux400512.dc.engr.scu.edu(1):      3329  1 _select_q
+F 1058.0.0 3514 0
+S 1080.0.0 3569 0
+# linux400512.dc.engr.scu.edu(0):      1841  1 _boolean_and_q
+F 1080.0.0 3569 0
+S 1130.0.0 3700 0
+# linux400512.dc.engr.scu.edu(0):      1104  1 _boolean_or_list
+F 1334.0.0 4161 1
+S 1099.0.0 3619 1
+# linux400512.dc.engr.scu.edu(1):      1819  1 _copy
+F 1099.0.0 3619 1
+S 1350.0.0 4197 1
+# linux400512.dc.engr.scu.edu(1):      1072  1 _copy
+F 1350.0.0 4197 1
+S 1225.0.0 3913 1
+# linux400512.dc.engr.scu.edu(1):      1050  1 _copy
+F 1225.0.0 3913 1
+S 1232.0.0 3932 1
+# linux400512.dc.engr.scu.edu(1):      1896  1 _boolean_not_q
+F 1130.0.0 3700 0
+S 1134.0.0 3711 0
+# linux400512.dc.engr.scu.edu(0):      1904  1 _boolean_not_q
+F 1134.0.0 3711 0
+S 1499.0.0 4631 0
+# linux400512.dc.engr.scu.edu(0):      4775  1 _preprocess_device_layer
+F 1232.0.0 3932 1
+S 4382.0.0 15008 1
+# linux400512.dc.engr.scu.edu(1):       935  1 _merge_device_layer
+F 4382.0.0 15008 1
+S 1132.0.0 3705 1
+# linux400512.dc.engr.scu.edu(1):      1904  1 _boolean_not_q
+F 1132.0.0 3705 1
+S 1914.0.0 6127 1
+# linux400512.dc.engr.scu.edu(1):      4778  1 _preprocess_device_layer
+F 1499.0.0 4631 0
+S 4249.0.0 14699 0
+# linux400512.dc.engr.scu.edu(0):      1075  1 _merge_device_layer
+F 4249.0.0 14699 0
+S 4300.0.0 14818 0
+# linux400512.dc.engr.scu.edu(0):      1236  1 _merge_device_layer
+F 4300.0.0 14818 0
+S 4270.0.0 14748 0
+# linux400512.dc.engr.scu.edu(0):       916  1 _merge_device_layer
+F 1914.0.0 6127 1
+S 4246.0.0 14692 1
+# linux400512.dc.engr.scu.edu(1):      1124  1 _merge_device_layer
+F 4270.0.0 14748 0
+S 4439.0.0 15137 0
+# linux400512.dc.engr.scu.edu(0):      1041  1 _merge_device_layer
+F 4439.0.0 15137 0
+S 4445.0.0 15159 0
+# linux400512.dc.engr.scu.edu(0):       929  1 _pull_down_bulk
+F 4246.0.0 14692 1
+S 4297.0.0 14811 1
+# linux400512.dc.engr.scu.edu(1):      1236  1 _merge_device_layer
+F 4445.0.0 15159 0
+S 4267.0.0 14741 0
+# linux400512.dc.engr.scu.edu(0):       916  1 _merge_device_layer
+F 4297.0.0 14811 1
+S 1172.0.0 3791 1
+# linux400512.dc.engr.scu.edu(1):      1047  1 _copy
+F 1172.0.0 3791 1
+S 1179.0.0 3812 1
+# linux400512.dc.engr.scu.edu(1):      1843  1 _boolean_and_q
+F 4267.0.0 14741 0
+S 4436.0.0 15130 0
+# linux400512.dc.engr.scu.edu(0):      1041  1 _merge_device_layer
+F 1179.0.0 3812 1
+F 0 0 1
+F 4436.0.0 15130 0
+S 4437.0.0 15132 0
+# linux400512.dc.engr.scu.edu(0):       895  1 _pull_down_bulk
+F 4437.0.0 15132 0
+S 4466.0.0 15367 0
+# linux400512.dc.engr.scu.edu(0):     26304  1 _connect_q
+F 4466.0.0 15367 0
+S 4491.0.0 15440 0
+# linux400512.dc.engr.scu.edu(0):      9483  1 _text
+F 4491.0.0 15440 0
+S 4499.0.0 15464 0
+# linux400512.dc.engr.scu.edu(0):     10288  1 _process_text_opens
+F 4499.0.0 15464 0
+S 4512.0.0 15517 0
+# linux400512.dc.engr.scu.edu(0):      3039  1 _create_ports
+F 4512.0.0 15517 0
+S 4718.0.0 16080 0
+# linux400512.dc.engr.scu.edu(0):     36944  2 _mos
+S 4548.0.0 15627 1
+# linux400512.dc.engr.scu.edu(1):     36926  2 _mos
+F 4718.0.0 16080 0
+F 0 0 0
+F 4548.0.0 15627 1
+S 5784.0.0 18826 0
+# linux400512.dc.engr.scu.edu(0):      3998  1 _connect_device
+F 0 0 1
+F 5784.0.0 18826 0
+S 5796.0.0 18863 0
+# linux400512.dc.engr.scu.edu(0):      2688  1 _create_netlist_cdb
+S 5792.0.0 18852 1
+# linux400512.dc.engr.scu.edu(1):      2437  1 _dev_create_acct
+F 5792.0.0 18852 1
+F 0 0 1
+F 5796.0.0 18863 0
+S 8464.0.0 27376 0
+# linux400512.dc.engr.scu.edu(0):     14632  1 _write_extract_view
+S 5846.0.0 19072 1
+# linux400512.dc.engr.scu.edu(1):     11355  1 _write_vue_info
+F 8464.0.0 27376 0
+S 5880.0.0 19172 0
+# linux400512.dc.engr.scu.edu(0):      1071  1 _write_icv_netlist
+F 5880.0.0 19172 0
+S 5863.0.0 19123 0
+# linux400512.dc.engr.scu.edu(0):      1062  1 _do_ndb
+F 5863.0.0 19123 0
+S 6014.0.0 19789 0
+# linux400512.dc.engr.scu.edu(0):     17442  2 _do_compare_remote
+F 5846.0.0 19072 1
+F 0 0 1
+F 6014.0.0 19789 0
+S 6024.0.0 19814 0
+# linux400512.dc.engr.scu.edu(0):      1647  1 _do_spice
+F 6024.0.0 19814 0
+S 8504.0.0 27526 0
+# linux400512.dc.engr.scu.edu(0):       372  1 _accumulate_results
+F 8504.0.0 27526 0
+}

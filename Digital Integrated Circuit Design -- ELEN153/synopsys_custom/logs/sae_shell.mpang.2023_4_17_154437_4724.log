@@ -1,0 +1,49 @@
+[15:44:41.84] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Mon Apr 17 15:44:37 2023
+              /c Host: linux400513
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:44:41.90] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[15:44:41.90] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[15:44:41.90] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[15:44:41.91] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[15:44:42.03] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[15:44:42.03] /o 	############################################
+[15:44:42.03] /o 	        Synopsys Generic 90nm iPDK          
+[15:44:42.03] /o 	--------------------------------------------
+[15:44:42.03] /o 	Release Date .............. : 11-May-2016    
+[15:44:42.03] /o 	============================================
+[15:44:42.03] /o 	        Recommended Tool Versions           
+[15:44:42.03] /o 	--------------------------------------------
+[15:44:42.03] /o 	Custom Designer ........... : J-2014.12-2    
+[15:44:42.03] /o 	IC Validator .............. : K-2015.12   
+[15:44:42.03] /o 	StarRC..................... : K-2015.12  
+[15:44:42.03] /o 	--------------------------------------------
+[15:44:42.03] /o 	############################################
+[15:44:42.03] /o 
+[15:44:42.05] /o SAED PDK 90: Loaded callbacks
+[15:44:42.05] /o SAED PDK 90: Loaded display resources
+[15:44:42.06] /i ::sa::_backgroundSaeShell::signalProcessReady 1681771477
+[15:44:42.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 5
+[15:49:43.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:49:43.26] /i ::sa::_backgroundSaeShell::parentRunning
+[15:49:43.26] /o 1681771783
+[15:54:44.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:54:44.26] /i ::sa::_backgroundSaeShell::parentRunning
+[15:54:44.26] /o 1681772084
+[15:59:45.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:59:45.26] /i ::sa::_backgroundSaeShell::parentRunning
+[15:59:45.26] /o 1681772385
+[16:04:46.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:04:46.16] /i ::sa::_backgroundSaeShell::parentRunning
+[16:04:46.16] /o 1681772686
+[16:08:31.67] /i ::wf::viewerExited
+[16:09:47.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:09:47.36] /i ::sa::_backgroundSaeShell::parentRunning
+[16:09:47.36] /o 1681772987
+[16:10:38.96] /i ::sa::_backgroundSaeShell::exit
+[16:10:38.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

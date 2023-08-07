@@ -1,0 +1,35 @@
+[16:39:49.96] /r giWindowId 0
+[16:39:49.96] /r giWindowGeometry 600x300
+[16:39:49.97] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Jun  5 16:39:48 2023
+              /c Host: linux400512
+              /c Working directory: /DCNFS/users/student/mpang/ELEN153
+              /c 
+[16:39:52.76] /r giShowFrameTabs true
+[16:39:52.76] /r giWindowId 1
+[16:39:52.76] /r giWindowGeometry 1040x800
+[16:39:54.26] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:39:54.27] /# 
+[16:39:54.57] /i dm::showLibraryManager
+[16:39:54.57] /r giWindowId 2
+[16:39:54.57] /r giWindowGeometry 660x600+50+76
+[16:39:54.59] /o oa:0x2103ef90
+[16:39:58.63] /i exit
+[16:39:58.65] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:39:58.95] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+373
+[16:40:00.10] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[16:40:00.46] /o Shutdown time: Mon Jun  5 16:40:00 2023
+[16:40:00.46] /o Elapsed session real time: 0.16 minutes
+[16:40:00.46] /o Session terminated. Log is at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/logs/ccompiler.mpang.2023_6_5_163948_31391.log

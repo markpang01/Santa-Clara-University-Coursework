@@ -1,0 +1,14 @@
+Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Mon Apr 10 16:22:47 2023
+Frame 0. libc.so.6: __poll + 0x24
+Frame 1. sae_shell: poll + 0x61
+Frame 2. /lib64/libglib-2.0.so.0 ::f01c4423fc + 0x43c
+Frame 3. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+Frame 4. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x6a
+Frame 5. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0xea
+Frame 6. QCoreApplication::exec() + 0x8d
+Frame 7. 0x13139d2 SNPSee_3cb5a937433b5647dfd0ba220bc88c363f9edc9e424f5618e629fa54920aaa2d42181fc4e419a971bdba91f3b1089c26 + 0xa2
+Frame 8. sae_shell: main + 0x6a
+Frame 9. libc.so.6: __libc_start_main + 0xf5
+Frame 10. /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/sae_shell ::0x1308a75 + 0x29
+Error: The application was unexpectedly terminated.
+See the session log file for recovery details. (SHUT_DOWN-001)

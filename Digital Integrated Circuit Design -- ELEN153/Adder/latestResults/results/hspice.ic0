@@ -1,0 +1,83 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP2-3 linux64"
+* "format" "HSP"
+* "rundate" "15:35:04 05/22/2023 "
+* "netlist" "/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/netlist/input.spi "
+* "runtitle" "*  generated for: hspice"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a0 =   1.0000        
++ a1 =   0.            
++ a2 =   1.0000        
++ a3 =   0.            
++ b0 =   0.            
++ b1 =   1.0000        
++ b2 =   1.0000        
++ b3 =   0.            
++ cin =   0.            
++ cout =  31.5343u       
++ s0 =   1.2000        
++ s1 =   1.2000        
++ s2 =  31.5343u       
++ s3 =   1.2000        
++ vdd! =   1.2000        
++ xi0.net30 =  59.1184u       
++ xi0.net35 =  35.8371u       
++ xi0.net40 =   1.2000        
++ xi0.xi7.net10 =  32.1889u       
++ xi0.xi7.net11 =  32.1918u       
++ xi0.xi7.net7 =  69.1228u       
++ xi0.xi6.net10 =   1.2000        
++ xi0.xi6.net11 =  31.5174u       
++ xi0.xi6.net7 =  35.5685u       
++ xi0.xi5.net10 =  32.1913u       
++ xi0.xi5.net11 =  32.1932u       
++ xi0.xi5.net7 =   1.2000        
++ xi0.xi4.net10 =  32.1931u       
++ xi0.xi4.net11 =  32.1932u       
++ xi0.xi4.net7 =   1.2000        
++ xi0.xi7.xi2.net16 =   1.2000        
++ xi0.xi7.xi2.net23 =   1.2000        
++ xi0.xi6.xi2.net16 =  21.6669u       
++ xi0.xi6.xi2.net23 = 227.9352m       
++ xi0.xi5.xi2.net16 =   1.2000        
++ xi0.xi5.xi2.net23 =   1.2000        
++ xi0.xi4.xi2.net16 =   1.2000        
++ xi0.xi4.xi2.net23 =   1.2000        
++ xi0.xi7.xi1.xi0.net24 =   1.2000        
++ xi0.xi7.xi1.xi0.net7 = 953.8983m       
++ xi0.xi7.xi1.xi1.net1 =   1.2000        
++ xi0.xi7.xi1.xi1.net2 = 104.2358u       
++ xi0.xi7.xi0.xi0.net24 =   1.2000        
++ xi0.xi7.xi0.xi0.net7 =  54.6005m       
++ xi0.xi7.xi0.xi1.net1 =   1.2000        
++ xi0.xi7.xi0.xi1.net2 =   1.2000        
++ xi0.xi6.xi1.xi0.net24 =   1.2000        
++ xi0.xi6.xi1.xi0.net7 =  54.6009m       
++ xi0.xi6.xi1.xi1.net1 =   1.2000        
++ xi0.xi6.xi1.xi1.net2 =   1.2000        
++ xi0.xi6.xi0.xi0.net24 =  12.3158m       
++ xi0.xi6.xi0.xi0.net7 =   6.1436m       
++ xi0.xi6.xi0.xi1.net1 =   1.1997        
++ xi0.xi6.xi0.xi1.net2 =   1.1995        
++ xi0.xi5.xi1.xi0.net24 =   1.2000        
++ xi0.xi5.xi1.xi0.net7 =   4.6033u       
++ xi0.xi5.xi1.xi1.net1 = 227.9653m       
++ xi0.xi5.xi1.xi1.net2 =  83.7445u       
++ xi0.xi5.xi0.xi0.net24 =   1.2000        
++ xi0.xi5.xi0.xi0.net7 = 800.4244m       
++ xi0.xi5.xi0.xi1.net1 =   1.1969        
++ xi0.xi5.xi0.xi1.net2 =   2.8741m       
++ xi0.xi4.xi1.xi0.net24 =   1.2000        
++ xi0.xi4.xi1.xi0.net7 =   4.5986u       
++ xi0.xi4.xi1.xi1.net1 = 227.9159m       
++ xi0.xi4.xi1.xi1.net2 =  24.6295u       
++ xi0.xi4.xi0.xi0.net24 =   1.2000        
++ xi0.xi4.xi0.xi0.net7 =   3.7213u       
++ xi0.xi4.xi0.xi1.net1 = 377.6192m       
++ xi0.xi4.xi0.xi1.net2 =   1.7813m       
+***   END: Saved Operating Point ***                     

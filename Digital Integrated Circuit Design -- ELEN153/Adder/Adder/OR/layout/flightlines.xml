@@ -1,0 +1,9 @@
+<flightline>
+ <flightline net_name="vdd!" state="persistent" color="y6Flt"/>
+ <flightline net_name="gnd!" state="persistent" color="y2Flt"/>
+ <flightline net_name="OUT" state="persistent" color="y4Flt"/>
+ <flightline net_name="A" state="persistent" color="y1Flt"/>
+ <flightline net_name="B" state="persistent" color="y3Flt"/>
+ <flightline net_name="net23" state="persistent" color="y5Flt"/>
+ <flightline net_name="net16" state="persistent" color="y0Flt"/>
+</flightline>

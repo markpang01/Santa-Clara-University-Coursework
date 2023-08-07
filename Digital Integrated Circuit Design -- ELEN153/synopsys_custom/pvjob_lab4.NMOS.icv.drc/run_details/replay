@@ -1,0 +1,904 @@
+#
+# runset is /DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+#
+runset_csum = 22831
+num_hosts = 2
+events {
+S 368.0.0 1362 0
+# linux400512.dc.engr.scu.edu(0):       772  1 _prescan_library
+F 368.0.0 1362 0
+S 370.0.0 1369 0
+# linux400512.dc.engr.scu.edu(0):       818  1 _scan_hierarchy
+F 370.0.0 1369 0
+S 373.0.0 1376 1
+# linux400512.dc.engr.scu.edu(1):      5918  1 _read_library_segment
+F 373.0.0 1376 1
+S 375.0.0 1384 0
+# linux400512.dc.engr.scu.edu(0):      4121  1 _create_hierarchy_tree
+F 0 0 1
+F 375.0.0 1384 0
+S 438.0.0 1597 0
+# linux400512.dc.engr.scu.edu(0):       478  1 _empty_layer
+F 438.0.0 1597 0
+S 442.0.0 1608 0
+# linux400512.dc.engr.scu.edu(0):      1574  1 _optimize_hierarchy_tree
+S 470.0.0 1717 1
+# linux400512.dc.engr.scu.edu(1):      3650  1 _create_layer_dp
+F 470.0.0 1717 1
+S 467.0.0 1706 1
+# linux400512.dc.engr.scu.edu(1):      3650  1 _create_layer_dp
+F 467.0.0 1706 1
+S 464.0.0 1695 1
+# linux400512.dc.engr.scu.edu(1):      3658  1 _create_layer_dp
+F 464.0.0 1695 1
+S 461.0.0 1684 1
+# linux400512.dc.engr.scu.edu(1):      3650  1 _create_layer_dp
+F 461.0.0 1684 1
+S 458.0.0 1673 1
+# linux400512.dc.engr.scu.edu(1):      3650  1 _create_layer_dp
+F 442.0.0 1608 0
+S 443.0.0 1617 0
+# linux400512.dc.engr.scu.edu(0):       965  1 _hierarchy_cleanup
+F 458.0.0 1673 1
+S 455.0.0 1662 1
+# linux400512.dc.engr.scu.edu(1):      3656  1 _create_layer_dp
+F 443.0.0 1617 0
+F 455.0.0 1662 1
+S 452.0.0 1651 1
+# linux400512.dc.engr.scu.edu(1):      3656  1 _create_layer_dp
+F 452.0.0 1651 1
+S 449.0.0 1640 1
+# linux400512.dc.engr.scu.edu(1):      3656  1 _create_layer_dp
+S 446.0.0 1624 0
+# linux400512.dc.engr.scu.edu(0):      3660  1 _create_layer_dp
+F 449.0.0 1640 1
+S 441.0.0 1606 1
+# linux400512.dc.engr.scu.edu(1):       731  1 _generate_sibling_refref
+F 441.0.0 1606 1
+S 444.0.0 1620 1
+# linux400512.dc.engr.scu.edu(1):       987  1 _update_and_pushdown_refref
+F 444.0.0 1620 1
+S 450.0.0 1645 1
+# linux400512.dc.engr.scu.edu(1):      3661  1 _optimize_layer_dp
+F 446.0.0 1624 0
+S 447.0.0 1634 0
+# linux400512.dc.engr.scu.edu(0):      3665  1 _optimize_layer_dp
+F 450.0.0 1645 1
+S 540.0.0 1954 1
+# linux400512.dc.engr.scu.edu(1):      1750  1 _area_q
+F 540.0.0 1954 1
+S 542.0.0 1959 1
+# linux400512.dc.engr.scu.edu(1):      1172  1 _tag_violation
+F 447.0.0 1634 0
+S 492.0.0 1803 0
+# linux400512.dc.engr.scu.edu(0):      3857  1 _connect_q
+F 542.0.0 1959 1
+S 489.0.0 1791 1
+# linux400512.dc.engr.scu.edu(1):      5526  1 _internal_q
+F 489.0.0 1791 1
+S 491.0.0 1800 1
+# linux400512.dc.engr.scu.edu(1):      2688  1 _tag_violation
+F 491.0.0 1800 1
+S 521.0.0 1884 1
+# linux400512.dc.engr.scu.edu(1):      6194  1 _external_q
+F 521.0.0 1884 1
+S 523.0.0 1894 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 523.0.0 1894 1
+S 518.0.0 1873 1
+# linux400512.dc.engr.scu.edu(1):      5522  1 _internal_q
+F 518.0.0 1873 1
+S 520.0.0 1882 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 520.0.0 1882 1
+S 514.0.0 1862 1
+# linux400512.dc.engr.scu.edu(1):      1766  1 _copy
+F 514.0.0 1862 1
+S 453.0.0 1656 1
+# linux400512.dc.engr.scu.edu(1):      3661  1 _optimize_layer_dp
+F 492.0.0 1803 0
+S 493.0.0 1805 0
+# linux400512.dc.engr.scu.edu(0):      6333  1 _external_q
+F 493.0.0 1805 0
+S 495.0.0 1815 0
+# linux400512.dc.engr.scu.edu(0):      2318  1 _tag_violation
+F 495.0.0 1815 0
+S 456.0.0 1667 0
+# linux400512.dc.engr.scu.edu(0):      3661  1 _optimize_layer_dp
+F 453.0.0 1656 1
+S 561.0.0 2028 1
+# linux400512.dc.engr.scu.edu(1):      6321  1 _internal2_q
+F 561.0.0 2028 1
+S 563.0.0 2038 1
+# linux400512.dc.engr.scu.edu(1):      2490  1 _tag_violation
+F 563.0.0 2038 1
+S 552.0.0 1996 1
+# linux400512.dc.engr.scu.edu(1):      6207  1 _external_q
+F 552.0.0 1996 1
+S 554.0.0 2006 1
+# linux400512.dc.engr.scu.edu(1):      2290  1 _tag_violation
+F 554.0.0 2006 1
+S 543.0.0 1961 1
+# linux400512.dc.engr.scu.edu(1):      5522  1 _internal_q
+F 543.0.0 1961 1
+S 545.0.0 1970 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 545.0.0 1970 1
+S 478.0.0 1748 1
+# linux400512.dc.engr.scu.edu(1):      1847  1 _boolean_and_q
+F 456.0.0 1667 0
+S 579.0.0 2099 0
+# linux400512.dc.engr.scu.edu(0):      6321  1 _internal2_q
+F 579.0.0 2099 0
+S 581.0.0 2109 0
+# linux400512.dc.engr.scu.edu(0):      2490  1 _tag_violation
+F 581.0.0 2109 0
+S 573.0.0 2075 0
+# linux400512.dc.engr.scu.edu(0):      6207  1 _external_q
+F 478.0.0 1748 1
+S 546.0.0 1972 1
+# linux400512.dc.engr.scu.edu(1):      6747  1 _enclose_q
+F 573.0.0 2075 0
+S 575.0.0 2085 0
+# linux400512.dc.engr.scu.edu(0):      2290  1 _tag_violation
+F 546.0.0 1972 1
+S 548.0.0 1982 1
+# linux400512.dc.engr.scu.edu(1):      2677  1 _tag_violation
+F 575.0.0 2085 0
+S 480.0.0 1756 0
+# linux400512.dc.engr.scu.edu(0):      1848  1 _boolean_and_q
+F 548.0.0 1982 1
+S 564.0.0 2040 1
+# linux400512.dc.engr.scu.edu(1):      5522  1 _internal_q
+F 564.0.0 2040 1
+S 566.0.0 2049 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 566.0.0 2049 1
+S 555.0.0 2008 1
+# linux400512.dc.engr.scu.edu(1):      1954  1 _boolean_and_q
+F 555.0.0 2008 1
+S 557.0.0 2014 1
+# linux400512.dc.engr.scu.edu(1):      1071  1 _tag_violation
+F 557.0.0 2014 1
+S 477.0.0 1744 1
+# linux400512.dc.engr.scu.edu(1):      1847  1 _boolean_and_q
+F 480.0.0 1756 0
+S 576.0.0 2087 0
+# linux400512.dc.engr.scu.edu(0):      7075  1 _external_q
+F 576.0.0 2087 0
+S 578.0.0 2097 0
+# linux400512.dc.engr.scu.edu(0):      2908  1 _tag_violation
+F 578.0.0 2097 0
+S 531.0.0 1918 0
+# linux400512.dc.engr.scu.edu(0):      6827  1 _enclose_q
+F 531.0.0 1918 0
+S 533.0.0 1928 0
+# linux400512.dc.engr.scu.edu(0):      2791  1 _tag_violation
+F 477.0.0 1744 1
+S 567.0.0 2051 1
+# linux400512.dc.engr.scu.edu(1):      6747  1 _enclose_q
+F 533.0.0 1928 0
+S 485.0.0 1775 0
+# linux400512.dc.engr.scu.edu(0):      1848  1 _boolean_and_q
+F 567.0.0 2051 1
+S 569.0.0 2061 1
+# linux400512.dc.engr.scu.edu(1):      2677  1 _tag_violation
+F 569.0.0 2061 1
+S 476.0.0 1741 1
+# linux400512.dc.engr.scu.edu(1):      1008  1 _boolean_or
+F 485.0.0 1775 0
+S 570.0.0 2063 0
+# linux400512.dc.engr.scu.edu(0):      6731  1 _enclose_q
+F 570.0.0 2063 0
+S 572.0.0 2073 0
+# linux400512.dc.engr.scu.edu(0):      2790  1 _tag_violation
+F 476.0.0 1741 1
+S 515.0.0 1865 1
+# linux400512.dc.engr.scu.edu(1):      2168  1 _boolean_not_q
+F 572.0.0 2073 0
+S 537.0.0 1942 0
+# linux400512.dc.engr.scu.edu(0):      6758  1 _enclose_q
+F 515.0.0 1865 1
+S 517.0.0 1871 1
+# linux400512.dc.engr.scu.edu(1):      1392  1 _tag_violation
+F 537.0.0 1942 0
+S 539.0.0 1952 0
+# linux400512.dc.engr.scu.edu(0):      2790  1 _tag_violation
+F 539.0.0 1952 0
+S 922.0.0 3089 0
+# linux400512.dc.engr.scu.edu(0):      2032  1 _tag_violation
+F 517.0.0 1871 1
+S 920.0.0 3084 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 922.0.0 3089 0
+S 918.0.0 3079 0
+# linux400512.dc.engr.scu.edu(0):      1038  1 _tag_violation
+F 920.0.0 3084 1
+S 916.0.0 3074 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 918.0.0 3079 0
+S 914.0.0 3069 0
+# linux400512.dc.engr.scu.edu(0):      2565  1 _tag_violation
+F 916.0.0 3074 1
+S 912.0.0 3064 1
+# linux400512.dc.engr.scu.edu(1):      2565  1 _tag_violation
+F 914.0.0 3069 0
+S 910.0.0 3059 0
+# linux400512.dc.engr.scu.edu(0):      2273  1 _tag_violation
+F 912.0.0 3064 1
+S 908.0.0 3054 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 910.0.0 3059 0
+S 906.0.0 3049 0
+# linux400512.dc.engr.scu.edu(0):      2032  1 _tag_violation
+F 908.0.0 3054 1
+S 904.0.0 3044 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 904.0.0 3044 1
+S 902.0.0 3039 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 902.0.0 3039 1
+S 900.0.0 3034 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 900.0.0 3034 1
+S 898.0.0 3029 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 898.0.0 3029 1
+S 896.0.0 3024 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 896.0.0 3024 1
+S 894.0.0 3019 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 894.0.0 3019 1
+S 892.0.0 3014 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 906.0.0 3049 0
+S 890.0.0 3009 0
+# linux400512.dc.engr.scu.edu(0):      2032  1 _tag_violation
+F 890.0.0 3009 0
+S 888.0.0 3004 0
+# linux400512.dc.engr.scu.edu(0):      2032  1 _tag_violation
+F 888.0.0 3004 0
+S 886.0.0 2999 0
+# linux400512.dc.engr.scu.edu(0):      1038  1 _tag_violation
+F 886.0.0 2999 0
+S 884.0.0 2994 0
+# linux400512.dc.engr.scu.edu(0):      1038  1 _tag_violation
+F 884.0.0 2994 0
+S 882.0.0 2989 0
+# linux400512.dc.engr.scu.edu(0):      2566  1 _tag_violation
+F 882.0.0 2989 0
+S 880.0.0 2984 0
+# linux400512.dc.engr.scu.edu(0):      2566  1 _tag_violation
+F 880.0.0 2984 0
+S 878.0.0 2979 0
+# linux400512.dc.engr.scu.edu(0):      2273  1 _tag_violation
+F 878.0.0 2979 0
+S 876.0.0 2974 0
+# linux400512.dc.engr.scu.edu(0):      1285  1 _tag_violation
+F 892.0.0 3014 1
+S 874.0.0 2969 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 874.0.0 2969 1
+S 872.0.0 2964 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 872.0.0 2964 1
+S 870.0.0 2959 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 870.0.0 2959 1
+S 868.0.0 2954 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 868.0.0 2954 1
+S 866.0.0 2949 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 866.0.0 2949 1
+S 864.0.0 2944 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 864.0.0 2944 1
+S 862.0.0 2939 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 862.0.0 2939 1
+S 860.0.0 2934 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 860.0.0 2934 1
+S 858.0.0 2929 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 858.0.0 2929 1
+S 856.0.0 2924 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 856.0.0 2924 1
+S 854.0.0 2919 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 854.0.0 2919 1
+S 852.0.0 2914 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 852.0.0 2914 1
+S 850.0.0 2909 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 850.0.0 2909 1
+S 848.0.0 2904 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 848.0.0 2904 1
+S 846.0.0 2899 1
+# linux400512.dc.engr.scu.edu(1):      1029  1 _tag_violation
+F 846.0.0 2899 1
+S 844.0.0 2894 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 844.0.0 2894 1
+S 842.0.0 2889 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 842.0.0 2889 1
+S 840.0.0 2884 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 840.0.0 2884 1
+S 838.0.0 2879 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 838.0.0 2879 1
+S 836.0.0 2874 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 836.0.0 2874 1
+S 834.0.0 2869 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 834.0.0 2869 1
+S 832.0.0 2864 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 832.0.0 2864 1
+S 830.0.0 2859 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 830.0.0 2859 1
+S 828.0.0 2854 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 828.0.0 2854 1
+S 826.0.0 2849 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 826.0.0 2849 1
+S 824.0.0 2844 1
+# linux400512.dc.engr.scu.edu(1):      2032  1 _tag_violation
+F 824.0.0 2844 1
+S 822.0.0 2839 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 822.0.0 2839 1
+S 820.0.0 2834 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 820.0.0 2834 1
+S 818.0.0 2829 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 818.0.0 2829 1
+S 816.0.0 2824 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 816.0.0 2824 1
+S 814.0.0 2819 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 814.0.0 2819 1
+S 812.0.0 2814 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 812.0.0 2814 1
+S 741.0.0 2566 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 741.0.0 2566 1
+S 739.0.0 2561 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 739.0.0 2561 1
+S 737.0.0 2556 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 737.0.0 2556 1
+S 735.0.0 2551 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 735.0.0 2551 1
+S 733.0.0 2546 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 733.0.0 2546 1
+S 731.0.0 2541 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 731.0.0 2541 1
+S 729.0.0 2536 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 729.0.0 2536 1
+S 727.0.0 2531 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 727.0.0 2531 1
+S 725.0.0 2526 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 725.0.0 2526 1
+S 723.0.0 2521 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 723.0.0 2521 1
+S 721.0.0 2516 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 721.0.0 2516 1
+S 719.0.0 2511 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 719.0.0 2511 1
+S 717.0.0 2506 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 717.0.0 2506 1
+S 715.0.0 2501 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 715.0.0 2501 1
+S 713.0.0 2496 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 713.0.0 2496 1
+S 711.0.0 2491 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 711.0.0 2491 1
+S 709.0.0 2486 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 709.0.0 2486 1
+S 707.0.0 2481 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 707.0.0 2481 1
+S 705.0.0 2476 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 705.0.0 2476 1
+S 703.0.0 2471 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 703.0.0 2471 1
+S 701.0.0 2466 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 701.0.0 2466 1
+S 699.0.0 2461 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 699.0.0 2461 1
+S 697.0.0 2456 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 697.0.0 2456 1
+S 695.0.0 2451 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 695.0.0 2451 1
+S 693.0.0 2446 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 693.0.0 2446 1
+S 691.0.0 2441 1
+# linux400512.dc.engr.scu.edu(1):      1170  1 _tag_violation
+F 691.0.0 2441 1
+S 689.0.0 2436 1
+# linux400512.dc.engr.scu.edu(1):      2271  1 _tag_violation
+F 689.0.0 2436 1
+S 687.0.0 2431 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 687.0.0 2431 1
+S 636.0.0 2250 1
+# linux400512.dc.engr.scu.edu(1):      3260  1 _tag_violation
+F 636.0.0 2250 1
+S 634.0.0 2245 1
+# linux400512.dc.engr.scu.edu(1):      3260  1 _tag_violation
+F 634.0.0 2245 1
+S 629.0.0 2229 1
+# linux400512.dc.engr.scu.edu(1):      2696  1 _tag_violation
+F 629.0.0 2229 1
+S 627.0.0 2224 1
+# linux400512.dc.engr.scu.edu(1):      2700  1 _tag_violation
+F 627.0.0 2224 1
+S 625.0.0 2219 1
+# linux400512.dc.engr.scu.edu(1):      2698  1 _tag_violation
+F 625.0.0 2219 1
+S 623.0.0 2214 1
+# linux400512.dc.engr.scu.edu(1):      2806  1 _tag_violation
+F 623.0.0 2214 1
+S 621.0.0 2209 1
+# linux400512.dc.engr.scu.edu(1):      2946  1 _tag_violation
+F 621.0.0 2209 1
+S 619.0.0 2204 1
+# linux400512.dc.engr.scu.edu(1):      2408  1 _tag_violation
+F 619.0.0 2204 1
+S 617.0.0 2199 1
+# linux400512.dc.engr.scu.edu(1):      2839  1 _tag_violation
+F 617.0.0 2199 1
+S 615.0.0 2194 1
+# linux400512.dc.engr.scu.edu(1):      2718  1 _tag_violation
+F 615.0.0 2194 1
+S 613.0.0 2189 1
+# linux400512.dc.engr.scu.edu(1):      2717  1 _tag_violation
+F 613.0.0 2189 1
+S 611.0.0 2184 1
+# linux400512.dc.engr.scu.edu(1):      1069  1 _tag_violation
+F 611.0.0 2184 1
+S 609.0.0 2179 1
+# linux400512.dc.engr.scu.edu(1):      2290  1 _tag_violation
+F 609.0.0 2179 1
+S 607.0.0 2174 1
+# linux400512.dc.engr.scu.edu(1):      2687  1 _tag_violation
+F 607.0.0 2174 1
+S 605.0.0 2169 1
+# linux400512.dc.engr.scu.edu(1):      2908  1 _tag_violation
+F 605.0.0 2169 1
+S 603.0.0 2164 1
+# linux400512.dc.engr.scu.edu(1):      2287  1 _tag_violation
+F 603.0.0 2164 1
+S 601.0.0 2159 1
+# linux400512.dc.engr.scu.edu(1):      2556  1 _tag_violation
+F 601.0.0 2159 1
+S 599.0.0 2154 1
+# linux400512.dc.engr.scu.edu(1):      2684  1 _tag_violation
+F 599.0.0 2154 1
+S 597.0.0 2149 1
+# linux400512.dc.engr.scu.edu(1):      2804  1 _tag_violation
+F 597.0.0 2149 1
+S 595.0.0 2144 1
+# linux400512.dc.engr.scu.edu(1):      2565  1 _tag_violation
+F 595.0.0 2144 1
+S 593.0.0 2139 1
+# linux400512.dc.engr.scu.edu(1):      2293  1 _tag_violation
+F 593.0.0 2139 1
+S 591.0.0 2134 1
+# linux400512.dc.engr.scu.edu(1):      2690  1 _tag_violation
+F 591.0.0 2134 1
+S 589.0.0 2129 1
+# linux400512.dc.engr.scu.edu(1):      2801  1 _tag_violation
+F 589.0.0 2129 1
+S 587.0.0 2124 1
+# linux400512.dc.engr.scu.edu(1):      2564  1 _tag_violation
+F 587.0.0 2124 1
+S 585.0.0 2119 1
+# linux400512.dc.engr.scu.edu(1):      2293  1 _tag_violation
+F 585.0.0 2119 1
+S 583.0.0 2114 1
+# linux400512.dc.engr.scu.edu(1):      2690  1 _tag_violation
+F 583.0.0 2114 1
+S 527.0.0 1904 1
+# linux400512.dc.engr.scu.edu(1):      2387  1 _tag_violation
+F 527.0.0 1904 1
+S 525.0.0 1899 1
+# linux400512.dc.engr.scu.edu(1):      2387  1 _tag_violation
+F 525.0.0 1899 1
+S 513.0.0 1860 1
+# linux400512.dc.engr.scu.edu(1):      2808  1 _tag_violation
+F 876.0.0 2974 0
+S 511.0.0 1855 0
+# linux400512.dc.engr.scu.edu(0):      2578  1 _tag_violation
+F 513.0.0 1860 1
+S 509.0.0 1850 1
+# linux400512.dc.engr.scu.edu(1):      2901  1 _tag_violation
+F 511.0.0 1855 0
+S 507.0.0 1845 0
+# linux400512.dc.engr.scu.edu(0):      2923  1 _tag_violation
+F 507.0.0 1845 0
+S 505.0.0 1840 0
+# linux400512.dc.engr.scu.edu(0):      3037  1 _tag_violation
+F 505.0.0 1840 0
+S 503.0.0 1835 0
+# linux400512.dc.engr.scu.edu(0):      3037  1 _tag_violation
+F 503.0.0 1835 0
+S 501.0.0 1830 0
+# linux400512.dc.engr.scu.edu(0):      2813  1 _tag_violation
+F 501.0.0 1830 0
+S 499.0.0 1825 0
+# linux400512.dc.engr.scu.edu(0):      2273  1 _tag_violation
+F 499.0.0 1825 0
+S 497.0.0 1820 0
+# linux400512.dc.engr.scu.edu(0):      2689  1 _tag_violation
+F 497.0.0 1820 0
+S 473.0.0 1728 0
+# linux400512.dc.engr.scu.edu(0):      1510  1 _cell_extent
+F 509.0.0 1850 1
+S 459.0.0 1678 1
+# linux400512.dc.engr.scu.edu(1):      3655  1 _optimize_layer_dp
+F 473.0.0 1728 0
+S 474.0.0 1733 0
+# linux400512.dc.engr.scu.edu(0):      1762  1 _oversize_q
+F 474.0.0 1733 0
+S 475.0.0 1737 0
+# linux400512.dc.engr.scu.edu(0):      1892  1 _boolean_not_q
+F 459.0.0 1678 1
+S 630.0.0 2231 1
+# linux400512.dc.engr.scu.edu(1):      5511  1 _internal_q
+F 630.0.0 2231 1
+S 632.0.0 2240 1
+# linux400512.dc.engr.scu.edu(1):      2684  1 _tag_violation
+F 632.0.0 2240 1
+S 482.0.0 1763 1
+# linux400512.dc.engr.scu.edu(1):      1887  1 _boolean_not_q
+F 475.0.0 1737 0
+S 484.0.0 1771 0
+# linux400512.dc.engr.scu.edu(0):      1847  1 _boolean_and_q
+F 484.0.0 1771 0
+S 549.0.0 1984 0
+# linux400512.dc.engr.scu.edu(0):      6731  1 _enclose_q
+F 482.0.0 1763 1
+S 637.0.0 2252 1
+# linux400512.dc.engr.scu.edu(1):      5945  1 _external_q
+F 637.0.0 2252 1
+S 534.0.0 1930 1
+# linux400512.dc.engr.scu.edu(1):      6757  1 _enclose_q
+F 549.0.0 1984 0
+S 551.0.0 1994 0
+# linux400512.dc.engr.scu.edu(0):      2790  1 _tag_violation
+F 534.0.0 1930 1
+S 536.0.0 1940 1
+# linux400512.dc.engr.scu.edu(1):      2790  1 _tag_violation
+F 536.0.0 1940 1
+S 479.0.0 1752 1
+# linux400512.dc.engr.scu.edu(1):      1847  1 _boolean_and_q
+F 551.0.0 1994 0
+S 471.0.0 1722 0
+# linux400512.dc.engr.scu.edu(0):      3655  1 _optimize_layer_dp
+F 479.0.0 1752 1
+S 558.0.0 2016 1
+# linux400512.dc.engr.scu.edu(1):      7075  1 _external_q
+F 558.0.0 2016 1
+S 560.0.0 2026 1
+# linux400512.dc.engr.scu.edu(1):      2908  1 _tag_violation
+F 560.0.0 2026 1
+S 528.0.0 1906 1
+# linux400512.dc.engr.scu.edu(1):      6826  1 _enclose_q
+F 528.0.0 1906 1
+S 530.0.0 1916 1
+# linux400512.dc.engr.scu.edu(1):      2791  1 _tag_violation
+F 530.0.0 1916 1
+S 481.0.0 1760 1
+# linux400512.dc.engr.scu.edu(1):      1006  1 _boolean_or
+F 481.0.0 1760 1
+S 483.0.0 1767 1
+# linux400512.dc.engr.scu.edu(1):      1838  1 _boolean_and_q
+F 471.0.0 1722 0
+S 767.0.0 2656 0
+# linux400512.dc.engr.scu.edu(0):      1842  1 _boolean_and_q
+F 483.0.0 1767 1
+S 653.0.0 2316 1
+# linux400512.dc.engr.scu.edu(1):      1915  1 _coincident_edge_q
+F 767.0.0 2656 0
+S 769.0.0 2663 0
+# linux400512.dc.engr.scu.edu(0):      6824  1 _enclose_q
+F 769.0.0 2663 0
+S 771.0.0 2673 0
+# linux400512.dc.engr.scu.edu(0):      2919  1 _tag_violation
+F 771.0.0 2673 0
+S 768.0.0 2660 0
+# linux400512.dc.engr.scu.edu(0):      1050  1 _copy
+F 768.0.0 2660 0
+S 772.0.0 2675 0
+# linux400512.dc.engr.scu.edu(0):      6824  1 _enclose_q
+F 653.0.0 2316 1
+S 657.0.0 2328 1
+# linux400512.dc.engr.scu.edu(1):      2508  1 _adjacent_edge_q
+F 657.0.0 2328 1
+S 659.0.0 2334 1
+# linux400512.dc.engr.scu.edu(1):      1926  1 _tag_violation
+F 772.0.0 2675 0
+S 774.0.0 2685 0
+# linux400512.dc.engr.scu.edu(0):      2919  1 _tag_violation
+F 774.0.0 2685 0
+S 654.0.0 2320 0
+# linux400512.dc.engr.scu.edu(0):      2508  1 _adjacent_edge_q
+F 659.0.0 2334 1
+S 650.0.0 2304 1
+# linux400512.dc.engr.scu.edu(1):      6736  1 _enclose_q
+F 654.0.0 2320 0
+S 656.0.0 2326 0
+# linux400512.dc.engr.scu.edu(0):      1926  1 _tag_violation
+F 650.0.0 2304 1
+S 652.0.0 2314 1
+# linux400512.dc.engr.scu.edu(1):      2975  1 _tag_violation
+F 656.0.0 2326 0
+S 647.0.0 2292 0
+# linux400512.dc.engr.scu.edu(0):      6750  1 _enclose_q
+F 652.0.0 2314 1
+S 641.0.0 2268 1
+# linux400512.dc.engr.scu.edu(1):      6216  1 _external_q
+F 641.0.0 2268 1
+S 643.0.0 2278 1
+# linux400512.dc.engr.scu.edu(1):      2728  1 _tag_violation
+F 647.0.0 2292 0
+S 649.0.0 2302 0
+# linux400512.dc.engr.scu.edu(0):      2973  1 _tag_violation
+F 649.0.0 2302 0
+S 638.0.0 2260 0
+# linux400512.dc.engr.scu.edu(0):      2161  1 _boolean_not_q
+F 643.0.0 2278 1
+S 488.0.0 1787 1
+# linux400512.dc.engr.scu.edu(1):      1892  1 _boolean_not_q
+F 638.0.0 2260 0
+S 640.0.0 2266 0
+# linux400512.dc.engr.scu.edu(0):      1615  1 _tag_violation
+F 640.0.0 2266 0
+S 760.0.0 2634 0
+# linux400512.dc.engr.scu.edu(0):      3420  1 _select_q
+F 488.0.0 1787 1
+S 644.0.0 2280 1
+# linux400512.dc.engr.scu.edu(1):      7048  1 _external_q
+F 760.0.0 2634 0
+S 761.0.0 2640 0
+# linux400512.dc.engr.scu.edu(0):      3297  1 _covered_by_q
+F 644.0.0 2280 1
+S 646.0.0 2290 1
+# linux400512.dc.engr.scu.edu(1):      3231  1 _tag_violation
+F 761.0.0 2640 0
+S 763.0.0 2646 0
+# linux400512.dc.engr.scu.edu(0):      1873  1 _tag_violation
+F 763.0.0 2646 0
+S 745.0.0 2578 0
+# linux400512.dc.engr.scu.edu(0):      6202  1 _external_q
+F 646.0.0 2290 1
+S 742.0.0 2568 1
+# linux400512.dc.engr.scu.edu(1):      2306  1 _rectangles_q
+F 745.0.0 2578 0
+S 747.0.0 2588 0
+# linux400512.dc.engr.scu.edu(0):      2271  1 _tag_violation
+F 742.0.0 2568 1
+S 744.0.0 2576 1
+# linux400512.dc.engr.scu.edu(1):      1291  1 _tag_violation
+F 744.0.0 2576 1
+S 487.0.0 1783 1
+# linux400512.dc.engr.scu.edu(1):      1837  1 _boolean_and_q
+F 747.0.0 2588 0
+S 486.0.0 1779 0
+# linux400512.dc.engr.scu.edu(0):      1841  1 _boolean_and_q
+F 487.0.0 1783 1
+S 754.0.0 2614 1
+# linux400512.dc.engr.scu.edu(1):      6436  1 _enclose
+F 754.0.0 2614 1
+S 756.0.0 2622 1
+# linux400512.dc.engr.scu.edu(1):      2727  1 _tag_violation
+F 756.0.0 2622 1
+S 751.0.0 2602 1
+# linux400512.dc.engr.scu.edu(1):      7091  1 _external_q
+F 486.0.0 1779 0
+S 764.0.0 2648 0
+# linux400512.dc.engr.scu.edu(0):      3293  1 _covered_by_q
+F 751.0.0 2602 1
+S 753.0.0 2612 1
+# linux400512.dc.engr.scu.edu(1):      2816  1 _tag_violation
+F 764.0.0 2648 0
+S 766.0.0 2654 0
+# linux400512.dc.engr.scu.edu(0):      1869  1 _tag_violation
+F 753.0.0 2612 1
+S 757.0.0 2624 1
+# linux400512.dc.engr.scu.edu(1):      6380  1 _enclose
+F 766.0.0 2654 0
+S 748.0.0 2590 0
+# linux400512.dc.engr.scu.edu(0):      7086  1 _external_q
+F 748.0.0 2590 0
+S 750.0.0 2600 0
+# linux400512.dc.engr.scu.edu(0):      3272  1 _tag_violation
+F 757.0.0 2624 1
+S 759.0.0 2632 1
+# linux400512.dc.engr.scu.edu(1):      2729  1 _tag_violation
+F 759.0.0 2632 1
+S 468.0.0 1711 1
+# linux400512.dc.engr.scu.edu(1):      3655  1 _optimize_layer_dp
+F 750.0.0 2600 0
+S 465.0.0 1700 0
+# linux400512.dc.engr.scu.edu(0):      3663  1 _optimize_layer_dp
+F 468.0.0 1711 1
+S 682.0.0 2412 1
+# linux400512.dc.engr.scu.edu(1):      1359  1 _size_chain_q
+F 465.0.0 1700 0
+S 807.0.0 2797 0
+# linux400512.dc.engr.scu.edu(0):      3426  1 _select_q
+F 682.0.0 2412 1
+S 683.0.0 2416 1
+# linux400512.dc.engr.scu.edu(1):      7096  1 _external_q
+F 683.0.0 2416 1
+S 685.0.0 2426 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 807.0.0 2797 0
+S 808.0.0 2803 0
+# linux400512.dc.engr.scu.edu(0):      3481  1 _covered_by_q
+F 685.0.0 2426 1
+S 800.0.0 2775 1
+# linux400512.dc.engr.scu.edu(1):      2203  1 _boolean_not_q
+F 808.0.0 2803 0
+S 810.0.0 2809 0
+# linux400512.dc.engr.scu.edu(0):      2032  1 _tag_violation
+F 800.0.0 2775 1
+S 802.0.0 2781 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 810.0.0 2809 0
+S 794.0.0 2755 0
+# linux400512.dc.engr.scu.edu(0):      6768  1 _enclose_q
+F 802.0.0 2781 1
+S 788.0.0 2731 1
+# linux400512.dc.engr.scu.edu(1):      6204  1 _external_q
+F 788.0.0 2731 1
+S 790.0.0 2741 1
+# linux400512.dc.engr.scu.edu(1):      2273  1 _tag_violation
+F 794.0.0 2755 0
+S 796.0.0 2765 0
+# linux400512.dc.engr.scu.edu(0):      2566  1 _tag_violation
+F 790.0.0 2741 1
+S 785.0.0 2721 1
+# linux400512.dc.engr.scu.edu(1):      2298  1 _rectangles_q
+F 796.0.0 2765 0
+S 679.0.0 2405 0
+# linux400512.dc.engr.scu.edu(0):      1738  1 _area_q
+F 785.0.0 2721 1
+S 787.0.0 2729 1
+# linux400512.dc.engr.scu.edu(1):      1285  1 _tag_violation
+F 679.0.0 2405 0
+S 681.0.0 2410 0
+# linux400512.dc.engr.scu.edu(0):      1170  1 _tag_violation
+F 681.0.0 2410 0
+F 787.0.0 2729 1
+S 676.0.0 2393 0
+# linux400512.dc.engr.scu.edu(0):      6186  1 _external_q
+S 673.0.0 2382 1
+# linux400512.dc.engr.scu.edu(1):      5514  1 _internal_q
+F 676.0.0 2393 0
+S 678.0.0 2403 0
+# linux400512.dc.engr.scu.edu(0):      2271  1 _tag_violation
+F 673.0.0 2382 1
+S 675.0.0 2391 1
+# linux400512.dc.engr.scu.edu(1):      2685  1 _tag_violation
+F 678.0.0 2403 0
+S 462.0.0 1689 0
+# linux400512.dc.engr.scu.edu(0):      3655  1 _optimize_layer_dp
+F 675.0.0 2391 1
+S 440.0.0 1601 1
+# linux400512.dc.engr.scu.edu(1):       756  1 _grid_check_hierarchy
+F 440.0.0 1601 1
+F 0 0 1
+F 462.0.0 1689 0
+S 803.0.0 2783 0
+# linux400512.dc.engr.scu.edu(0):      3426  1 _select_q
+S 797.0.0 2767 1
+# linux400512.dc.engr.scu.edu(1):      2203  1 _boolean_not_q
+F 797.0.0 2767 1
+S 799.0.0 2773 1
+# linux400512.dc.engr.scu.edu(1):      1038  1 _tag_violation
+F 803.0.0 2783 0
+S 804.0.0 2789 0
+# linux400512.dc.engr.scu.edu(0):      3481  1 _covered_by_q
+F 799.0.0 2773 1
+S 791.0.0 2743 1
+# linux400512.dc.engr.scu.edu(1):      6768  1 _enclose_q
+F 804.0.0 2789 0
+S 806.0.0 2795 0
+# linux400512.dc.engr.scu.edu(0):      2032  1 _tag_violation
+F 791.0.0 2743 1
+S 793.0.0 2753 1
+# linux400512.dc.engr.scu.edu(1):      2566  1 _tag_violation
+F 806.0.0 2795 0
+S 781.0.0 2707 0
+# linux400512.dc.engr.scu.edu(0):      3418  1 _select_q
+F 793.0.0 2753 1
+S 778.0.0 2695 1
+# linux400512.dc.engr.scu.edu(1):      6750  1 _enclose_q
+F 778.0.0 2695 1
+S 780.0.0 2705 1
+# linux400512.dc.engr.scu.edu(1):      2540  1 _tag_violation
+F 781.0.0 2707 0
+S 782.0.0 2713 0
+# linux400512.dc.engr.scu.edu(0):      3297  1 _covered_by_q
+F 780.0.0 2705 1
+S 775.0.0 2687 1
+# linux400512.dc.engr.scu.edu(1):      2121  1 _boolean_not_q
+F 782.0.0 2713 0
+S 784.0.0 2719 0
+# linux400512.dc.engr.scu.edu(0):      1894  1 _tag_violation
+F 775.0.0 2687 1
+S 777.0.0 2693 1
+# linux400512.dc.engr.scu.edu(1):      1036  1 _tag_violation
+F 777.0.0 2693 1
+S 669.0.0 2366 1
+# linux400512.dc.engr.scu.edu(1):      1359  1 _size_chain_q
+F 784.0.0 2719 0
+S 666.0.0 2359 0
+# linux400512.dc.engr.scu.edu(0):      1738  1 _area_q
+F 666.0.0 2359 0
+S 668.0.0 2364 0
+# linux400512.dc.engr.scu.edu(0):      1170  1 _tag_violation
+F 668.0.0 2364 0
+S 663.0.0 2347 0
+# linux400512.dc.engr.scu.edu(0):      6186  1 _external_q
+F 663.0.0 2347 0
+S 665.0.0 2357 0
+# linux400512.dc.engr.scu.edu(0):      2271  1 _tag_violation
+F 665.0.0 2357 0
+S 660.0.0 2336 0
+# linux400512.dc.engr.scu.edu(0):      5514  1 _internal_q
+F 660.0.0 2336 0
+S 662.0.0 2345 0
+# linux400512.dc.engr.scu.edu(0):      2685  1 _tag_violation
+F 669.0.0 2366 1
+S 670.0.0 2370 1
+# linux400512.dc.engr.scu.edu(1):      7096  1 _external_q
+F 670.0.0 2370 1
+S 672.0.0 2380 1
+# linux400512.dc.engr.scu.edu(1):      2679  1 _tag_violation
+F 672.0.0 2380 1
+F 662.0.0 2345 0
+F 0 0 1
+S 924.0.0 3092 0
+# linux400512.dc.engr.scu.edu(0):       372  1 _accumulate_results
+F 924.0.0 3092 0
+}

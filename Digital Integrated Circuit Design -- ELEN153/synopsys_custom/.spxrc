@@ -1,0 +1,60 @@
+### auto-generated spxrc ###
+reload_confirm false
+default_hist_one true
+signame_popup true
+use_cc_keybindings true
+sync_alias false
+### Parser Settings ###
+suppress_ew FALSE
+### Spice File Filter Settings ###
+spice_file_filter *.sp,*.sp0,*.spi,*.scs,*.hsp,*.ckt,*.spf
+### Design Import Settings ###
+import_design_default_simulator 1
+### Designview Settings ###
+out_warning TRUE
+trace_new_signal_default_mode 1
+trace_scope 1
+trace_view_mode 1
+show_full_scope FALSE
+select_color white
+book_color violet
+curr_book_color red
+line_no_off 0
+tile_mode TRUE
+trace_view FALSE
+conn_view TRUE
+lint_view FALSE
+through_all_conn_view FALSE
+hierarchy_item_mode 2
+editor vi
+precision 3
+digital_length 16
+analog_length 8
+same_with_signal FALSE
+init_enable FALSE
+port_annot_by_scope FALSE
+indicate_scope_by_nets FALSE
+### Connetionview Settings ###
+show_rc_value TRUE
+show_max_objects 100000
+is_pop_vgnd_dialog TRUE
+show_node_name TRUE
+show_device_name TRUE
+max_name_len 20
+default_font_size 12
+text_always_visible FALSE
+highlight_node_clr Default
+highlight_node_linestyle Solid Line(Default)
+highlight_inst_clr Default
+highlight_inst_linestyle Solid Line(Default)
+toolbar_color_as_tracing_scheme_color 0
+tracing_scheme_color Default
+show_parasitic_mode 1
+### CDS Link Settings ###
+sync_schematic_with_design_view TRUE
+### CSA Settings ###
+design_bit_rate 2G
+appropriate_resistance 50
+is_save_stage FALSE
+hspice_home /opt/synopsys-2019/app/hspice/P-2019.06-SP2-3
+wsolver_unit_set mm

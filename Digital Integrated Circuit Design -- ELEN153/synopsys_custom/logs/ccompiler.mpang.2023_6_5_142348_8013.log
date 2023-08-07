@@ -1,0 +1,112 @@
+[14:23:50.42] /r giWindowId 0
+[14:23:50.42] /r giWindowGeometry 600x300
+[14:23:50.42] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Jun  5 14:23:48 2023
+              /c Host: linux400512
+              /c Working directory: /DCNFS/users/student/mpang/ELEN153
+              /c 
+[14:23:54.80] /r giShowFrameTabs true
+[14:23:54.80] /r giWindowId 1
+[14:23:54.80] /r giWindowGeometry 1040x800
+[14:23:58.32] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:23:58.33] /# 
+[14:23:58.63] /i dm::showLibraryManager
+[14:23:58.63] /r giWindowId 2
+[14:23:58.63] /r giWindowGeometry 660x600+50+76
+[14:23:58.65] /o oa:0x21b915a0
+[14:23:59.91] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[14:23:59.93] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[14:24:00.41] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[14:24:00.42] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:24:03.23] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:24:03.27] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:24:05.14] /i gi::setCurrentIndex {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:24:05.16] /i gi::setItemSelection {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:24:05.79] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:05.84] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:07.23] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:24:07.24] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[14:24:08.53] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[14:24:08.54] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[14:24:09.29] /i gi::setCurrentIndex {libs} -index {lab1} -in [gi::getWindows 2]
+[14:24:09.32] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:09.34] /i gi::setItemSelection {libs} -index {lab1} -in [gi::getWindows 2]
+[14:24:10.15] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[14:24:10.20] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[14:24:11.10] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:24:11.13] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:11.14] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:24:12.12] /i gi::sortItems {libs} -column {Libraries} -order {descending} -in [gi::getWindows 2]
+[14:24:15.45] /i gi::setCurrentIndex {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[14:24:15.47] /i gi::setItemSelection {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[14:24:16.25] /i gi::setCurrentIndex {libs} -index {sample} -in [gi::getWindows 2]
+[14:24:16.29] /i gi::setItemSelection {libs} -index {sample} -in [gi::getWindows 2]
+[14:24:17.01] /i gi::setCurrentIndex {libs} -index {sheets} -in [gi::getWindows 2]
+[14:24:17.03] /i gi::setItemSelection {libs} -index {sheets} -in [gi::getWindows 2]
+[14:24:17.37] /i gi::setCurrentIndex {libs} -index {reference} -in [gi::getWindows 2]
+[14:24:17.37] /i gi::setItemSelection {libs} -index {reference} -in [gi::getWindows 2]
+[14:24:18.19] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[14:24:18.21] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:18.23] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:24:18.63] /i gi::setCurrentIndex {libs} -index {parasitics} -in [gi::getWindows 2]
+[14:24:18.64] /i gi::setItemSelection {libs} -index {parasitics} -in [gi::getWindows 2]
+[14:24:19.28] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[14:24:19.29] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:19.31] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[14:24:21.90] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[14:24:21.92] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[14:24:26.05] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:24:26.09] /m Information: License 'MTM' checked out. (LICENSE-003)
+[14:24:26.16] /o 	############################################
+[14:24:26.16] /o 	        Synopsys Generic 90nm iPDK          
+[14:24:26.16] /o 	--------------------------------------------
+[14:24:26.16] /o 	Release Date .............. : 11-May-2016    
+[14:24:26.16] /o 	============================================
+[14:24:26.16] /o 	        Recommended Tool Versions           
+[14:24:26.16] /o 	--------------------------------------------
+[14:24:26.16] /o 	Custom Designer ........... : J-2014.12-2    
+[14:24:26.16] /o 	IC Validator .............. : K-2015.12   
+[14:24:26.16] /o 	StarRC..................... : K-2015.12  
+[14:24:26.16] /o 	--------------------------------------------
+[14:24:26.16] /o 	############################################
+[14:24:26.16] /o 
+[14:24:26.20] /o SAED PDK 90: Loaded callbacks
+[14:24:26.21] /o SAED PDK 90: Loaded display resources
+[14:24:26.25] /r giWindowId 3
+[14:24:26.25] /r giWindowGeometry 1632x926
+[14:24:31.72] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[14:24:32.86] /i gi::setCurrentIndex {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:24:32.92] /i gi::setItemSelection {cells} -index {XNOR} -in [gi::getWindows 2]
+[14:24:33.35] /i gi::setCurrentIndex {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:24:33.37] /i gi::setItemSelection {cells} -index {XNOR2} -in [gi::getWindows 2]
+[14:24:34.25] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[14:24:34.27] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[14:24:35.17] /i gi::setCurrentIndex {libs} -index {lab1} -in [gi::getWindows 2]
+[14:24:35.17] /i gi::setItemSelection {libs} -index {lab1} -in [gi::getWindows 2]
+[14:24:36.46] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:36.50] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:36.96] /i gi::setCurrentIndex {cells} -index {NMOS2} -in [gi::getWindows 2]
+[14:24:37.01] /i gi::setItemSelection {cells} -index {NMOS2} -in [gi::getWindows 2]
+[14:24:37.43] /i gi::setCurrentIndex {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:37.46] /i gi::setItemSelection {cells} -index {NMOS} -in [gi::getWindows 2]
+[14:24:37.85] /i gi::setCurrentIndex {cells} -index {NMOS2} -in [gi::getWindows 2]
+[14:24:37.88] /i gi::setItemSelection {cells} -index {NMOS2} -in [gi::getWindows 2]
+[14:24:43.87] /i exit
+[14:24:43.88] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:24:44.16] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+740+373
+[14:24:45.37] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:24:45.74] /o Shutdown time: Mon Jun  5 14:24:45 2023
+[14:24:45.74] /o Elapsed session real time: 0.91 minutes
+[14:24:45.74] /o Session terminated. Log is at /DCNFS/users/student/mpang/ELEN153/synopsys_custom/logs/ccompiler.mpang.2023_6_5_142348_8013.log

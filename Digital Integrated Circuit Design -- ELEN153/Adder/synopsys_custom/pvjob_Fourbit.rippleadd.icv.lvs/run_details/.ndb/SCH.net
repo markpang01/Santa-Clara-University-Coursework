@@ -1,0 +1,102 @@
+{netlist rippleadd.sch_out
+{version 2 1 0}
+{net_global vdd! gnd! VSS VDD VDD22 VDD12 VSS12 }
+{cell AND
+{port A B OUT}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin OUT=DRN net24=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net24=DRN B=GATE net7=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net7=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN net24=GATE vdd!=SRC vdd!=BULK}}
+{inst MM3=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net24=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM2=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net24=DRN B=GATE vdd!=SRC vdd!=BULK}}
+}
+
+{cell OR
+{port A B OUT}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin OUT=DRN net16=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net16=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net16=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN net16=GATE vdd!=SRC vdd!=BULK}}
+{inst MM3=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net23=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM2=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net16=DRN B=GATE net23=SRC vdd!=BULK}}
+}
+
+{cell XOR
+{port A B OUT}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin OUT=DRN net2=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin B=DRN A=GATE net2=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin A=DRN B=GATE net2=SRC gnd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN net2=GATE vdd!=SRC vdd!=BULK}}
+{inst MM3=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net2=DRN B=GATE net1=SRC vdd!=BULK}}
+{inst MM2=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net1=DRN A=GATE vdd!=SRC vdd!=BULK}}
+}
+
+{cell halfadd
+{port C S X Y}
+{inst XI0=AND {TYPE CELL} 
+{pin X=A Y=B C=OUT}}
+{inst XI1=XOR {TYPE CELL} 
+{pin X=A Y=B S=OUT}}
+}
+
+{cell fulladd
+{port Ai Bi Ci Ci1 Si}
+{inst XI1=halfadd {TYPE CELL} 
+{pin net11=C Si=S net7=X Ci=Y}}
+{inst XI0=halfadd {TYPE CELL} 
+{pin net10=C net7=S Ai=X Bi=Y}}
+{inst XI2=OR {TYPE CELL} 
+{pin net10=A net11=B Ci1=OUT}}
+}
+
+{cell rippleadd
+{port A0 A1 A2 A3 B0 B1
+ B2 B3 Cin Cout S0 S1 S2
+ S3}
+{inst XI7=fulladd {TYPE CELL} 
+{pin A3=Ai B3=Bi net40=Ci Cout=Ci1 S3=Si}}
+{inst XI6=fulladd {TYPE CELL} 
+{pin A2=Ai B2=Bi net35=Ci net40=Ci1 S2=Si}}
+{inst XI5=fulladd {TYPE CELL} 
+{pin A1=Ai B1=Bi net30=Ci net35=Ci1 S1=Si}}
+{inst XI4=fulladd {TYPE CELL} 
+{pin A0=Ai B0=Bi Cin=Ci net30=Ci1 S0=Si}}
+}
+
+}

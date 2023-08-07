@@ -1,0 +1,8 @@
+* XREF SPICE	Mon Apr 24 15:41:51 2023	inverter
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=inverter
+.subckt inverter vdd! gnd! Vin Vout
+M_MM1 Vout Vin gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_MM0 Vout Vin vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends inverter

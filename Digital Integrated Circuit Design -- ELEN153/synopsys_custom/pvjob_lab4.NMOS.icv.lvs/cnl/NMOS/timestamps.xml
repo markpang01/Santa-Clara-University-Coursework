@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May  8 16:34:52 2023-->
+<file-format name="netlisting-timestamps" version="1.0">
+<module contextID="switched: lab4 NMOS schematic vl: auCdl schematic symbol sl: auCdl" isSubcircuit="1" timestamp="1511" viewSearchList="auCdl schematic symbol" viewStopList="auCdl">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="2"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="1441"/>
+<PortOrder><![CDATA[aabarbbbaroutput]]></PortOrder>
+</module>
+</file-format>

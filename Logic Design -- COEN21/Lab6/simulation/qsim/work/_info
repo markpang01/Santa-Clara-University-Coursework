@@ -1,0 +1,79 @@
+m255
+K4
+z2
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/COEN21/Lab6_2/simulation/qsim
+vhard_block
+Z1 !s110 1667514922
+!i10b 1
+!s100 Z9Vm_Rj3fBYPROb@D8Y_;1
+Ie1clmYKFhQV^NlTQRG<6V1
+R0
+Z2 w1667514920
+Z3 8Lab6_2.vo
+Z4 FLab6_2.vo
+!i122 0
+L0 1756 34
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z7 !s108 1667514922.000000
+Z8 !s107 Lab6_2.vo|
+Z9 !s90 -work|work|Lab6_2.vo|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vLab6_2
+R1
+!i10b 1
+!s100 U@9NYA7ThaD8hJkINQSLV1
+IcV@V41cgj`2iZ3XTTC0e30
+R0
+R2
+R3
+R4
+!i122 0
+L0 32 1723
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@lab6_2
+vLab6_2_vlg_vec_tst
+!s110 1667514923
+!i10b 1
+!s100 IVJ7A95]ZC@o8lL;c;VQB3
+IbaWCe5ClzUZLlgLEX@h022
+R0
+w1667514919
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 128
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R10
+R11
+n@lab6_2_vlg_vec_tst

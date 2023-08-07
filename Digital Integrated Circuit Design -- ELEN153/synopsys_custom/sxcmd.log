@@ -1,0 +1,236 @@
+### Custom WaveView ADV log file, revision P-2019.06-SP2 (build Nov 30, ) ###
+### created at 15:38:29 on Mon May  1 2023 (Linux AMD64) ###
+### Host Name: linux400512   User ID: mpang   PID: 15761   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+#source {/opt/synopsys-2019/app/wv/P-2019.06-SP2/packages/SX-SNPSCUST-Link/snps_custom_link.tcl}
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 796 253
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 796 231
+wv_move_window {Custom WaveView} {} 1 56
+wv_select_window {Custom WaveView} 
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1914 828
+wv_move_window {Custom WaveView} {} 0 26
+#sx_first_wv#
+#sx_current_wv _5e2f890_void_p#
+#sx_set_data_directory {/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results}#
+#sx_get_signals {/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(output)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _5f66c40_void_pp#
+#::CDSX::findIsSweepScalar _5f66c40_void_pp 1#
+#sx_signal_attribute _5f66c40_void_pp -xrange#
+#sx_first_wv#
+#sx_set_wv_userinfo _5e2f890_void_p#
+#sx_first_panel _5e2f890_void_p#
+#sx_next_wv _5e2f890_void_p#
+#sx_first_wv#
+#sx_next_wv _5e2f890_void_p#
+#sx_current_wv#
+#sx_first_panel _5e2f890_void_p#
+#sx_current_wv _5e2f890_void_p#
+#sx_clear_wv#
+#sx_set_wv_title _5e2f890_void_p tran#
+#sx_wv_name _5e2f890_void_p tran#
+#sx_get_last_panel _5e2f890_void_p#
+#sx_append_panel _5e2f890_void_p linear#
+#sx_current_wv _5e2f890_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _5f88af0_void_p#
+#sx_set_wv_testbench _5e2f890_void_p #
+#sx_set_wv_userinfo _5e2f890_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(output)}} {-color #FF0000 -label v(/output)} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_set_panel_x_type _5f88af0_void_p "linear"#
+#sx_set_panel_y_type _5f88af0_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(net6)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _5f66bb0_void_pp#
+#::CDSX::findIsSweepScalar _5f66bb0_void_pp 1#
+#sx_signal_attribute _5f66bb0_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5e2f890_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5e2f890_void_p#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_first_panel _5e2f890_void_p#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_get_x_full_range _5f88af0_void_p#
+#sx_xaxis_attribute _5f88af0_void_p -scale#
+#sx_get_last_panel _5e2f890_void_p#
+#sx_first_panel _5e2f890_void_p#
+#sx_next_panel _5f88af0_void_p#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _5f88af0_void_p#
+#sx_set_wv_testbench _5e2f890_void_p #
+#sx_set_wv_userinfo _5e2f890_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(net6)}} {-color #CC00FF -label A} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_set_panel_x_type _5f88af0_void_p "linear"#
+#sx_set_panel_y_type _5f88af0_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(net4)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _5f66b20_void_pp#
+#::CDSX::findIsSweepScalar _5f66b20_void_pp 1#
+#sx_signal_attribute _5f66b20_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5e2f890_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5e2f890_void_p#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_first_panel _5e2f890_void_p#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_get_x_full_range _5f88af0_void_p#
+#sx_xaxis_attribute _5f88af0_void_p -scale#
+#sx_get_last_panel _5e2f890_void_p#
+#sx_first_panel _5e2f890_void_p#
+#sx_next_panel _5f88af0_void_p#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _5f88af0_void_p#
+#sx_set_wv_testbench _5e2f890_void_p #
+#sx_set_wv_userinfo _5e2f890_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(net4)}} {-color #00FF66 -label B} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _5f88af0_void_p#
+#sx_set_panel_x_type _5f88af0_void_p "linear"#
+#sx_set_panel_y_type _5f88af0_void_p "linear"#
+#sx_first_wv#
+#sx_first_panel _5e2f890_void_p#
+#sx_toggle_right_axis _5f88af0_void_p I-Signal#
+#sx_next_panel _5f88af0_void_p#
+#sx_next_wv _5e2f890_void_p#
+#sx_first_panel _5e2f890_void_p#
+#sx_next_panel _5f88af0_void_p#
+#sx_first_line _5f88af0_void_p#
+#sx_first_panel _5e2f890_void_p#
+#sx_first_wv#
+#sx_wv_name _5e2f890_void_p#
+#sx_next_wv _5e2f890_void_p#
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Ungroup} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Vertical Cursor} 
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL2:1.CURSORX1
+wv_drag_item_to WV1 1046 410
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 879 459
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL2:1.CURSOR1
+wv_drag_item_to WV1 1045 415
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 617 104
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR1
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL1:1.CURSORX1
+wv_drag_item_to WV1 618 47
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 659 203
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL1:1.CURSORX1
+wv_drag_item_to WV1 619 48
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 636 67
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_drag_item_to WV1 616 114
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 666 177
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1 2.43621e-07 0.392138
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Measurement Tool} 
+wv_set_check {MeasurementTool} {} {RisevsX} 1
+wv_set_check {MeasurementTool} {} {FallvsX} 1
+wv_set_check {MeasurementTool} {} {FallvsX} 0
+wv_set_check {MeasurementTool} {} {RisevsX} 0
+wv_set_check {MeasurementTool} {} {RFvsX} 1
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 752 92
+wv_move_wv_item WV1.MEAS1 1112 114
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 1120 134
+wv_move_wv_item WV1.MEAS1 1186 123
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_drag_item_to WV1 668 148
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 325 136
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1 2.06467e-07 0.780598
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Data Point} 
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Data Point} 
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Measurement Tool} 
+wv_set_check {MeasurementTool} {} {FallvsX} 1
+wv_set_check {MeasurementTool} {} {RisevsX} 1
+wv_press_button {MeasurementTool} {} {Close} 
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Waveform Monitor} 
+wv_move_window {MonitorSettings} {} 728 242
+wv_select_dialog {MonitorSettings} 
+wv_press_button {MonitorSettings} {} {Cancel} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1 5.34274e-07 0.601797
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Delete} 
+wv_move_window {Confirmation} {} 869 508
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Cancel} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL4:1 2.98648e-07 6.5641e-09
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Measurement Tool} 
+wv_select_combox_item {MeasurementTool} {} {Signal} "\[v(/output)\] tran:tran" 0
+wv_set_check {MeasurementTool} {} {RFvsX} 1
+wv_set_check {MeasurementTool} {} {RFvsX} 0
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_radion {MeasurementTool} {} {FallEdge} 
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Close} 
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 748 105
+wv_move_wv_item WV1.MEAS1 1092 122
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL1:1 4.2281e-07 0.677443
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 1096 120
+wv_select_waveview 1 {tran}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 1118 144
+wv_move_wv_item WV1.MEAS1 1246 94
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL1:1 4.84891e-07 0.608674
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 1228 130
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL2:1 6.6361e-07 0.37931
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 1608 334
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL2:1 6.87125e-07 0.425287
+wv_move_wv_item WV1.PANEL2:1.CURSOR1 1658 326
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL4:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Delete} 
+wv_move_window {Confirmation} {} 869 508
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL2:1 7.20047e-07 0.705128
+wv_drag_item_to WV1 1731 355
+wv_zoom WV1.PANEL2:1 7.20047e-07 0.705128 7.78366e-07 0.632479
+wv_press_key "F" 995 391
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 868 508
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/mpang/.cx_hostport/.cx_hostport_linux400512_15761'.

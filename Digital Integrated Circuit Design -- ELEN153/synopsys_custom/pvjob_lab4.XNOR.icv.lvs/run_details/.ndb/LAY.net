@@ -1,0 +1,45 @@
+{NETLIST XNOR
+{VERSION 2 0 0}
+
+{CELL XNOR
+{PORT gnd! vdd! b a output}
+{PROP top=6.535000 bottom=-0.980000 left=0.735000 right=9.865000}
+/*.CELL_INFO ORIGINAL_NAME XNOR */
+{INST M1=n12 {TYPE MOS} {COORD x=4.3950 y=2.1100}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN N12=GATE output=SRC N16=DRN gnd!=BULK }}
+{INST M2=n12 {TYPE MOS} {COORD x=5.0950 y=2.1100}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN a=GATE output=SRC N35=DRN gnd!=BULK }}
+{INST M3=n12 {TYPE MOS} {COORD x=5.7950 y=2.1100}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN N11=GATE gnd!=SRC N35=DRN gnd!=BULK }}
+{INST M4=n12 {TYPE MOS} {COORD x=6.4950 y=2.1100}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN b=GATE gnd!=SRC N16=DRN gnd!=BULK }}
+{INST M5=n12 {TYPE MOS} {COORD x=2.0350 y=2.8250}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN a=GATE gnd!=SRC N12=DRN gnd!=BULK }}
+{INST M6=n12 {TYPE MOS} {COORD x=9.0850 y=3.5250}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN b=GATE gnd!=SRC N11=DRN gnd!=BULK }}
+{INST M7=p12 {TYPE MOS} {COORD x=4.3950 y=4.4300}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN N12=GATE vdd!=SRC N17=DRN vdd!=BULK }}
+{INST M8=p12 {TYPE MOS} {COORD x=5.0950 y=4.4300}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN a=GATE output=SRC N17=DRN vdd!=BULK }}
+{INST M9=p12 {TYPE MOS} {COORD x=5.7950 y=4.4300}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN N11=GATE output=SRC N17=DRN vdd!=BULK }}
+{INST M10=p12 {TYPE MOS} {COORD x=6.4950 y=4.4300}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN b=GATE vdd!=SRC N17=DRN vdd!=BULK }}
+{INST M11=p12 {TYPE MOS} {COORD x=2.0350 y=4.3450}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN a=GATE vdd!=SRC N12=DRN vdd!=BULK }}
+{INST M12=p12 {TYPE MOS} {COORD x=9.0850 y=5.0450}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN b=GATE vdd!=SRC N11=DRN vdd!=BULK }}
+}
+}

@@ -1,0 +1,71 @@
+Unset QT_XCB_NATIVE_PAINTING for VUE
+DEBUG: ConnectToServer: linux400512.dc.engr.scu.edu 32875
+DEBUG: connect back to custom compiler: 'linux400512.dc.engr.scu.edu:32875'
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L CDESIGNER::StartFilter LAY
+DEBUG: PushBackXprobeMessage{vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+}
+L set topLayLCV  ""
+L set curLayLCV  ""
+
+< LAYOUT: start_filter >
+L CDESIGNER::SendCommand setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L set topLayLCV "Fourbit/halfadd/layout"
+L set curLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand setWorkingDir "/DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.halfadd.icv.drc"
+L CDESIGNER::SendCommand setTopLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+DEBUG: PopFrontXprobeMessage{} : /vueSupportedCommands start_vue,quit_vue,start_filter,load_hercules,new_block,edit_in_place,close_block,zoom_all,zoom_in,zoom_out,zoom_extents,before_hilite,after_hilite,primary_hilite,secondary_hilite,remove_hilites,poly_begin,poly_end,poly_point,poly_point_set,poly_set,select_point,select_window,query_info,set_layer,hilite_visibility,hilite_color
+/ //
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand clearAllHighlights "$curLayLCV"
+L set curLayLCV "Fourbit/halfadd/layout"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand setHiliteId ""
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_set >
+L CDESIGNER::SendCommand HighlightFromFile $curLayLCV "/tmp/mpang_vue_qv2k4E/highlight_20230605150400_000000.oas" "1bf9f13c150eaf7d8f1b2749e8b27bdd"
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 1.998125 3.3 7.466875 3.63]
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV

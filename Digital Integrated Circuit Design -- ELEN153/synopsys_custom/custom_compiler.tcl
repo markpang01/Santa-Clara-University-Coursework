@@ -1,0 +1,2 @@
+dm::showLibraryManager
+exit

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May  1 15:38:26 2023-->
+<file-format name="stateCategory" version="1.0">
+ <object name="jobOptions" version="1" type="saJobOptions">
+  <attribute value="Background" name="measurementsCalculationMode" type="giString"/>
+  <attribute value="" name="measurementsCommandPrefix" type="giString"/>
+  <attribute value="" name="measurementsDisplayName" type="giString"/>
+  <attribute value="Current" name="measurementsDisplayType" type="saDisplayEnum"/>
+  <attribute value="" name="measurementsDisplayWrapperScript" type="giString"/>
+  <attribute value="" name="measurementsGridOptions" type="giString"/>
+  <attribute value="SAEShell" name="measurementsJobClass" type="giString"/>
+  <attribute value="" name="netlistingGridOptions" type="giString"/>
+  <attribute value="Netlisting" name="netlistingJobClass" type="giString"/>
+  <attribute value="~/simulation" name="remoteSimDir" type="giString"/>
+  <attribute value="/SCRATCH" name="scratchDir" type="giString"/>
+  <attribute value="" name="simulationCommandPrefix" type="giString"/>
+  <attribute value="" name="simulationGridOptions" type="giString"/>
+  <attribute value="Simulation" name="simulationJobClass" type="giString"/>
+  <attribute value="0" name="useScratchDir" type="giBoolean"/>
+ </object>
+</file-format>

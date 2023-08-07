@@ -1,0 +1,8 @@
+rippleadd
+	Cell Level Device Counts
+		NMOS[n12] = 60
+		PMOS[p12] = 60
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = rippleadd  *******
+		NMOS[n12] = 60
+		PMOS[p12] = 60

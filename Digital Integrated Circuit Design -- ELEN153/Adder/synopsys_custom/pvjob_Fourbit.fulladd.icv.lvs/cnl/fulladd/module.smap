@@ -1,0 +1,36 @@
+<module name="vsl: Fourbit fulladd schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="XI2" src="I2"/>
+<mapping dst="XI0" src="I0"/>
+<mapping dst="XI1" src="I1"/>
+</forward>
+<reverse>
+<mapping dst="I2" src="XI2"/>
+<mapping dst="I0" src="XI0"/>
+<mapping dst="I1" src="XI1"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="Ai Bi Ci Ci1 Si" src="&lt;unmappedTermOrder>"/>
+<mapping dst="Ai Bi Ci Ci1 Si" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="Ai Bi Ci Ci1 Si"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="OR">
+<instance name="I2"/>
+</instance_header>
+<instance_header master="halfadd">
+<instance name="I0"/>
+<instance name="I1"/>
+</instance_header>
+</master_instances>
+</module>

@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP2-3 linux64"
+* "format" "HSP"
+* "rundate" "15:38:27 05/01/2023 "
+* "netlist" "/DCNFS/users/student/mpang/simulation/lab4,XNOR2,schematic/history_1/simulation/default/HSPICE/nominal/netlist/input.spi "
+* "runtitle" "*  generated for: hspice"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ net4 =   0.            
++ net6 =   0.            
++ output =   1.2000        
++ vdd! =   1.2000        
++ xi0.net6 =   1.2000        
++ xi0.net8 =   1.2000        
++ xi0.xi0.net13 = 953.9576m       
++ xi0.xi0.net31 =   1.2000        
++ xi0.xi0.net9 = 953.9576m       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May  1 15:38:26 2023-->
+<file-format name="stateCategory" version="1.0">
+ <object name="designVariables" version="1" type="saDesignVariables">
+  <attribute value="default" name="variableSet" type="giString"/>
+  <collection name="variableSets">
+   <object name="variableSets" version="1" type="saDesignVariableSet">
+    <collection name="designVariables"/>
+    <attribute value="default" name="name" type="giString"/>
+   </object>
+  </collection>
+ </object>
+</file-format>

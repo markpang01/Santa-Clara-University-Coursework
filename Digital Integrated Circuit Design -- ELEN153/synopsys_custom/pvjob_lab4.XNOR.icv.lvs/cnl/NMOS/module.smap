@@ -1,0 +1,51 @@
+<module name="vsl: lab4 NMOS schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="M4" dst="MM4"/>
+<mapping src="M7" dst="MM7"/>
+<mapping src="M5" dst="MM5"/>
+<mapping src="M0" dst="MM0"/>
+<mapping src="M1" dst="MM1"/>
+<mapping src="M2" dst="MM2"/>
+<mapping src="M6" dst="MM6"/>
+<mapping src="M3" dst="MM3"/>
+</forward>
+<reverse>
+<mapping src="MM4" dst="M4"/>
+<mapping src="MM5" dst="M5"/>
+<mapping src="MM6" dst="M6"/>
+<mapping src="MM7" dst="M7"/>
+<mapping src="MM0" dst="M0"/>
+<mapping src="MM1" dst="M1"/>
+<mapping src="MM2" dst="M2"/>
+<mapping src="MM3" dst="M3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="a abar b bbar output"/>
+<mapping src="&lt;termOrder>" dst="a abar b bbar output"/>
+</forward>
+<reverse>
+<mapping src="a abar b bbar output" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M2"/>
+<instance name="M3"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M4"/>
+<instance name="M5"/>
+<instance name="M6"/>
+<instance name="M7"/>
+</instance_header>
+</master_instances>
+</module>

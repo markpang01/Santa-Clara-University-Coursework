@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format name="synopsysPrefs" version="1.0">
+        <preferences>
+                <pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+                <pref name="xtLVSICVOptions" value="-sf SPICE"/>
+                <pref name="xtLVSLayCell" value="NMOS"/>
+                <pref name="xtLVSLayInputNetlist" value="/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/NMOS.net"/>
+                <pref name="xtLVSLayLCV" value="lab4/NMOS/layout"/>
+                <pref name="xtLVSLayOasisFile" value="/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/NMOS.custom_compiler.oas"/>
+                <pref name="xtLVSLayStreamFile" value="/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/NMOS.custom_compiler.gds"/>
+                <pref name="xtLVSSchCell" value="NMOS"/>
+                <pref name="xtLVSSchInputNetlist" value="/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/NMOS.custom_compiler.sp"/>
+                <pref name="xtLVSSchInputNetlistFormat" value="CDL"/>
+                <pref name="xtLVSSchLCV" value="lab4/NMOS/schematic"/>
+                <pref name="xtLVSSchOutputNetlist" value="/DCNFS/users/student/mpang/ELEN153/synopsys_custom/pvjob_lab4.NMOS.icv.lvs/NMOS.custom_compiler.sp"/>
+                <pref name="xtLVSTool" value="IC Validator"/>
+        </preferences>
+</file-format>

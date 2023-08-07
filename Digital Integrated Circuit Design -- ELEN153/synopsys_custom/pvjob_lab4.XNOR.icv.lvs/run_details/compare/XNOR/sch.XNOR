@@ -1,0 +1,31 @@
+{NETLIST XNOR
+{VERSION 2 0 0}
+
+{CELL XNOR
+    {PORT b vdd! gnd! output a }
+    {INST XI0/MM4=p12 {TYPE MOS} {PROP n="NMOS/p12" Length=0.1 Width=2.4 }
+	{PIN output=DRN a=GATE XI0/net31=SRC vdd!=BULK }}
+    {INST XI0/MM7=p12 {TYPE MOS} {PROP n="NMOS/p12" Length=0.1 Width=2.4 }
+	{PIN XI0/net31=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM5=p12 {TYPE MOS} {PROP n="NMOS/p12" Length=0.1 Width=2.4 }
+	{PIN output=DRN net14=GATE XI0/net31=SRC vdd!=BULK }}
+    {INST XI0/MM6=p12 {TYPE MOS} {PROP n="NMOS/p12" Length=0.1 Width=2.4 }
+	{PIN XI0/net31=DRN net16=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM3=n12 {TYPE MOS} {PROP n="NMOS/n12" Length=0.1 Width=0.8 }
+	{PIN XI0/net13=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/MM2=n12 {TYPE MOS} {PROP n="NMOS/n12" Length=0.1 Width=0.8 }
+	{PIN XI0/net9=DRN net14=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/MM1=n12 {TYPE MOS} {PROP n="NMOS/n12" Length=0.1 Width=0.8 }
+	{PIN output=DRN a=GATE XI0/net9=SRC gnd!=BULK }}
+    {INST XI0/MM0=n12 {TYPE MOS} {PROP n="NMOS/n12" Length=0.1 Width=0.8 }
+	{PIN output=DRN net16=GATE XI0/net13=SRC gnd!=BULK }}
+    {INST XI5/MM0=n12 {TYPE MOS} {PROP n="CMOS_Working/n12" Length=0.1 Width=0.4 }
+	{PIN net14=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM1=p12 {TYPE MOS} {PROP n="CMOS_Working/p12" Length=0.1 Width=1.2 }
+	{PIN net14=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM0=n12 {TYPE MOS} {PROP n="CMOS_Working/n12" Length=0.1 Width=0.4 }
+	{PIN net16=DRN a=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/MM1=p12 {TYPE MOS} {PROP n="CMOS_Working/p12" Length=0.1 Width=1.2 }
+	{PIN net16=DRN a=GATE vdd!=SRC vdd!=BULK }}
+}
+}

@@ -1,0 +1,4 @@
+openaccess layout icv fulladd Fourbit /DCNFS/users/student/mpang/ELEN153/Adder/synopsys_custom/pvjob_Fourbit.fulladd.icv.drc/rules.drc.9m_saed90_icv.drc.rs /DCNFS/users/student/mpang/ELEN153/Adder/lib.defs /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -vue -oa_view -oa_lib_defs -oa_layer_map -oa_dm5 -i -f -c 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/DCNFS/applications/synopsys/2019/app/icvalidator/Q-2019.12-SP1-1
+ICV_INCLUDES=UNSET

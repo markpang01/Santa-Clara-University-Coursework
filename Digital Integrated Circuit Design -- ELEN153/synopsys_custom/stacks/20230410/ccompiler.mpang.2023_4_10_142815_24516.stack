@@ -1,0 +1,5 @@
+Stack Dump: VERSION P-2019.06-SP1-7 CONFIG 5329942 DATE Mon Apr 10 14:28:15 2023
+Frame 0. libc.so.6: gsignal + 0x37
+Frame 1. libc.so.6: abort + 0x148
+Frame 2. /lib64/libc.so.6 ::b0ddf71f67 + 0x3d7
+Frame 3. /lib64/libc.so.6 ::b0ddf7a329 + 0x519

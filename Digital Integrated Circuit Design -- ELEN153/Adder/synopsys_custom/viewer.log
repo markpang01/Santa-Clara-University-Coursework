@@ -1,0 +1,368 @@
+ ** SX started using preference settings in '/tmp/tmp_sae_spxrc_ZNt4xx'
+sx_first_wv
+sx_current_wv _5d7eb40_void_p
+sx_set_data_directory {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results}
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(a0)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebd828_void_pp
+::CDSX::findIsSweepScalar _5ebd828_void_pp 1
+sx_signal_attribute _5ebd828_void_pp -xrange
+sx_first_wv
+sx_set_wv_userinfo _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_wv _5d7eb40_void_p
+sx_first_wv
+sx_next_wv _5d7eb40_void_p
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv _5d7eb40_void_p
+sx_clear_wv
+sx_set_wv_title _5d7eb40_void_p tran
+sx_wv_name _5d7eb40_void_p tran
+sx_get_last_panel _5d7eb40_void_p
+sx_append_panel _5d7eb40_void_p linear
+sx_current_wv _5d7eb40_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(a0)}} {-color #FF0000 -label v(/A0)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(a1)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebd8b8_void_pp
+::CDSX::findIsSweepScalar _5ebd8b8_void_pp 1
+sx_signal_attribute _5ebd8b8_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(a1)}} {-color #CC00FF -label v(/A1)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(a2)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebd948_void_pp
+::CDSX::findIsSweepScalar _5ebd948_void_pp 1
+sx_signal_attribute _5ebd948_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(a2)}} {-color #00FF66 -label v(/A2)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(a3)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebd9d8_void_pp
+::CDSX::findIsSweepScalar _5ebd9d8_void_pp 1
+sx_signal_attribute _5ebd9d8_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(a3)}} {-color #CCFF00 -label v(/A3)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(b0)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebda68_void_pp
+::CDSX::findIsSweepScalar _5ebda68_void_pp 1
+sx_signal_attribute _5ebda68_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(b0)}} {-color #0066FF -label v(/B0)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(b1)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebdaf8_void_pp
+::CDSX::findIsSweepScalar _5ebdaf8_void_pp 1
+sx_signal_attribute _5ebdaf8_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(b1)}} {-color #FF9900 -label v(/B1)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(b2)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebdb88_void_pp
+::CDSX::findIsSweepScalar _5ebdb88_void_pp 1
+sx_signal_attribute _5ebdb88_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(b2)}} {-color #FF0099 -label v(/B2)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(b3)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebdc18_void_pp
+::CDSX::findIsSweepScalar _5ebdc18_void_pp 1
+sx_signal_attribute _5ebdc18_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(b3)}} {-color #00FFFF -label v(/B3)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(cin)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebdca8_void_pp
+::CDSX::findIsSweepScalar _5ebdca8_void_pp 1
+sx_signal_attribute _5ebdca8_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(cin)}} {-color #33FF00 -label v(/Cin)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(cout)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebdd38_void_pp
+::CDSX::findIsSweepScalar _5ebdd38_void_pp 1
+sx_signal_attribute _5ebdd38_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(cout)}} {-color #3300FF -label v(/Cout)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(s0)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebddc8_void_pp
+::CDSX::findIsSweepScalar _5ebddc8_void_pp 1
+sx_signal_attribute _5ebddc8_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(s0)}} {-color #FF9999 -label v(/S0)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(s1)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebde58_void_pp
+::CDSX::findIsSweepScalar _5ebde58_void_pp 1
+sx_signal_attribute _5ebde58_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(s1)}} {-color #EB99FF -label v(/S1)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(s2)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebdee8_void_pp
+::CDSX::findIsSweepScalar _5ebdee8_void_pp 1
+sx_signal_attribute _5ebdee8_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(s2)}} {-color #99FFC2 -label v(/S2)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_get_signals {/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml} {v(s3)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _5ebdf78_void_pp
+::CDSX::findIsSweepScalar _5ebdf78_void_pp 1
+sx_signal_attribute _5ebdf78_void_pp -xrange
+sx_current_wv
+sx_first_panel _5d7eb40_void_p
+sx_current_wv
+sx_get_last_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_get_panel_type _5edc410_void_p
+sx_get_x_full_range _5edc410_void_p
+sx_xaxis_attribute _5edc410_void_p -scale
+sx_get_last_panel _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_get_panel_type _5edc410_void_p
+sx_signal_add_mode overlap
+sx_current_panel _5edc410_void_p
+sx_set_wv_testbench _5d7eb40_void_p 
+sx_set_wv_userinfo _5d7eb40_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/mpang/simulation/Fourbit,testbenchschematic,schematic/history_1/simulation/default/HSPICE/nominal/results/resultsMap.xml}} {{v(s3)}} {-color #EBFF99 -label v(/S3)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _5edc410_void_p
+sx_set_panel_x_type _5edc410_void_p "linear"
+sx_set_panel_y_type _5edc410_void_p "linear"
+sx_first_wv
+sx_first_panel _5d7eb40_void_p
+sx_toggle_right_axis _5edc410_void_p I-Signal
+sx_next_panel _5edc410_void_p
+sx_next_wv _5d7eb40_void_p
+sx_first_panel _5d7eb40_void_p
+sx_next_panel _5edc410_void_p
+sx_first_line _5edc410_void_p
+sx_first_panel _5d7eb40_void_p
+sx_first_wv
+sx_wv_name _5d7eb40_void_p
+sx_next_wv _5d7eb40_void_p
